@@ -45,7 +45,6 @@ export default function TestimonialsSection({ testimonials, lang }: Testimonials
                         <div key={item.id} className="h-full">
                             <VideoCard
                                 videoSrc={item.videoSrc}
-                                posterSrc={item.posterSrc}
                                 name={item.name}
                                 procedure={item.procedure}
                                 quote={item.quote}
