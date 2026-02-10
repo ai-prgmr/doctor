@@ -40,12 +40,12 @@ export function Header({ lang, dictionary }: HeaderProps) {
     return (
         <>
             {/* Navbar */}
-            <header className="sticky top-0 z-50 w-full border-b bg-white/95 backdrop-blur supports-[backdrop-filter]:bg-white/60">
+            <header className="w-full border-b bg-white/95 backdrop-blur supports-[backdrop-filter]:bg-white/60">
                 <nav className="container mx-auto max-w-7xl px-4 py-4">
                     <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-4">
                         <div className="flex items-center justify-between lg:justify-start gap-4 flex-wrap w-full lg:w-auto">
                             <Link href={`/${lang}`} className="flex items-center gap-2">
-                                <Image src="/images/doctor-logo.png" alt="Logo" width={55} height={55} className="md:w-[75px] md:h-[75px]" />
+                                <Image src="/doctor/images/doctor-logo.png" alt="Logo" width={55} height={55} className="md:w-[75px] md:h-[75px]" />
                                 <span className="font-outfit text-lg md:text-2xl font-bold tracking-tight text-teal-700 leading-tight">
                                     {dictionary.doctor.name}
                                 </span>
@@ -53,7 +53,7 @@ export function Header({ lang, dictionary }: HeaderProps) {
 
                             <div className="hidden md:block flex items-center justify-center">
                                 <Image
-                                    src="/images/recons-2.png"
+                                    src="/doctor/images/recons-2.png"
                                     alt="recons Logo"
                                     width={150}
                                     height={50}
@@ -106,10 +106,13 @@ export function Header({ lang, dictionary }: HeaderProps) {
                                                 <Menu className="h-6 w-6" />
                                             </Button>
                                         </SheetTrigger>
-                                        <SheetContent side="right" className="w-[300px] sm:w-[400px]">
+                                        <SheetContent side="right" className="w-[300px] sm:w-[400px] text-center">
                                             <SheetHeader className="text-left">
-                                                <SheetTitle className="font-outfit text-teal-700">
-                                                    {dictionary.doctor.name}
+                                                <SheetTitle className="flex justify-center items-center gap-2 font-outfit text-teal-700">
+                                                    <Image src="/doctor/images/doctor-logo.png" alt="Logo" width={55} height={55} className="md:w-[75px] md:h-[75px]" />
+                                                    <span className="font-outfit text-lg md:text-2xl font-bold tracking-tight text-teal-700 leading-tight">
+                                                        {dictionary.doctor.name}
+                                                    </span>
                                                 </SheetTitle>
                                             </SheetHeader>
                                             <div className="grid gap-4 py-4">

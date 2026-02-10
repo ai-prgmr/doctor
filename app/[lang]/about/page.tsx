@@ -60,7 +60,7 @@ export default async function AboutPage({
                         <div className="relative group perspective-1000">
                             <div className="relative z-10 rounded-[2rem] overflow-hidden shadow-2xl border-8 border-white bg-slate-100 aspect-[4/5] md:aspect-auto">
                                 <Image
-                                    src="/images/doctor_profile.png"
+                                    src="/doctor/images/doctor_profile.png"
                                     alt={doctor.name}
                                     width={800}
                                     height={1000}
@@ -160,7 +160,7 @@ export default async function AboutPage({
 
             {/* CTA Section */}
             <section className="py-20 md:py-32 px-4 bg-teal-600 relative overflow-hidden">
-                <div className="absolute inset-0 bg-[url('/images/recons_hero.png')] opacity-10 bg-cover bg-center mix-blend-overlay" />
+                <div className="absolute inset-0 bg-[url('/doctor/recons_hero.png')] opacity-10 bg-cover bg-center mix-blend-overlay" />
                 <div className="container mx-auto max-w-4xl text-center relative z-10">
                     <h2 className="font-outfit text-3xl md:text-5xl font-black text-white mb-10">
                         {contact.title}

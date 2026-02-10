@@ -9,12 +9,12 @@ import Image from "next/image";
 export async function generateStaticParams() {
     const locales = ["en", "hi"];
     const serviceIds = [
-        "knee-replacement",
-        "hip-replacement",
+        "advanced-joint-replacement",
+        "traumatology",
+        "reconstructive-&-regenerative-surgeries",
         "hand-surgery",
         "spine-surgery",
-        "arthroscopy",
-        "patient-tech",
+        "arthroscopy"
     ];
 
     const params = [];
@@ -108,7 +108,7 @@ export default async function ServicePage({
                             <div className="absolute inset-0 bg-teal-600 translate-x-4 translate-y-4 rounded-3xl -z-10 opacity-10 group-hover:translate-x-2 group-hover:translate-y-2 transition-transform duration-500" />
                             <div className="relative h-[400px] rounded-3xl overflow-hidden shadow-2xl border border-slate-200">
                                 <Image
-                                    src={service.technology.image === "/images/9633.jpg" ? "/images/9633.jpg" : service.technology.image}
+                                    src={service.technology.image}
                                     alt={service.technology.title}
                                     fill
                                     className="object-cover transition-transform duration-700 group-hover:scale-105"
@@ -179,7 +179,7 @@ export default async function ServicePage({
                                     <div className="mt-8 flex items-center gap-4">
                                         <div className="h-12 w-12 rounded-full overflow-hidden border-2 border-teal-500/50">
                                             <Image
-                                                src="/images/doctor_profile.png"
+                                                src="/doctor/images/doctor_profile.png"
                                                 alt="Dr. Jinsiwale"
                                                 width={48}
                                                 height={48}

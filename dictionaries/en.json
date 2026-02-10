@@ -83,74 +83,74 @@
     "subtitle": "Advanced Orthopedic Care & Surgery",
     "items": [
       {
-        "id": "knee-replacement",
-        "title": "Robotic-Assisted Knee Replacement",
+        "id": "advanced-joint-replacement",
+        "title": "Robotic & Advanced Hip, Knee and Shoulder Joint Replacement",
         "icon": "Bot",
-        "desc": "Advanced computerized navigation for precise implant alignment.",
-        "heroImage": "/images/robotic-knee-hero.jpg",
-        "intro": "Robotic-Assisted Knee Replacement is not just surgery; it is a precise engineering marvel. Dr. Jinsiwale, the pioneer of Navigation Surgery in Central India, utilizes Computer Assisted Surgery (CAS) to map your knee's unique anatomy with sub-millimeter accuracy.",
+        "desc": "Minimally invasive Hip, Knee & Shoulder replacement using Robotic Navigation & High-Performance Implants.",
+        "heroImage": "/doctor/images/robotic-knee-hero.jpg",
+        "intro": "Joint pain shouldn't limit your life. As the pioneer of Navigation Surgery in Central India, Dr. Jinsiwale combines 'Robotic Precision' with 'Minimally Invasive' protocols. Whether it is a Knee, Hip, or Shoulder replacement, we utilize Computer Assisted Surgery (CAS) to map your unique anatomy with sub-millimeter accuracy, ensuring a faster return to daily activities.",
         "technology": {
-          "title": "The CAS Advantage (Computer Assisted Surgery)",
-          "content": "We use an advanced infrared camera system (CAS) that works like a GPS for your knee. By attaching trackers to the leg, the computer builds a real-time 3D model of your joint. This allows Dr. Jinsiwale to balance the ligaments and position the implant with a precision that is impossible to achieve with the naked eye.",
-          "image": "/images/cas.jpeg",
-          "imageCaption": "Our Advanced Navigation System and Robotic Arm Setup"
+          "title": "The Technology Advantage: CAS & Materials",
+          "content": "We combine two critical innovations: \n1. **Computer Assisted Surgery (CAS):** Like a GPS for your joint, this infrared system builds a real-time 3D model of your bone structure, allowing for perfect implant alignment impossible with the naked eye.\n2. **High-Performance Implants:** We strictly use international-standard materials like 'Ceramic-on-Ceramic' for hips and 'High-Flex' designs for knees to ensure longevity.",
+          "image": "/doctor/images/cas.jpeg",
+          "imageCaption": "Advanced Navigation System & Ceramic Implant Demo"
         },
         "process": [
           {
-            "title": "Step 1: Digital Mapping",
-            "desc": "Before making any cuts, the computer maps your bone structure and range of motion."
+            "title": "Robotic Knee",
+            "desc": "Sub-millimeter precision mapping for perfect alignment and a 'forgotten knee' feeling."
           },
           {
-            "title": "Step 2: Virtual Planning",
-            "desc": "Dr. Jinsiwale simulates the surgery on the screen to ensure perfect alignment."
+            "title": "Muscle-Sparing Hip",
+            "desc": "Minimally invasive techniques for Avascular Necrosis (AVN) that promote rapid walking."
           },
           {
-            "title": "Step 3: Precise Execution",
-            "desc": "The robotic/navigation tools guide the instruments to execute the plan within 1mm of accuracy."
+            "title": "Complex Shoulder",
+            "desc": "Specialized 'Reverse Polarity' implants for severe rotator cuff damage and arthritis."
           }
         ],
-        "doctorExpertise": "Precision defines the lifespan of your knee implant. Even a millimeter of error can affect how natural it feels. I brought Robotic Navigation to Central India to ensure that every patient gets a 'forgotten knee'—one that feels so natural you forget it was ever operated on. With over 4,000 surgeries, we combine this technology with proven surgical wisdom."
+        "doctorExpertise": "Precision defines the lifespan of your implant. Even a millimeter of error can affect how natural it feels. With over 10,000+ joint surgeries (including 6,000+ Hip & 4,000+ Knee replacements), I brought Robotic Navigation to Central India to ensure that every patient gets a result that feels natural. My goal is to intervene at the right time with the best technology to preserve your independence."
       },
       {
-        "id": "hip-knee-and-shoulder-replacement",
-        "title": "Hip, Knee & Shoulder Replacement",
-        "icon": "Activity",
-        "desc": "Minimally invasive joint replacement techniques using high-quality international implants.",
-        "heroImage": "/images/hip-replacement.jpg",
-        "intro": "Joint pain shouldn't limit your life. Our Joint Replacement unit specializes in restoring mobility across the three major weight-bearing and functional joints: Hip, Knee, and Shoulder. We utilize 'Minimally Invasive' protocols that spare key muscles, ensuring a faster return to daily activities whether you are 40 or 80.",
-        "technology": {
-          "title": "Advanced Implant Materials",
-          "content": "The longevity of a joint replacement depends on the material. We strictly use high-performance international implants suited for your specific needs: 'Ceramic-on-Ceramic' for active hip patients, 'High-Flex' designs for knees requiring deep bending, and 'Reverse Polarity' implants for complex shoulder arthritis.",
-          "image": "/images/implant-demo.jpg",
-          "imageCaption": "High-Performance Ceramic & Titanium Implants"
-        },
-        "process": [
-          {
-            "title": "Hip Replacement",
-            "desc": "Muscle-sparing techniques for Avascular Necrosis (AVN) and Arthritis, promoting rapid walking."
-          },
-          {
-            "title": "Shoulder Replacement",
-            "desc": "Specialized 'Reverse Shoulder Arthroplasty' for patients with rotator cuff damage and severe pain."
-          },
-          {
-            "title": "Complex Knee",
-            "desc": "Solutions for severe deformities and revision surgeries where standard implants may not suffice."
-          }
-        ],
-        "doctorExpertise": "Mobility is the foundation of an independent life. Ignoring joint pain often leads to stiffness and permanent damage, making recovery harder. My goal is to intervene at the right time to preserve your natural movement. With over 10,000+ joint surgeries (including 6,000+ Hip & 4,000+ Knee replacements), I ensure your return to an active lifestyle is safe and effective."
-      },
-      {
-        "id": "patient-tech",
-        "title": "Patient Specific Technology & 'I Assist'",
+        "id": "traumatology",
+        "title": "Traumatology",
         "icon": "Smartphone",
         "desc": "Customized surgical planning using 'I Assist' smart tools.",
-        "heroImage": "/images/i-assist-hero.jpg",
+        "heroImage": "/doctor/images/i-assist-hero.jpg",
         "intro": "No two knees are alike. 'Patient Specific Technology' moves away from the 'one size fits all' approach. We use the 'I Assist' smart tool—a palm-sized electronic navigation device—to deliver a personalized surgical experience.",
         "technology": {
           "title": "How 'I Assist' Works",
           "content": "The 'I Assist' system is a micro-navigation tool that attaches directly to the surgical site. It contains accelerometers and sensors (similar to a smartphone) that transmit precise alignment data to Dr. Jinsiwale in real-time, eliminating the need for bulky consoles while maintaining robotic-level accuracy.",
-          "image": "/images/couple-running.jpg",
+          "image": "//doctor/images/couple-running.jpg",
+          "imageCaption": "The 'I Assist' Smart Navigation Console"
+        },
+        "process": [
+          {
+            "title": "Step 1: Personalized Guide",
+            "desc": "We use MRI/CT scans to create a 3D mold of your knee."
+          },
+          {
+            "title": "Step 2: Electronic Validation",
+            "desc": "The I-Assist tool validates the bone cuts instantly."
+          },
+          {
+            "title": "Step 3: Customized Fit",
+            "desc": "The implant is placed to restore your natural mechanical axis."
+          }
+        ],
+        "doctorExpertise": "Every patient's anatomy is unique, so why should your surgery be generic? Customization is the key to a perfect fit. By using patient-specific technology, we respect your unique bone structure. This personalized approach minimizes wear and maximizes comfort, backed by my expertise in cutting-edge instrumentation."
+      },
+      {
+        "id": "reconstructive-&-regenerative-surgeries",
+        "title": "Reconstructive & Regenerative surgeries",
+        "icon": "Smartphone",
+        "desc": "Customized surgical planning using 'I Assist' smart tools.",
+        "heroImage": "/doctor/images/i-assist-hero.jpg",
+        "intro": "No two knees are alike. 'Patient Specific Technology' moves away from the 'one size fits all' approach. We use the 'I Assist' smart tool—a palm-sized electronic navigation device—to deliver a personalized surgical experience.",
+        "technology": {
+          "title": "How 'I Assist' Works",
+          "content": "The 'I Assist' system is a micro-navigation tool that attaches directly to the surgical site. It contains accelerometers and sensors (similar to a smartphone) that transmit precise alignment data to Dr. Jinsiwale in real-time, eliminating the need for bulky consoles while maintaining robotic-level accuracy.",
+          "image": "/doctor/images/couple-running.jpg",
           "imageCaption": "The 'I Assist' Smart Navigation Console"
         },
         "process": [
@@ -178,7 +178,7 @@
         "technology": {
           "title": "HD Visualization System",
           "content": "We utilize high-definition arthroscopic cameras that magnify the internal structures of the joint by 20x. This allows for precise trimming of torn meniscus and accurate placement of ligament grafts.",
-          "image": "/images/arthroscopy-tower.jpg",
+          "image": "/doctor/images/arthroscopy-tower.jpg",
           "imageCaption": "Minimally Invasive Arthroscopy Setup"
         },
         "process": [
@@ -206,7 +206,7 @@
         "technology": {
           "title": "Micro-Lumbar Discectomy",
           "content": "Using surgical microscopes, we can remove the herniated disc material that is pressing on the nerve root through an incision less than 1 inch long. This preserves the spinal stability and relieves sciatica pain immediately.",
-          "image": "/images/spine-model.jpg",
+          "image": "/doctor/images/spine-model.jpg",
           "imageCaption": "Precision Spine Models for Patient Education"
         },
         "process": [
@@ -234,7 +234,7 @@
         "technology": {
           "title": "Microsurgical Repair",
           "content": "We employ microsurgical techniques to repair severed nerves and tendons (flexors and extensors). Early and precise repair is the key to regaining fine motor skills like gripping and writing.",
-          "image": "/images/hand-model.png",
+          "image": "/doctor/images/hand-model.png",
           "imageCaption": "Microsurgical instruments for nerve repair"
         },
         "process": [
@@ -288,26 +288,99 @@
     "mapQuery": "Dr. Jinsiwale Joint Clinic Indore"
   },
   "testimonials": {
-    "title": "Patient Success Stories",
-    "subtitle": "Real recovery stories from our patients",
+    "sectionTitle": "Patient Success Stories",
+    "sectionSubtitle": "Real stories of recovery from our patients.",
+    "viewAllBtn": "View All Testimonials",
     "items": [
       {
-        "id": "t1",
-        "name": "Mrs. Sharma",
-        "location": "Indore",
-        "procedure": "Total Knee Replacement",
-        "text": "I was unable to walk without pain for 5 years. Dr. Jinsiwale's robotic surgery technique was a miracle. I was walking the very next day!",
-        "rating": 5,
-        "hasImages": false
+        "id": "1",
+        "name": "Mrs. Anjali Saxena",
+        "location": "Ujjain",
+        "procedure": "Robotic Knee Replacement",
+        "videoSrc": "https://www.youtube.com/embed/wucaQewaT4w?si=67sYmtxnAHSnGp7_",
+        "posterSrc": "/doctor/images/poster-1.jpg",
+        "quote": "I was walking without support in 24 hours. The robotic precision made all the difference."
       },
       {
-        "id": "t2",
+        "id": "2",
         "name": "Mr. Rajesh Verma",
-        "location": "Ujjain",
+        "location": "Indore",
         "procedure": "Hip Replacement",
-        "text": "The best orthopedic care in Central India. The staff is very supportive and Dr. Jinsiwale explains everything clearly. Highly recommended.",
-        "rating": 5,
-        "hasImages": false
+        "videoSrc": "https://www.youtube.com/embed/u-wFTnplr-s",
+        "posterSrc": "/doctor/images/poster-2.jpg",
+        "quote": "Pain-free after 10 years. Dr. Jinsiwale gave me my life back."
+      },
+      {
+        "id": "3",
+        "name": "Mr. Suresh Gupta",
+        "location": "Dewas",
+        "procedure": "Total Knee Replacement",
+        "videoSrc": "https://www.youtube.com/embed/mQxGT8cBeWU?si=vk1Ndzz1gGxyajkx",
+        "posterSrc": "/doctor/images/poster-3.jpg",
+        "quote": "I can now climb stairs easily. The recovery was faster than I expected."
+      },
+      {
+        "id": "4",
+        "name": "Mrs. Kavita Joshi",
+        "location": "Ratlam",
+        "procedure": "Shoulder Replacement",
+        "videoSrc": "https://www.youtube.com/embed/wARJlijvz8o?si=o0NqhWeVw82l17bv",
+        "posterSrc": "/doctor/images/poster-4.jpg",
+        "quote": "My shoulder pain is completely gone. Minimum invasive surgery works wonders."
+      },
+      {
+        "id": "5",
+        "name": "Mr. Amit Patel",
+        "location": "Mhow",
+        "procedure": "ACL Reconstruction",
+        "videoSrc": "https://www.youtube.com/embed/0Hyn_pBGOvI?si=PUy0fWySOqzaEDVz",
+        "posterSrc": "/doctor/images/poster-5.jpg",
+        "quote": "Back to sports in 6 months! Dr. Jinsiwale is truly an expert."
+      },
+      {
+        "id": "6",
+        "name": "Mrs. Sunita Devi",
+        "location": "Khandwa",
+        "procedure": "Spine Surgery",
+        "videoSrc": "https://www.youtube.com/embed/3y8bgrfpkeM?si=nHbfo4a3NIL9yNt-",
+        "posterSrc": "/doctor/images/poster-6.jpg",
+        "quote": "I was bedridden for months. Now I walk daily in the park. Thank you!"
+      },
+      {
+        "id": "7",
+        "name": "Mr. Vikram Singh",
+        "location": "Dhar",
+        "procedure": "Hip Resurfacing",
+        "videoSrc": "https://www.youtube.com/embed/g7AVaJKpaVo?si=V6b1SE25i10yVU_8",
+        "posterSrc": "/doctor/images/poster-7.jpg",
+        "quote": "Excellent care and guidance throughout the process. Highly recommended."
+      },
+      {
+        "id": "8",
+        "name": "Mrs. Meena Sharma",
+        "location": "Indore",
+        "procedure": "Computer Navigated Knee Replacement",
+        "videoSrc": "https://www.youtube.com/embed/mp9J2EI_xvI?si=Zm771_iTJkFenhZy",
+        "posterSrc": "/doctor/images/poster-8.jpg",
+        "quote": "Technology makes a huge difference. Accurate alignment means less pain."
+      },
+      {
+        "id": "9",
+        "name": "Mr. Rahul Jain",
+        "location": "Bhopal",
+        "procedure": "Complex Trauma Surgery",
+        "videoSrc": "https://www.youtube.com/embed/PVDoPnGTZYw?si=kUuf4QwyERJMntul",
+        "posterSrc": "/doctor/images/poster-9.jpg",
+        "quote": "After my accident, I lost hope. Dr. Jinsiwale reconstructed my leg perfectly."
+      },
+      {
+        "id": "10",
+        "name": "Mrs. Padmawati R.",
+        "location": "Indore",
+        "procedure": "Revision Knee Replacement",
+        "videoSrc": "https://www.youtube.com/embed/KHtXPD3xn9s?si=W_wD0xR5EYZMEvuu",
+        "posterSrc": "/doctor/images/poster-10.jpg",
+        "quote": "My second surgery here corrected the issues from a previous one elsewhere."
       }
     ]
   },

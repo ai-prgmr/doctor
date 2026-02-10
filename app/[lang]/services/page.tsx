@@ -16,11 +16,11 @@ export default async function ServicesPage({
     return (
         <div className="flex flex-col min-h-screen">
             {/* Hero Section */}
-            <section className="relative py-20 bg-slate-900 text-white overflow-hidden">
-                <div className="absolute inset-0 opacity-20">
+            <section className="relative py-40 bg-slate-900 text-white overflow-hidden">
+                <div className="absolute inset-0 opacity-80">
                     <Image
-                        src="/images/recons_hero.png"
-                        alt="Background"
+                        src="/doctor/images/services_banner.png"
+                        alt="services banner"
                         fill
                         className="object-cover"
                     />
@@ -43,7 +43,7 @@ export default async function ServicesPage({
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                         {dictionary.services.items.map((service: any) => (
                             <Link href={`/${lang}/services/${service.id}`} key={service.id} className="group">
-                                <Card className="h-full border-none shadow-sm hover:shadow-xl transition-all duration-300 overflow-hidden flex flex-col">
+                                <Card className="h-full border-none shadow-sm hover:shadow-xl p-0 transition-all duration-300 overflow-hidden flex flex-col">
                                     <div className="relative h-48 w-full bg-slate-200">
                                         <Image
                                             src={service.technology.image}

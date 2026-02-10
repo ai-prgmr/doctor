@@ -1,17 +1,11 @@
 import { getDictionary } from "@/lib/get-dictionary";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { Phone, ArrowRight, Award, Activity, MessageCircle, Star, Quote, ImageIcon, CheckCircle2, MapPin, Car, Clock, Accessibility } from "lucide-react";
+import { Phone, ArrowRight, Award, Activity, MessageCircle, CheckCircle2, MapPin, Car, Clock, Accessibility } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
-import { Badge } from "@/components/ui/badge";
-import {
-  Carousel,
-  CarouselContent,
-  CarouselItem,
-  CarouselNext,
-  CarouselPrevious,
-} from "@/components/ui/carousel";
+
+import TestimonialsSection from "@/components/home/testimonials-section";
 
 export default async function HomePage({
   params,
@@ -28,7 +22,7 @@ export default async function HomePage({
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/recons_hero.png"
+            src="/doctor/images/recons_hero.png"
             alt="Clinic Background"
             fill
             sizes="100vw"
@@ -103,7 +97,7 @@ export default async function HomePage({
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div className="lg:order-1 relative h-[500px] rounded-3xl overflow-hidden shadow-xl border-4 border-white">
               <Image
-                src="/images/doctor_profile.png"
+                src="/doctor/images/doctor_profile.png"
                 alt="Doctor at Work"
                 fill
                 className="object-cover"
@@ -208,71 +202,7 @@ export default async function HomePage({
       </section>
 
       {/* Success Stories Section */}
-      <section className="py-24 px-4 bg-slate-50">
-        <div className="container mx-auto max-w-7xl">
-          <div className="text-center max-w-3xl mx-auto mb-16">
-            <h2 className="font-outfit text-3xl md:text-5xl font-extrabold text-slate-900 mb-4">
-              {dictionary.testimonials.title}
-            </h2>
-            <p className="text-xl text-slate-600 font-medium">
-              {dictionary.testimonials.subtitle}
-            </p>
-          </div>
-
-          <div className="px-12">
-            <Carousel
-              opts={{
-                align: "start",
-                loop: true,
-              }}
-              className="w-full"
-            >
-              <CarouselContent>
-                {dictionary.testimonials.items.map((item: any) => (
-                  <CarouselItem key={item.id} className="md:basis-1/2 lg:basis-1/2 p-4">
-                    <Card className="h-full border-none shadow-sm hover:shadow-md transition-shadow bg-white rounded-3xl p-8 flex flex-col">
-                      <div className="flex gap-1 mb-6">
-                        {[...Array(item.rating)].map((_, i) => (
-                          <Star key={i} className="h-5 w-5 fill-yellow-400 text-yellow-400" />
-                        ))}
-                      </div>
-
-                      <div className="relative mb-8">
-                        <Quote className="absolute -top-4 -left-4 h-8 w-8 text-teal-100 -z-0" />
-                        <p className="text-xl text-slate-600 italic leading-relaxed font-medium relative z-10">
-                          "{item.text}"
-                        </p>
-                      </div>
-
-                      <div className="mt-auto flex items-center justify-between">
-                        <div>
-                          <p className="font-outfit text-xl font-bold text-slate-900">{item.name}</p>
-                          <div className="flex items-center gap-2 mt-1 text-slate-500 font-medium text-sm">
-                            <span>{item.location}</span>
-                            <span className="w-1 h-1 bg-slate-300 rounded-full" />
-                            <Badge variant="secondary" className="bg-teal-50 text-teal-700 hover:bg-teal-100 border-none font-bold">
-                              {item.procedure}
-                            </Badge>
-                          </div>
-                        </div>
-
-                        {item.hasImages && (
-                          <Button size="sm" variant="outline" className="border-teal-200 text-teal-700 hover:bg-teal-50 font-bold rounded-xl gap-2">
-                            <ImageIcon className="h-4 w-4" />
-                            {lang === 'en' ? 'View Transformation' : 'बदलाव देखें'}
-                          </Button>
-                        )}
-                      </div>
-                    </Card>
-                  </CarouselItem>
-                ))}
-              </CarouselContent>
-              <CarouselPrevious className="-left-6 h-12 w-12 bg-white text-teal-700 border-slate-200 hover:bg-teal-600 hover:text-white" />
-              <CarouselNext className="-right-6 h-12 w-12 bg-white text-teal-700 border-slate-200 hover:bg-teal-600 hover:text-white" />
-            </Carousel>
-          </div>
-        </div>
-      </section>
+      <TestimonialsSection testimonials={dictionary.testimonials as any} lang={lang} />
 
       {/* ClinicalGallery Prep: Preparing code for a masonry grid of images, but keeping it hidden until data is available. */}
 
@@ -284,8 +214,6 @@ export default async function HomePage({
           </div>
         </div >
       </section >
-
-
 
       {/* Local Experience / Convenience Section */}
       <section className="py-20 px-4 bg-white border-y border-slate-100">
