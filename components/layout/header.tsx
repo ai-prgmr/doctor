@@ -106,10 +106,13 @@ export function Header({ lang, dictionary }: HeaderProps) {
                                                 <Menu className="h-6 w-6" />
                                             </Button>
                                         </SheetTrigger>
-                                        <SheetContent side="right" className="w-[300px] sm:w-[400px]">
+                                        <SheetContent side="right" className="w-[300px] sm:w-[400px] text-center">
                                             <SheetHeader className="text-left">
-                                                <SheetTitle className="font-outfit text-teal-700">
-                                                    {dictionary.doctor.name}
+                                                <SheetTitle className="flex justify-center items-center gap-2 font-outfit text-teal-700">
+                                                    <Image src="/images/doctor-logo.png" alt="Logo" width={55} height={55} className="md:w-[75px] md:h-[75px]" />
+                                                    <span className="font-outfit text-lg md:text-2xl font-bold tracking-tight text-teal-700 leading-tight">
+                                                        {dictionary.doctor.name}
+                                                    </span>
                                                 </SheetTitle>
                                             </SheetHeader>
                                             <div className="grid gap-4 py-4">
