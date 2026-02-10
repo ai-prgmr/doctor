@@ -43,7 +43,6 @@ export default async function TestimonialsPage({
                             <div key={item.id} className="h-full">
                                 <VideoCard
                                     videoSrc={item.videoSrc}
-                                    posterSrc={item.posterSrc}
                                     name={item.name}
                                     procedure={item.procedure}
                                     quote={item.quote}
