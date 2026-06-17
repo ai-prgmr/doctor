@@ -83,175 +83,381 @@
     "subtitle": "Advanced Orthopedic Care & Surgery",
     "items": [
       {
-        "id": "advanced-joint-replacement",
-        "title": "Robotic & Advanced Hip, Knee and Shoulder Joint Replacement",
-        "icon": "Bot",
-        "desc": "Minimally invasive Hip, Knee & Shoulder replacement using Robotic Navigation & High-Performance Implants.",
-        "heroImage": "/doctor/images/robotic-knee-hero.jpg",
-        "intro": "Joint pain shouldn't limit your life. As the pioneer of Navigation Surgery in Central India, Dr. Jinsiwale combines 'Robotic Precision' with 'Minimally Invasive' protocols. Whether it is a Knee, Hip, or Shoulder replacement, we utilize Computer Assisted Surgery (CAS) to map your unique anatomy with sub-millimeter accuracy, ensuring a faster return to daily activities.",
+        "id": "knee-treatment",
+        "title": "Knee Treatment",
+        "icon": "Activity",
+        "desc": "ACL Reconstruction Surgery · Revision ACL Reconstruction · PCL Reconstruction Surgery · Cartilage Repair · Knee Arthritis Treatments · Knee Fracture Repair · Ligament Repair Surgery · Meniscus Tear Surgery, Stem Cell therapy",
+        "heroImage": "/doctor/images/cas.jpeg",
+        "intro": "The knee is a complex joint critical for mobility. Dr. Jinsiwale specializes in advanced knee procedures, from keyhole ACL reconstructions to complex revision surgeries. We restore joint function using state-of-the-art repair techniques.",
         "technology": {
-          "title": "The Technology Advantage: CAS & Materials",
-          "content": "We combine two critical innovations: \n1. **Computer Assisted Surgery (CAS):** Like a GPS for your joint, this infrared system builds a real-time 3D model of your bone structure, allowing for perfect implant alignment impossible with the naked eye.\n2. **High-Performance Implants:** We strictly use international-standard materials like 'Ceramic-on-Ceramic' for hips and 'High-Flex' designs for knees to ensure longevity.",
+          "title": "Double-Bundle ACL Reconstruction & Cartilage Repair",
+          "content": "We utilize advanced double-bundle techniques for ACL reconstruction, mimicking natural anatomy for superior stability. Cartilage repair procedures like microfracture or OATS are done using minimally invasive arthroscopy.",
           "image": "/doctor/images/cas.jpeg",
-          "imageCaption": "Advanced Navigation System & Ceramic Implant Demo"
+          "imageCaption": "Advanced knee arthroscopy and ligament repair visualization"
         },
         "process": [
           {
-            "title": "Robotic Knee",
-            "desc": "Sub-millimeter precision mapping for perfect alignment and a 'forgotten knee' feeling."
+            "title": "Diagnostic Arthroscopy",
+            "desc": "Confirming joint damage using a keyhole camera."
           },
           {
-            "title": "Muscle-Sparing Hip",
-            "desc": "Minimally invasive techniques for Avascular Necrosis (AVN) that promote rapid walking."
+            "title": "Precision Repair",
+            "desc": "Reconstruction of ligaments or repair of cartilage."
           },
           {
-            "title": "Complex Shoulder",
-            "desc": "Specialized 'Reverse Polarity' implants for severe rotator cuff damage and arthritis."
+            "title": "Tailored Rehabilitation",
+            "desc": "Progressive physiotherapy to ensure full mobility."
           }
         ],
-        "doctorExpertise": "Precision defines the lifespan of your implant. Even a millimeter of error can affect how natural it feels. With over 10,000+ joint surgeries (including 6,000+ Hip & 4,000+ Knee replacements), I brought Robotic Navigation to Central India to ensure that every patient gets a result that feels natural. My goal is to intervene at the right time with the best technology to preserve your independence."
+        "doctorExpertise": "Knee stability is crucial for active living. Whether reconstructing a torn ACL or repairing damaged meniscus, our approach is minimally invasive and anatomically precise to get you back to your routine quickly."
+      },
+      {
+        "id": "shoulder-treatment",
+        "title": "Shoulder Treatment",
+        "icon": "Activity",
+        "desc": "AC Joint Repair · Biceps Tendon Treatment · Collarbone Fracture Treatment · SLAP Tear Treatment · Rotator Cuff Repair · Shoulder Instability/Dislocation Treatment · Frozen Shoulder Treatment",
+        "heroImage": "/doctor/images/implant-demo.jpg",
+        "intro": "Shoulder injuries can severely restrict arm movement and affect daily life. We offer comprehensive solutions ranging from arthroscopic rotator cuff repairs to advanced stabilization for recurrent shoulder dislocations.",
+        "technology": {
+          "title": "Arthroscopic Rotator Cuff Repair & Stabilization",
+          "content": "Using high-definition shoulder arthroscopy, we repair torn tendons and stabilize the joint capsule through tiny incisions, ensuring minimal scarring and faster recovery.",
+          "image": "/doctor/images/implant-demo.jpg",
+          "imageCaption": "Minimally invasive shoulder stabilization demo"
+        },
+        "process": [
+          {
+            "title": "Detailed Assessment",
+            "desc": "MRI evaluation to identify soft tissue damage."
+          },
+          {
+            "title": "Keyhole Repair",
+            "desc": "Arthroscopic suturing of rotator cuff or labral tear."
+          },
+          {
+            "title": "Dedicated Shoulder Rehab",
+            "desc": "Graduated exercises to restore full range of motion."
+          }
+        ],
+        "doctorExpertise": "The shoulder is our most mobile joint, making it highly susceptible to instability and rotator cuff tears. Arthroscopic repairs allow us to restore overhead function with minimal disruption to the surrounding muscle."
+      },
+      {
+        "id": "hip-treatment",
+        "title": "Hip Treatment",
+        "icon": "Activity",
+        "desc": "Hip Arthroscopy · Labral Tear Repair · Femoroacetabular Impingement (FAI) Treatment · Hip Fracture Repair · Avascular Necrosis Treatment · Hip Dysplasia Treatment · Hip Bursitis Treatment",
+        "heroImage": "/doctor/images/implant-demo.jpg",
+        "intro": "Hip pain, whether from a labral tear or Avascular Necrosis (AVN), requires early intervention. We offer specialized hip arthroscopy and muscle-sparing procedures to treat structural problems and protect the joint from long-term wear.",
+        "technology": {
+          "title": "Muscle-Sparing Hip Arthroscopy",
+          "content": "Hip arthroscopy allows us to access the deep hip joint to trim bony overgrowths (FAI) and repair torn labral cartilage without major incisions, preserving the key stability muscles.",
+          "image": "/doctor/images/implant-demo.jpg",
+          "imageCaption": "Advanced hip joint mapping and labral repair"
+        },
+        "process": [
+          {
+            "title": "Structural Analysis",
+            "desc": "Advanced imaging to map the hip bone and cartilage."
+          },
+          {
+            "title": "Decompression & Repair",
+            "desc": "Removing bone impingement and suturing the labrum."
+          },
+          {
+            "title": "Controlled Rehabilitation",
+            "desc": "Specialized exercises to protect and strengthen the hip."
+          }
+        ],
+        "doctorExpertise": "Hip preservation is our priority. By performing early hip arthroscopy for impingement and labral tears, we can prevent or significantly delay the onset of severe arthritis, keeping you active."
+      },
+      {
+        "id": "elbow-treatment",
+        "title": "Elbow Treatment",
+        "icon": "Activity",
+        "desc": "Tennis Elbow Treatment · Golfer's Elbow Treatment · Elbow Arthroscopy · Elbow Ligament (UCL) Reconstruction · Elbow Fracture Repair · Elbow Dislocation Treatment · Cubital Tunnel Syndrome Treatment",
+        "heroImage": "/doctor/images/couple-running.jpg",
+        "intro": "From tennis elbow to complex elbow dislocations, we diagnose and treat injuries affecting this critical hinge joint. Our focus is on restoring pain-free extension, flexion, and rotation.",
+        "technology": {
+          "title": "Elbow Arthroscopy & Ligament Reconstruction",
+          "content": "Minimally invasive elbow arthroscopy helps remove loose bodies and treat tennis elbow. For overhead athletes with ligament tears, we perform Tommy John surgery (UCL Reconstruction).",
+          "image": "/doctor/images/couple-running.jpg",
+          "imageCaption": "Microsurgical elbow ligament repair setup"
+        },
+        "process": [
+          {
+            "title": "Conservative Therapy",
+            "desc": "PRP injections or targeted physiotherapy for tendonitis."
+          },
+          {
+            "title": "Surgical Repair",
+            "desc": "Arthroscopic release or open reconstruction for unstable joints."
+          },
+          {
+            "title": "Progressive Recovery",
+            "desc": "Guided occupational and physical therapy."
+          }
+        ],
+        "doctorExpertise": "Elbow stiffness can be highly disabling. By utilizing minimally invasive arthroscopy for debris removal and advanced reconstructions for ligament stability, we restore smooth hinge movement."
+      },
+      {
+        "id": "wrist-and-hand-treatment",
+        "title": "Wrist & Hand Treatment",
+        "icon": "Activity",
+        "desc": "Carpal Tunnel Release · Trigger Finger Release · De Quervain's Tenosynovitis Treatment · Wrist Fracture Surgery · Hand & Finger Fracture Repair · Ganglion Cyst Removal · Wrist Arthroscopy · Hand/Wrist Tendon Repair, Scaphoid fracture treatment",
+        "heroImage": "/doctor/images/hand-model.png",
+        "intro": "Hands are our primary tools for interaction. We address carpal tunnel syndrome, trigger fingers, and complex wrist fractures using microscopic techniques to preserve touch and dexterity.",
+        "technology": {
+          "title": "Microsurgical Nerve Decompression & Tendon Repair",
+          "content": "We perform endoscopic carpal tunnel release for rapid recovery, and use specialized microsurgical sutures to repair delicate hand nerves and tendons.",
+          "image": "/doctor/images/hand-model.png",
+          "imageCaption": "Fine microsurgical instruments used in hand reconstruction"
+        },
+        "process": [
+          {
+            "title": "Micro-assessment",
+            "desc": "Testing nerve conduction and joint function."
+          },
+          {
+            "title": "Micro-surgery",
+            "desc": "Nerve decompression or tendon repair under magnification."
+          },
+          {
+            "title": "Custom Splinting & Rehab",
+            "desc": "Hand therapy to restore fine motor skills."
+          }
+        ],
+        "doctorExpertise": "Reconstructing the hand is a delicate art. Under high magnification, we repair microscopic nerves and tendons to restore the intricate mechanics and sensation of your fingers."
+      },
+      {
+        "id": "foot-and-ankle-treatment",
+        "title": "Foot & Ankle Treatment",
+        "icon": "Activity",
+        "desc": "Ankle Fracture Surgery · Ankle Ligament Reconstruction · Achilles Tendon Repair · Plantar Fasciitis Treatment · Hallux Valgus (Bunion) Correction · Flat Foot Correction · Foot & Ankle Arthroscopy · Diabetic Foot Care, Ankle Sprain (ATFL Repair), Tendon Repair",
+        "heroImage": "/doctor/images/couple-running.jpg",
+        "intro": "Proper foot and ankle alignment is essential for balance and gait. We treat sports injuries, structural deformities like bunions, and chronic conditions like plantar fasciitis.",
+        "technology": {
+          "title": "Ankle Arthroscopy & Achilles Reconstruction",
+          "content": "Minimally invasive ankle arthroscopy is used to clear bone spurs and repair ligaments. For Achilles ruptures, we perform high-strength repairs allowing early weight-bearing.",
+          "image": "/doctor/images/couple-running.jpg",
+          "imageCaption": "Specialized ankle arthroscopy setup"
+        },
+        "process": [
+          {
+            "title": "Gait Analysis",
+            "desc": "Assessing biomechanical issues of the foot."
+          },
+          {
+            "title": "Reconstruction",
+            "desc": "Realigning bones, repairing tendons, or arthroscopic cleaning."
+          },
+          {
+            "title": "Orthotic Support & Training",
+            "desc": "Custom insoles and walking rehabilitation."
+          }
+        ],
+        "doctorExpertise": "The foot and ankle support your entire body weight. Restoring stability to the ankle joint and repairing tendons with advanced techniques ensures pain-free walking and running."
+      },
+      {
+        "id": "spine-treatment",
+        "title": "Spine Treatment",
+        "icon": "Activity",
+        "desc": "Disc Herniation Treatment · Spinal Fusion Surgery · Sciatica Treatment · Scoliosis Treatment · Spinal Stenosis Treatment · Vertebral Compression Fracture Treatment · Spinal Trauma Management, Epidural block for Disc Herniation, Spinal Fracture, Sciatica, Spondylosis",
+        "heroImage": "/doctor/images/spine-model.jpg",
+        "intro": "Chronic back pain and radiating nerve pain can be exhausting. Our treatment protocols prioritize conservative therapy first, followed by microsurgical spinal decompression or fusion if necessary.",
+        "technology": {
+          "title": "Minimally Invasive Spine Surgery (MISS)",
+          "content": "Using specialized tubular retractors and microscopes, we treat disc slips and spinal stenosis through incisions less than an inch long, preserving normal spine structure.",
+          "image": "/doctor/images/spine-model.jpg",
+          "imageCaption": "Minimally invasive spine decompression representation"
+        },
+        "process": [
+          {
+            "title": "Diagnostics & Mapping",
+            "desc": "High-resolution MRI and nerve mapping."
+          },
+          {
+            "title": "Micro-Decompression",
+            "desc": "Removing disc fragments to relieve nerve roots."
+          },
+          {
+            "title": "Core Stabilization",
+            "desc": "Specialized physical therapy to build spine support."
+          }
+        ],
+        "doctorExpertise": "Spine surgery has evolved dramatically. With microsurgical spinal decompression, we relieve severe sciatica pain immediately through a tiny keyhole incision, ensuring a safe and rapid recovery."
+      },
+      {
+        "id": "pediatric-orthopaedics",
+        "title": "Pediatric Orthopaedics",
+        "icon": "Activity",
+        "desc": "Clubfoot Treatment · Developmental Hip Dysplasia · Growth Plate Fracture Care · Pediatric Limb Deformity Correction · Pediatric Sports Injuries",
+        "heroImage": "/doctor/images/recons-2.png",
+        "intro": "Children's bones are still growing, making orthopedic care highly specialized. We provide gentle, expert treatments for congenital conditions like clubfoot and developmental hip dysplasia.",
+        "technology": {
+          "title": "Ponseti Method & Growth Modulation",
+          "content": "We use non-surgical serial casting (Ponseti method) for clubfoot correction. For limb deformities, we perform minimally invasive growth plate modulation (guided growth) to straighten legs naturally.",
+          "image": "/doctor/images/recons-2.png",
+          "imageCaption": "Guided growth plating technique for children"
+        },
+        "process": [
+          {
+            "title": "Pediatric Evaluation",
+            "desc": "Assessing gait, bone alignment, and growth potential."
+          },
+          {
+            "title": "Gentle Correction",
+            "desc": "Casting, bracing, or minimally invasive growth modulation."
+          },
+          {
+            "title": "Growth Monitoring",
+            "desc": "Scheduled follow-ups to ensure correct alignment as the child grows."
+          }
+        ],
+        "doctorExpertise": "Children are not miniature adults. Their growing bones require specialized techniques like guided growth to correct deformities without affecting their future development."
+      },
+      {
+        "id": "sports-medicine",
+        "title": "Sports Medicine",
+        "icon": "Activity",
+        "desc": "Achilles Tendon Rupture Repair · Pectoralis Major Tendon Repair · Triceps Tendon Rupture Surgery · Sports Hernia Treatment · Stress Fracture Management · Return-to-Sport Rehabilitation, Supraspinatus Tendon tear",
+        "heroImage": "/doctor/images/arthroscopy-tower.jpg",
+        "intro": "Sports injuries require a unique recovery path focused on speed, power, and coordination. We offer surgical repair for tendon ruptures (Achilles, triceps, pectoralis) and customized rehabilitation programs.",
+        "technology": {
+          "title": "High-Strength Tendon Repair & Biologics",
+          "content": "We use ultra-strong fiber-wire sutures for tendon repair alongside regenerative therapies (PRP) to speed up cellular healing and restore pre-injury performance.",
+          "image": "/doctor/images/arthroscopy-tower.jpg",
+          "imageCaption": "Advanced tendon repair instrumentation"
+        },
+        "process": [
+          {
+            "title": "Injury Staging",
+            "desc": "Evaluating structural tears versus stress responses."
+          },
+          {
+            "title": "Biological Repair",
+            "desc": "Minimally invasive repair combined with growth factor therapies."
+          },
+          {
+            "title": "Return-to-Play Program",
+            "desc": "Specific athletic training to restore joint load capacity."
+          }
+        ],
+        "doctorExpertise": "Athletic injuries demand a precise balance of mechanical strength and rapid healing. We combine bio-absorbable anchors with regenerative therapies to help you return to your sport safely."
+      },
+      {
+        "id": "joint-replacement-surgeries",
+        "title": "Joint Replacement Surgeries",
+        "icon": "Activity",
+        "desc": "Total Knee Replacement · Partial/Unicompartmental Knee Replacement(microplasty) · Total Hip Replacement · Shoulder Replacement (Total/Reverse) · Revision Joint Replacement · Robotic-Assisted Joint Replacement",
+        "heroImage": "/doctor/images/cas.jpeg",
+        "intro": "Joint replacement can restore pain-free life to individuals suffering from severe arthritis. With over 10,000 replacements performed, Dr. Jinsiwale is a pioneer in computer-navigated and robotic-assisted surgeries.",
+        "technology": {
+          "title": "Robotic Navigation & High-Flex Implants",
+          "content": "Infrared computerized navigation builds a 3D model of your joint in real-time, allowing sub-millimeter precision in bone cuts and implant placement, maximizing joint longevity.",
+          "image": "/doctor/images/cas.jpeg",
+          "imageCaption": "Robotic navigation knee replacement screen representation"
+        },
+        "process": [
+          {
+            "title": "Computer Mapping",
+            "desc": "Real-time registration of joint anatomy during surgery."
+          },
+          {
+            "title": "Precision Implantation",
+            "desc": "Custom positioning of advanced ceramic/cobalt implants."
+          },
+          {
+            "title": "Rapid Recovery Protocol",
+            "desc": "Walking without support in 24-48 hours."
+          }
+        ],
+        "doctorExpertise": "A joint replacement is a lifetime investment. Using computerized robotic navigation ensures that the mechanical axis is perfectly aligned, resulting in a joint that feels entirely natural."
+      },
+      {
+        "id": "reconstructive-and-regenerative-surgeries",
+        "title": "Reconstructive & Regenerative Surgeries",
+        "icon": "Activity",
+        "desc": "Stromal Vascular Fraction (SVF) Therapy · Platelet-Rich Plasma (PRP) Therapy · Stem Cell Therapy · Cartilage Regeneration & Restoration · Ligament & Tendon Reconstruction · Bone Grafting & Bone Regeneration · Complex Joint Reconstruction · Limb Reconstruction Surgery · Revision Surgery (Joint/Ligament) · Custom 3D-Printed Implants",
+        "heroImage": "/doctor/images/implant-demo.jpg",
+        "intro": "Regenerative medicine is reshaping orthopedic treatment. We offer cutting-edge biological therapies (SVF, PRP, Stem Cells) to heal damaged cartilage and tendons naturally, avoiding surgery.",
+        "technology": {
+          "title": "Stromal Vascular Fraction (SVF) & Cartilage Regeneration",
+          "content": "SVF therapy uses your body's own adipose cells containing healing factors to treat early joint wear. Combined with cartilage restoration, it promotes natural repair.",
+          "image": "/doctor/images/implant-demo.jpg",
+          "imageCaption": "Laboratory processing of autologous growth factors"
+        },
+        "process": [
+          {
+            "title": "Harvesting",
+            "desc": "Acquiring concentrated healing factors from patient's own tissue."
+          },
+          {
+            "title": "Processing",
+            "desc": "Centrifugation under sterile conditions to concentrate growth factors."
+          },
+          {
+            "title": "Targeted Injection",
+            "desc": "Guided placement into the damaged joint or tendon."
+          }
+        ],
+        "doctorExpertise": "Regenerative therapy represents a huge leap in medicine. By utilizing your body's own healing resources, we can regenerate cartilage and repair ligaments without invasive surgery."
       },
       {
         "id": "traumatology",
         "title": "Traumatology",
-        "icon": "Smartphone",
-        "desc": "Customized surgical planning using 'I Assist' smart tools.",
-        "heroImage": "/doctor/images/i-assist-hero.jpg",
-        "intro": "No two knees are alike. 'Patient Specific Technology' moves away from the 'one size fits all' approach. We use the 'I Assist' smart tool—a palm-sized electronic navigation device—to deliver a personalized surgical experience.",
+        "icon": "Activity",
+        "desc": "Polytrauma Management · Open (Compound) Fracture Treatment · Pelvic Fracture Surgery · Acetabular Fracture Surgery · Complex Articular/Intra-articular Fracture Surgery · Periprosthetic Fracture Treatment · Non-Union & Mal-Union Fracture Correction · Bone Infection (Osteomyelitis) Management · Limb Lengthening & Deformity Correction (Ilizarov/External Fixation) · Fracture Fixation — Plating, Intramedullary Nailing, External Fixators · Pediatric Trauma Care",
+        "heroImage": "/doctor/images/recons-2.png",
+        "intro": "Traumatology involves the treatment of severe, complex, and multiple skeletal injuries. Dr. Jinsiwale is a pioneer in complex fracture fixations, non-union corrections, and limb lengthening procedures.",
         "technology": {
-          "title": "How 'I Assist' Works",
-          "content": "The 'I Assist' system is a micro-navigation tool that attaches directly to the surgical site. It contains accelerometers and sensors (similar to a smartphone) that transmit precise alignment data to Dr. Jinsiwale in real-time, eliminating the need for bulky consoles while maintaining robotic-level accuracy.",
-          "image": "//doctor/images/couple-running.jpg",
-          "imageCaption": "The 'I Assist' Smart Navigation Console"
+          "title": "Intramedullary Nailing & Ilizarov Fixation",
+          "content": "We use advanced titanium plating and intramedullary locking nails for strong fracture fixation. For non-unions, external Ilizarov fixators stimulate bone growth and correct deformities.",
+          "image": "/doctor/images/recons-2.png",
+          "imageCaption": "Advanced fracture reconstruction and plating visualization"
         },
         "process": [
           {
-            "title": "Step 1: Personalized Guide",
-            "desc": "We use MRI/CT scans to create a 3D mold of your knee."
+            "title": "Emergency Stabilization",
+            "desc": "Immediate care and alignment of fractured bones."
           },
           {
-            "title": "Step 2: Electronic Validation",
-            "desc": "The I-Assist tool validates the bone cuts instantly."
+            "title": "Rigid Fixation",
+            "desc": "Plating or nailing to allow early mobilization and prevent joint stiffness."
           },
           {
-            "title": "Step 3: Customized Fit",
-            "desc": "The implant is placed to restore your natural mechanical axis."
+            "title": "Union Monitoring & Rehab",
+            "desc": "Progressive weight-bearing and physiotherapy."
           }
         ],
-        "doctorExpertise": "Every patient's anatomy is unique, so why should your surgery be generic? Customization is the key to a perfect fit. By using patient-specific technology, we respect your unique bone structure. This personalized approach minimizes wear and maximizes comfort, backed by my expertise in cutting-edge instrumentation."
+        "doctorExpertise": "A complex or neglected fracture requires careful mechanical planning. Our objective is stable, anatomically precise fixation that allows the patient to stand and move as early as possible."
       },
       {
-        "id": "reconstructive-&-regenerative-surgeries",
-        "title": "Reconstructive & Regenerative surgeries",
-        "icon": "Smartphone",
-        "desc": "Customized surgical planning using 'I Assist' smart tools.",
-        "heroImage": "/doctor/images/i-assist-hero.jpg",
-        "intro": "No two knees are alike. 'Patient Specific Technology' moves away from the 'one size fits all' approach. We use the 'I Assist' smart tool—a palm-sized electronic navigation device—to deliver a personalized surgical experience.",
+        "id": "rehabilitation-programme",
+        "title": "Rehabilitation Programme",
+        "icon": "Activity",
+        "desc": "Post-Surgical Physiotherapy · Sports Injury Rehabilitation · Pain Management Programs",
+        "heroImage": "/doctor/images/couple-running.jpg",
+        "intro": "Rehabilitation is critical to the success of any orthopedic treatment. Our tailored physiotherapy programs focus on restoring strength, flexibility, balance, and coordination.",
         "technology": {
-          "title": "How 'I Assist' Works",
-          "content": "The 'I Assist' system is a micro-navigation tool that attaches directly to the surgical site. It contains accelerometers and sensors (similar to a smartphone) that transmit precise alignment data to Dr. Jinsiwale in real-time, eliminating the need for bulky consoles while maintaining robotic-level accuracy.",
+          "title": "Targeted Rehabilitation & Pain Management",
+          "content": "We utilize advanced modalities along with manual therapy and customized exercise prescription to ensure rapid muscle strengthening and safe recovery from joint surgery.",
           "image": "/doctor/images/couple-running.jpg",
-          "imageCaption": "The 'I Assist' Smart Navigation Console"
+          "imageCaption": "Professional physical therapy guidance session"
         },
         "process": [
           {
-            "title": "Step 1: Personalized Guide",
-            "desc": "We use MRI/CT scans to create a 3D mold of your knee."
+            "title": "Assessment",
+            "desc": "Detailed range-of-motion and muscle strength baseline testing."
           },
           {
-            "title": "Step 2: Electronic Validation",
-            "desc": "The I-Assist tool validates the bone cuts instantly."
+            "title": "Targeted Therapy",
+            "desc": "Pain relief modalities and active-passive exercises."
           },
           {
-            "title": "Step 3: Customized Fit",
-            "desc": "The implant is placed to restore your natural mechanical axis."
+            "title": "Functional Independence",
+            "desc": "Balance and gait training for daily independence."
           }
         ],
-        "doctorExpertise": "Every patient's anatomy is unique, so why should your surgery be generic? Customization is the key to a perfect fit. By using patient-specific technology, we respect your unique bone structure. This personalized approach minimizes wear and maximizes comfort, backed by my expertise in cutting-edge instrumentation."
-      },
-      {
-        "id": "arthroscopy",
-        "title": "Arthroscopy & Sports Medicine",
-        "icon": "Crosshair",
-        "desc": "Keyhole surgery for Ligament Reconstruction (ACL/PCL).",
-        "intro": "Sports injuries like ACL tears or Meniscus damage no longer mean the end of an active lifestyle. Arthroscopy is a 'Keyhole' procedure where a tiny camera is inserted into the joint, allowing Dr. Jinsiwale to repair damage without opening the knee.",
-        "technology": {
-          "title": "HD Visualization System",
-          "content": "We utilize high-definition arthroscopic cameras that magnify the internal structures of the joint by 20x. This allows for precise trimming of torn meniscus and accurate placement of ligament grafts.",
-          "image": "/doctor/images/arthroscopy-tower.jpg",
-          "imageCaption": "Minimally Invasive Arthroscopy Setup"
-        },
-        "process": [
-          {
-            "title": "Step 1: Diagnosis",
-            "desc": "The camera confirms the extent of the ligament tear."
-          },
-          {
-            "title": "Step 2: Graft Harvesting",
-            "desc": "A strong tendon is harvested (usually from the hamstring) to create the new ligament."
-          },
-          {
-            "title": "Step 3: Reconstruction",
-            "desc": "The new ligament is fixed securely using bio-absorbable screws."
-          }
-        ],
-        "doctorExpertise": "For an athlete or an active individual, a ligament tear can feel like the end of the road. It doesn't have to be. Arthroscopy allows us to repair the damage without cutting open the joint, preserving your natural anatomy. My goal is to get you back on the field—stronger and more confident than before. We have helped over 12,000 patients return to their active lives."
-      },
-      {
-        "id": "spine-surgery",
-        "title": "Spine Surgery",
-        "icon": "Move",
-        "desc": "Comprehensive management of lumbar spine disorders.",
-        "intro": "Spine surgery is often feared, but with modern microsurgical techniques, the outcomes are excellent. We focus on 'Decompression' and 'Stabilization'—relieving pressure on the nerves while ensuring the spine remains strong.",
-        "technology": {
-          "title": "Micro-Lumbar Discectomy",
-          "content": "Using surgical microscopes, we can remove the herniated disc material that is pressing on the nerve root through an incision less than 1 inch long. This preserves the spinal stability and relieves sciatica pain immediately.",
-          "image": "/doctor/images/spine-model.jpg",
-          "imageCaption": "Precision Spine Models for Patient Education"
-        },
-        "process": [
-          {
-            "title": "Step 1: Conservative First",
-            "desc": "We always attempt physiotherapy and medication before suggesting surgery."
-          },
-          {
-            "title": "Step 2: Micro-Decompression",
-            "desc": "Removing the pressure off the nerve root."
-          },
-          {
-            "title": "Step 3: Stabilization",
-            "desc": "If needed, pedicle screws are used to stabilize the vertebrae."
-          }
-        ],
-        "doctorExpertise": "Living with chronic back pain can be debilitating, often affecting your sleep and mental well-being. Spine surgery is never the first option, but when needed, it is a powerful tool to reclaim your life. We focus on relieving the nerve pressure that causes pain. With 10,000+ successful spine surgeries, our protocol is safe, ethical, and result-oriented."
-      },
-      {
-        "id": "hand-surgery",
-        "title": "Hand Reconstructive Surgery",
-        "icon": "Hand",
-        "desc": "Specialized care for complex hand trauma.",
-        "intro": "The hand is an intricate instrument of function and sensation. Reconstructive surgery here requires the precision of a watchmaker. We handle everything from industrial crush injuries to congenital deformities.",
-        "technology": {
-          "title": "Microsurgical Repair",
-          "content": "We employ microsurgical techniques to repair severed nerves and tendons (flexors and extensors). Early and precise repair is the key to regaining fine motor skills like gripping and writing.",
-          "image": "/doctor/images/hand-model.png",
-          "imageCaption": "Microsurgical instruments for nerve repair"
-        },
-        "process": [
-          {
-            "title": "Step 1: Skeletal Fixation",
-            "desc": "Fixing the fractures using mini-plates and screws."
-          },
-          {
-            "title": "Step 2: Soft Tissue Repair",
-            "desc": "Repairing tendons, nerves, and blood vessels."
-          },
-          {
-            "title": "Step 3: Functional Rehab",
-            "desc": "Intensive hand therapy to prevent stiffness."
-          }
-        ],
-        "doctorExpertise": "Our hands are our primary tools for interaction and livelihood. A complex injury can strip away your independence. Reconstructive surgery isn't just about fixing bones; it's about restoring sensation and fine motor skills so you can return to work. My focus is on intricate microsurgical repair to get your function back."
+        "doctorExpertise": "Surgery is only half the battle. A dedicated, structured physiotherapy program is essential to rebuild muscle strength and achieve the full range of joint movement."
       }
     ]
   },

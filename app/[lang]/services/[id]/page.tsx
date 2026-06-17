@@ -6,16 +6,11 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import Image from "next/image";
 
+import enDict from "@/dictionaries/en.json";
+
 export async function generateStaticParams() {
     const locales = ["en", "hi"];
-    const serviceIds = [
-        "advanced-joint-replacement",
-        "traumatology",
-        "reconstructive-&-regenerative-surgeries",
-        "hand-surgery",
-        "spine-surgery",
-        "arthroscopy"
-    ];
+    const serviceIds = enDict.services.items.map((item: any) => item.id);
 
     const params = [];
     for (const lang of locales) {
