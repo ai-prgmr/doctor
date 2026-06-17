@@ -199,7 +199,7 @@
         "doctorExpertise": "Elbow stiffness can be highly disabling. By utilizing minimally invasive arthroscopy for debris removal and advanced reconstructions for ligament stability, we restore smooth hinge movement."
       },
       {
-        "id": "wrist-and-hand-treatment",
+        "id": "wrist-&-hand-treatment",
         "title": "Wrist & Hand Treatment",
         "icon": "Activity",
         "desc": "Carpal Tunnel Release · Trigger Finger Release · De Quervain's Tenosynovitis Treatment · Wrist Fracture Surgery · Hand & Finger Fracture Repair · Ganglion Cyst Removal · Wrist Arthroscopy · Hand/Wrist Tendon Repair, Scaphoid fracture treatment",
@@ -228,7 +228,7 @@
         "doctorExpertise": "Reconstructing the hand is a delicate art. Under high magnification, we repair microscopic nerves and tendons to restore the intricate mechanics and sensation of your fingers."
       },
       {
-        "id": "foot-and-ankle-treatment",
+        "id": "foot-&-ankle-treatment",
         "title": "Foot & Ankle Treatment",
         "icon": "Activity",
         "desc": "Ankle Fracture Surgery · Ankle Ligament Reconstruction · Achilles Tendon Repair · Plantar Fasciitis Treatment · Hallux Valgus (Bunion) Correction · Flat Foot Correction · Foot & Ankle Arthroscopy · Diabetic Foot Care, Ankle Sprain (ATFL Repair), Tendon Repair",
@@ -347,7 +347,7 @@
         "id": "joint-replacement-surgeries",
         "title": "Joint Replacement Surgeries",
         "icon": "Activity",
-        "desc": "Total Knee Replacement · Partial/Unicompartmental Knee Replacement(microplasty) · Total Hip Replacement · Shoulder Replacement (Total/Reverse) · Revision Joint Replacement · Robotic-Assisted Joint Replacement",
+        "desc": "Total Knee Replacement · Partial/Unicompartmental Knee Replacement(microplasty) · Total Hip Replacement · Shoulder Replacement (Total/Reverse) · Revision Joint Replacement · Robotic-Assisted Joint Replacement, Complex Hip Replacement (Failed Hip Surgeries)",
         "heroImage": "/doctor/images/cas.jpeg",
         "intro": "Joint replacement can restore pain-free life to individuals suffering from severe arthritis. With over 10,000 replacements performed, Dr. Jinsiwale is a pioneer in computer-navigated and robotic-assisted surgeries.",
         "technology": {
@@ -373,10 +373,10 @@
         "doctorExpertise": "A joint replacement is a lifetime investment. Using computerized robotic navigation ensures that the mechanical axis is perfectly aligned, resulting in a joint that feels entirely natural."
       },
       {
-        "id": "reconstructive-and-regenerative-surgeries",
+        "id": "reconstructive-&-regenerative-surgeries",
         "title": "Reconstructive & Regenerative Surgeries",
         "icon": "Activity",
-        "desc": "Stromal Vascular Fraction (SVF) Therapy · Platelet-Rich Plasma (PRP) Therapy · Stem Cell Therapy · Cartilage Regeneration & Restoration · Ligament & Tendon Reconstruction · Bone Grafting & Bone Regeneration · Complex Joint Reconstruction · Limb Reconstruction Surgery · Revision Surgery (Joint/Ligament) · Custom 3D-Printed Implants",
+        "desc": "Stromal Vascular Fraction (SVF) Therapy · Platelet-Rich Plasma (PRP) Therapy · Stem Cell Therapy ·Intra-articular Sinovium Therapy · Cartilage Regeneration & Restoration · Ligament & Tendon Reconstruction · Bone Grafting & Bone Regeneration · Complex Joint Reconstruction · Limb Reconstruction Surgery · Revision Surgery (Joint/Ligament) · Custom 3D-Printed Implants, Condroplasty and Mosaicplasty, Limb alignment surgery",
         "heroImage": "/doctor/images/implant-demo.jpg",
         "intro": "Regenerative medicine is reshaping orthopedic treatment. We offer cutting-edge biological therapies (SVF, PRP, Stem Cells) to heal damaged cartilage and tendons naturally, avoiding surgery.",
         "technology": {
