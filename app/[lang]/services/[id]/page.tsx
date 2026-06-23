@@ -97,7 +97,7 @@ export default async function ServicePage({
                                     src={service.technology.image}
                                     alt={service.technology.title}
                                     fill
-                                    className="object-cover transition-transform duration-700 group-hover:scale-105"
+                                    className="object-fill transition-transform duration-700 group-hover:scale-105"
                                 />
                                 <div className="absolute bottom-0 left-0 right-0 bg-linear-to-t from-black/80 to-transparent p-6">
                                     <p className="text-white text-sm font-medium italic">
