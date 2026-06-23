@@ -74,14 +74,14 @@ export default async function HomePage({
             {dictionary.stats.map((stat: any, idx: number) => (
               <div
                 key={idx}
-                className="group p-8 rounded-[2.5rem] bg-white/[0.03] border border-white/[0.08] hover:bg-white/[0.07] hover:border-teal-500/30 transition-all duration-500 text-center"
+                className="group p-8 rounded-[2.5rem] bg-white/3 border border-white/8 hover:bg-white/[0.07] hover:border-teal-500/30 transition-all duration-500 text-center"
               >
                 <div className="flex flex-col items-center">
                   <span className="text-3xl md:text-4xl font-black text-teal-400 mb-4 font-outfit tracking-tighter group-hover:scale-105 transition-transform duration-500">
                     {stat.value}
                   </span>
                   <div className="h-1 w-12 bg-teal-500/20 rounded-full mb-4 group-hover:w-20 group-hover:bg-teal-500/50 transition-all duration-500" />
-                  <span className="text-slate-400 text-sm md:text-lg font-bold uppercase tracking-[0.1em] leading-relaxed max-w-[200px]">
+                  <span className="text-slate-400 text-sm md:text-lg font-bold uppercase tracking-widest leading-relaxed max-w-[200px]">
                     {stat.label}
                   </span>
                 </div>
@@ -144,26 +144,55 @@ export default async function HomePage({
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="flex flex-col gap-8">
             {dictionary.services.items.slice(0, 3).map((service: any) => (
               <Link href={`/${lang}/services/${service.id}`} key={service.id}>
-                <Card className="h-full hover:shadow-2xl transition-all p-0 duration-300 hover:-translate-y-2 border-slate-100 overflow-hidden group">
-                  <CardHeader className="bg-slate-50 group-hover:bg-teal-50 transition-colors p-4">
-                    <div className="h-12 w-12 bg-white rounded-xl shadow-md flex items-center justify-center mb-4 text-teal-600">
-                      <Activity className="h-6 w-6" />
+                <Card className="border-none shadow-sm hover:shadow-xl p-0 transition-all duration-300 overflow-hidden flex flex-col md:flex-row h-full md:min-h-[280px]">
+                  {/* Left Column: 3D Illustration on Dark Gradient */}
+                  <div className="relative w-full md:w-80 h-64 md:h-auto bg-linear-to-br from-slate-900 to-slate-950 flex-shrink-0 flex items-center justify-center p-6">
+                    <div className="relative w-full h-full min-h-[200px]">
+                      <Image
+                        src={service.technology.image}
+                        alt={service.title}
+                        fill
+                        className="object-contain transform group-hover:scale-105 transition-transform duration-500"
+                        priority
+                      />
                     </div>
-                    <CardTitle className="font-outfit text-xl font-bold group-hover:text-teal-700 transition-colors">
-                      {service.title}
-                    </CardTitle>
-                  </CardHeader>
-                  <CardContent className="p-4">
-                    <CardDescription className="text-slate-600 text-base leading-relaxed mb-6">
-                      {service.desc}
-                    </CardDescription>
-                    <div className="flex items-center text-teal-600 font-bold text-sm">
-                      Learn More <ArrowRight className="ml-2 h-4 w-4 transform group-hover:translate-x-1 transition-transform" />
+                  </div>
+
+                  {/* Right Column: Title, Description, Tags, Action */}
+                  <div className="p-8 flex flex-col justify-between grow bg-white">
+                    <div>
+                      <h3 className="font-outfit text-2xl md:text-3xl font-extrabold text-slate-900 group-hover:text-teal-700 transition-colors mb-3">
+                        {service.title}
+                      </h3>
+
+                      {/* Sub-Treatments Tags */}
+                      {service.subTreatments && service.subTreatments.length > 0 && (
+                        <div className="flex flex-wrap gap-2 mb-6">
+                          {service.subTreatments.slice(0, 5).map((sub: any) => (
+                            <span
+                              key={sub.id}
+                              className="text-xs font-semibold bg-slate-100 text-slate-600 px-3 py-1 rounded-full border border-slate-200/60"
+                            >
+                              {sub.title}
+                            </span>
+                          ))}
+                          {service.subTreatments.length > 5 && (
+                            <span className="text-xs font-bold bg-teal-50 text-teal-700 px-3 py-1 rounded-full border border-teal-100/50">
+                              +{service.subTreatments.length - 5} {lang === 'en' ? 'more' : 'और'}
+                            </span>
+                          )}
+                        </div>
+                      )}
                     </div>
-                  </CardContent>
+
+                    <div className="flex items-center text-teal-600 font-bold text-base mt-auto">
+                      {lang === 'en' ? 'Explore Treatment' : 'उपचार देखें'}
+                      <ArrowRight className="ml-2 h-5 w-5 transform group-hover:translate-x-2 transition-transform" />
+                    </div>
+                  </div>
                 </Card>
               </Link>
             ))}
