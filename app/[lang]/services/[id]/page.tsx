@@ -68,16 +68,7 @@ export default async function ServicePage({
                     <h1 className="font-outfit text-4xl md:text-6xl font-black text-slate-900 mb-6 leading-tight tracking-tight">
                         {service.title}
                     </h1>
-                    <p className="text-xl md:text-2xl text-slate-600 font-medium max-w-2xl mx-auto leading-relaxed">
-                        {service.desc}
-                    </p>
-                </div>
-            </section>
-
-            {/* Intro Paragraph */}
-            <section className="py-16 md:py-24 px-4">
-                <div className="container mx-auto max-w-3xl">
-                    <p className="text-lg md:text-xl text-slate-700 leading-relaxed font-normal first-letter:text-5xl first-letter:font-bold first-letter:text-teal-600 first-letter:mr-3 first-letter:float-left">
+                    <p className="text-lg md:text-xl text-slate-700 leading-relaxed font-normal max-w-2xl mx-auto">
                         {service.intro}
                     </p>
                 </div>
@@ -108,7 +99,7 @@ export default async function ServicePage({
                                     fill
                                     className="object-cover transition-transform duration-700 group-hover:scale-105"
                                 />
-                                <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-6">
+                                <div className="absolute bottom-0 left-0 right-0 bg-linear-to-t from-black/80 to-transparent p-6">
                                     <p className="text-white text-sm font-medium italic">
                                         {service.technology.imageCaption}
                                     </p>
@@ -118,6 +109,54 @@ export default async function ServicePage({
                     </div>
                 </div>
             </section>
+
+            {/* Detailed Sub-Treatments Grid */}
+            {service.subTreatments && service.subTreatments.length > 0 && (
+                <section className="py-16 md:py-24 px-4 bg-white border-t border-slate-100">
+                    <div className="container mx-auto max-w-7xl">
+                        <div className="text-center max-w-3xl mx-auto mb-16">
+                            <h2 className="font-outfit text-3xl md:text-5xl font-extrabold text-slate-900 mb-4">
+                                {lang === 'en' ? 'Treatments & Procedures' : 'उपचार और प्रक्रियाएं'}
+                            </h2>
+                            <p className="text-lg text-slate-500 font-medium">
+                                {lang === 'en'
+                                    ? `Specialized therapies and procedures Dr. Jinsiwale helps with for ${service.title}`
+                                    : `विशेष उपचार और प्रक्रियाएं जिनमें डॉ. जिन्सीवाले ${service.title} के लिए सहायता करते हैं`}
+                            </p>
+                        </div>
+
+                        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                            {service.subTreatments.map((sub: any, idx: number) => (
+                                <div
+                                    key={sub.id || idx}
+                                    className="bg-slate-50 border border-slate-100/80 rounded-3xl overflow-hidden shadow-sm hover:shadow-xl hover:-translate-y-1.5 transition-all duration-300 flex flex-col group"
+                                >
+                                    <div className="relative h-48 w-full overflow-hidden bg-slate-200">
+                                        <Image
+                                            src={sub.image}
+                                            alt={sub.title}
+                                            fill
+                                            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                                            className="object-cover group-hover:scale-105 transition-transform duration-500"
+                                        />
+                                        <div className="absolute inset-0 bg-teal-900/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                                    </div>
+                                    <div className="p-6 flex flex-col grow justify-between">
+                                        <div>
+                                            <h3 className="font-outfit text-xl font-bold text-slate-900 mb-3 group-hover:text-teal-700 transition-colors">
+                                                {sub.title}
+                                            </h3>
+                                            <p className="text-slate-600 text-sm leading-relaxed">
+                                                {sub.desc}
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            ))}
+                        </div>
+                    </div>
+                </section>
+            )}
 
             {/* The Process (Timeline) */}
             <section className="py-16 md:py-24 px-4">

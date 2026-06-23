@@ -86,13 +86,13 @@
         "id": "knee-treatment",
         "title": "Knee Treatment",
         "icon": "Activity",
-        "desc": "ACL Reconstruction Surgery · Revision ACL Reconstruction · PCL Reconstruction Surgery · Cartilage Repair · Knee Arthritis Treatments · Knee Fracture Repair · Ligament Repair Surgery · Meniscus Tear Surgery, Stem Cell therapy",
-        "heroImage": "/doctor/images/cas.jpeg",
+        "desc": "ACL Reconstruction Surgery · Revision ACL Reconstruction · PCL Reconstruction Surgery · Cartilage Repair · Knee Arthritis Treatments · Knee Fracture Repair · Ligament Repair Surgery · Meniscus Tear Surgery · Stem Cell therapy",
+        "heroImage": "/doctor/images/specialties/knee_specialty.png",
         "intro": "The knee is a complex joint critical for mobility. Dr. Jinsiwale specializes in advanced knee procedures, from keyhole ACL reconstructions to complex revision surgeries. We restore joint function using state-of-the-art repair techniques.",
         "technology": {
           "title": "Double-Bundle ACL Reconstruction & Cartilage Repair",
           "content": "We utilize advanced double-bundle techniques for ACL reconstruction, mimicking natural anatomy for superior stability. Cartilage repair procedures like microfracture or OATS are done using minimally invasive arthroscopy.",
-          "image": "/doctor/images/cas.jpeg",
+          "image": "/doctor/images/specialties/knee_specialty.png",
           "imageCaption": "Advanced knee arthroscopy and ligament repair visualization"
         },
         "process": [
@@ -109,19 +109,75 @@
             "desc": "Progressive physiotherapy to ensure full mobility."
           }
         ],
-        "doctorExpertise": "Knee stability is crucial for active living. Whether reconstructing a torn ACL or repairing damaged meniscus, our approach is minimally invasive and anatomically precise to get you back to your routine quickly."
+        "doctorExpertise": "Knee stability is crucial for active living. Whether reconstructing a torn ACL or repairing damaged meniscus, our approach is minimally invasive and anatomically precise to get you back to your routine quickly.",
+        "subTreatments": [
+          {
+            "id": "acl-reconstruction-surgery",
+            "title": "ACL Reconstruction Surgery",
+            "desc": "Minimally invasive arthroscopic procedure to reconstruct a torn Anterior Cruciate Ligament using a graft.",
+            "image": "/doctor/images/specialties/knee_specialty.png"
+          },
+          {
+            "id": "revision-acl-reconstruction",
+            "title": "Revision ACL Reconstruction",
+            "desc": "Complex procedure to reconstruct a failed or re-ruptured ACL graft, restoring knee stability and function.",
+            "image": "/doctor/images/specialties/knee_specialty.png"
+          },
+          {
+            "id": "pcl-reconstruction-surgery",
+            "title": "PCL Reconstruction Surgery",
+            "desc": "Reconstruction of the Posterior Cruciate Ligament to treat instability in the back of the knee.",
+            "image": "/doctor/images/specialties/knee_specialty.png"
+          },
+          {
+            "id": "cartilage-repair",
+            "title": "Cartilage Repair",
+            "desc": "Advanced arthroscopic techniques like microfracture or OATS to repair and regenerate worn joint cartilage.",
+            "image": "/doctor/images/specialties/knee_specialty.png"
+          },
+          {
+            "id": "knee-arthritis-treatments",
+            "title": "Knee Arthritis Treatments",
+            "desc": "Comprehensive conservative and surgical management for knee arthritis, including injections and therapy.",
+            "image": "/doctor/images/specialties/knee_specialty.png"
+          },
+          {
+            "id": "knee-fracture-repair",
+            "title": "Knee Fracture Repair",
+            "desc": "Surgical fixation of patella, tibial plateau, or distal femur fractures using advanced plating systems.",
+            "image": "/doctor/images/specialties/knee_specialty.png"
+          },
+          {
+            "id": "ligament-repair-surgery",
+            "title": "Ligament Repair Surgery",
+            "desc": "Surgical treatment for tear of collateral ligaments (MCL/LCL) to restore lateral knee stability.",
+            "image": "/doctor/images/specialties/knee_specialty.png"
+          },
+          {
+            "id": "meniscus-tear-surgery",
+            "title": "Meniscus Tear Surgery",
+            "desc": "Arthroscopic meniscus suturing or partial meniscectomy to restore knee cushioning and prevent arthritis.",
+            "image": "/doctor/images/specialties/knee_specialty.png"
+          },
+          {
+            "id": "stem-cell-therapy",
+            "title": "Stem Cell therapy",
+            "desc": "Biological cellular therapy to promote natural regeneration of early-stage joint cartilage wear.",
+            "image": "/doctor/images/specialties/knee_specialty.png"
+          }
+        ]
       },
       {
         "id": "shoulder-treatment",
         "title": "Shoulder Treatment",
         "icon": "Activity",
         "desc": "AC Joint Repair · Biceps Tendon Treatment · Collarbone Fracture Treatment · SLAP Tear Treatment · Rotator Cuff Repair · Shoulder Instability/Dislocation Treatment · Frozen Shoulder Treatment",
-        "heroImage": "/doctor/images/implant-demo.jpg",
+        "heroImage": "/doctor/images/specialties/shoulder_specialty.png",
         "intro": "Shoulder injuries can severely restrict arm movement and affect daily life. We offer comprehensive solutions ranging from arthroscopic rotator cuff repairs to advanced stabilization for recurrent shoulder dislocations.",
         "technology": {
           "title": "Arthroscopic Rotator Cuff Repair & Stabilization",
           "content": "Using high-definition shoulder arthroscopy, we repair torn tendons and stabilize the joint capsule through tiny incisions, ensuring minimal scarring and faster recovery.",
-          "image": "/doctor/images/implant-demo.jpg",
+          "image": "/doctor/images/specialties/shoulder_specialty.png",
           "imageCaption": "Minimally invasive shoulder stabilization demo"
         },
         "process": [
@@ -138,19 +194,63 @@
             "desc": "Graduated exercises to restore full range of motion."
           }
         ],
-        "doctorExpertise": "The shoulder is our most mobile joint, making it highly susceptible to instability and rotator cuff tears. Arthroscopic repairs allow us to restore overhead function with minimal disruption to the surrounding muscle."
+        "doctorExpertise": "The shoulder is our most mobile joint, making it highly susceptible to instability and rotator cuff tears. Arthroscopic repairs allow us to restore overhead function with minimal disruption to the surrounding muscle.",
+        "subTreatments": [
+          {
+            "id": "ac-joint-repair",
+            "title": "AC Joint Repair",
+            "desc": "Stabilization of the acromioclavicular joint after shoulder separation or trauma.",
+            "image": "/doctor/images/specialties/shoulder_specialty.png"
+          },
+          {
+            "id": "biceps-tendon-treatment",
+            "title": "Biceps Tendon Treatment",
+            "desc": "Repair or relocation (tenodesis) of the long head of the biceps tendon for shoulder pain relief.",
+            "image": "/doctor/images/specialties/shoulder_specialty.png"
+          },
+          {
+            "id": "collarbone-fracture-treatment",
+            "title": "Collarbone Fracture Treatment",
+            "desc": "Surgical plating or alignment of clavicle fractures to ensure correct healing and shoulder function.",
+            "image": "/doctor/images/specialties/shoulder_specialty.png"
+          },
+          {
+            "id": "slap-tear-treatment",
+            "title": "SLAP Tear Treatment",
+            "desc": "Arthroscopic repair of superior labral tears from anterior to posterior in the shoulder joint.",
+            "image": "/doctor/images/specialties/shoulder_specialty.png"
+          },
+          {
+            "id": "rotator-cuff-repair",
+            "title": "Rotator Cuff Repair",
+            "desc": "Arthroscopic suturing of rotator cuff tendon tears to restore shoulder strength and mobility.",
+            "image": "/doctor/images/specialties/shoulder_specialty.png"
+          },
+          {
+            "id": "shoulder-instability-dislocation-treatment",
+            "title": "Shoulder Instability/Dislocation Treatment",
+            "desc": "Arthroscopic Bankart repair or open Latarjet procedure to stabilize recurrent shoulder dislocations.",
+            "image": "/doctor/images/specialties/shoulder_specialty.png"
+          },
+          {
+            "id": "frozen-shoulder-treatment",
+            "title": "Frozen Shoulder Treatment",
+            "desc": "Physiotherapy, joint distension, or arthroscopic capsular release to restore shoulder range of motion.",
+            "image": "/doctor/images/specialties/shoulder_specialty.png"
+          }
+        ]
       },
       {
         "id": "hip-treatment",
         "title": "Hip Treatment",
         "icon": "Activity",
         "desc": "Hip Arthroscopy · Labral Tear Repair · Femoroacetabular Impingement (FAI) Treatment · Hip Fracture Repair · Avascular Necrosis Treatment · Hip Dysplasia Treatment · Hip Bursitis Treatment",
-        "heroImage": "/doctor/images/implant-demo.jpg",
+        "heroImage": "/doctor/images/specialties/hip_specialty.png",
         "intro": "Hip pain, whether from a labral tear or Avascular Necrosis (AVN), requires early intervention. We offer specialized hip arthroscopy and muscle-sparing procedures to treat structural problems and protect the joint from long-term wear.",
         "technology": {
           "title": "Muscle-Sparing Hip Arthroscopy",
           "content": "Hip arthroscopy allows us to access the deep hip joint to trim bony overgrowths (FAI) and repair torn labral cartilage without major incisions, preserving the key stability muscles.",
-          "image": "/doctor/images/implant-demo.jpg",
+          "image": "/doctor/images/specialties/hip_specialty.png",
           "imageCaption": "Advanced hip joint mapping and labral repair"
         },
         "process": [
@@ -167,19 +267,63 @@
             "desc": "Specialized exercises to protect and strengthen the hip."
           }
         ],
-        "doctorExpertise": "Hip preservation is our priority. By performing early hip arthroscopy for impingement and labral tears, we can prevent or significantly delay the onset of severe arthritis, keeping you active."
+        "doctorExpertise": "Hip preservation is our priority. By performing early hip arthroscopy for impingement and labral tears, we can prevent or significantly delay the onset of severe arthritis, keeping you active.",
+        "subTreatments": [
+          {
+            "id": "hip-arthroscopy",
+            "title": "Hip Arthroscopy",
+            "desc": "Minimally invasive keyhole surgery to inspect, diagnose, and treat structural hip joint disorders.",
+            "image": "/doctor/images/specialties/hip_specialty.png"
+          },
+          {
+            "id": "labral-tear-repair",
+            "title": "Labral Tear Repair",
+            "desc": "Arthroscopic repair or debridement of the acetabular labrum to relieve deep hip pain.",
+            "image": "/doctor/images/specialties/hip_specialty.png"
+          },
+          {
+            "id": "femoroacetabular-impingement-fai-treatment",
+            "title": "Femoroacetabular Impingement (FAI) Treatment",
+            "desc": "Surgical reshaping of the hip ball or socket to prevent bone friction and protect cartilage.",
+            "image": "/doctor/images/specialties/hip_specialty.png"
+          },
+          {
+            "id": "hip-fracture-repair",
+            "title": "Hip Fracture Repair",
+            "desc": "Surgical fixation of femoral neck or intertrochanteric fractures using nails, screws, or plates.",
+            "image": "/doctor/images/specialties/hip_specialty.png"
+          },
+          {
+            "id": "avascular-necrosis-treatment",
+            "title": "Avascular Necrosis Treatment",
+            "desc": "Core decompression or bone grafting to restore blood flow to the dying femoral head bone.",
+            "image": "/doctor/images/specialties/hip_specialty.png"
+          },
+          {
+            "id": "hip-dysplasia-treatment",
+            "title": "Hip Dysplasia Treatment",
+            "desc": "Surgical or conservative correction of shallow hip sockets to improve stability and alignment.",
+            "image": "/doctor/images/specialties/hip_specialty.png"
+          },
+          {
+            "id": "hip-bursitis-treatment",
+            "title": "Hip Bursitis Treatment",
+            "desc": "Treatment of inflamed hip bursae using physiotherapy, injections, or minimally invasive removal.",
+            "image": "/doctor/images/specialties/hip_specialty.png"
+          }
+        ]
       },
       {
         "id": "elbow-treatment",
         "title": "Elbow Treatment",
         "icon": "Activity",
         "desc": "Tennis Elbow Treatment · Golfer's Elbow Treatment · Elbow Arthroscopy · Elbow Ligament (UCL) Reconstruction · Elbow Fracture Repair · Elbow Dislocation Treatment · Cubital Tunnel Syndrome Treatment",
-        "heroImage": "/doctor/images/couple-running.jpg",
+        "heroImage": "/doctor/images/specialties/elbow_specialty.png",
         "intro": "From tennis elbow to complex elbow dislocations, we diagnose and treat injuries affecting this critical hinge joint. Our focus is on restoring pain-free extension, flexion, and rotation.",
         "technology": {
           "title": "Elbow Arthroscopy & Ligament Reconstruction",
           "content": "Minimally invasive elbow arthroscopy helps remove loose bodies and treat tennis elbow. For overhead athletes with ligament tears, we perform Tommy John surgery (UCL Reconstruction).",
-          "image": "/doctor/images/couple-running.jpg",
+          "image": "/doctor/images/specialties/elbow_specialty.png",
           "imageCaption": "Microsurgical elbow ligament repair setup"
         },
         "process": [
@@ -196,19 +340,63 @@
             "desc": "Guided occupational and physical therapy."
           }
         ],
-        "doctorExpertise": "Elbow stiffness can be highly disabling. By utilizing minimally invasive arthroscopy for debris removal and advanced reconstructions for ligament stability, we restore smooth hinge movement."
+        "doctorExpertise": "Elbow stiffness can be highly disabling. By utilizing minimally invasive arthroscopy for debris removal and advanced reconstructions for ligament stability, we restore smooth hinge movement.",
+        "subTreatments": [
+          {
+            "id": "tennis-elbow-treatment",
+            "title": "Tennis Elbow Treatment",
+            "desc": "Conservative therapy, PRP injections, or tendon release surgery for outer elbow tendonitis.",
+            "image": "/doctor/images/specialties/elbow_specialty.png"
+          },
+          {
+            "id": "golfer-s-elbow-treatment",
+            "title": "Golfer's Elbow Treatment",
+            "desc": "Targeted therapy, injections, or surgical debridement of damaged inner elbow tendons.",
+            "image": "/doctor/images/specialties/elbow_specialty.png"
+          },
+          {
+            "id": "elbow-arthroscopy",
+            "title": "Elbow Arthroscopy",
+            "desc": "Keyhole surgery to remove loose bone/cartilage fragments and treat elbow joint stiffness.",
+            "image": "/doctor/images/specialties/elbow_specialty.png"
+          },
+          {
+            "id": "elbow-ligament-ucl-reconstruction",
+            "title": "Elbow Ligament (UCL) Reconstruction",
+            "desc": "Tommy John surgery to rebuild the ulnar collateral ligament, commonly performed for athletes.",
+            "image": "/doctor/images/specialties/elbow_specialty.png"
+          },
+          {
+            "id": "elbow-fracture-repair",
+            "title": "Elbow Fracture Repair",
+            "desc": "Surgical fixation of olecranon or radial head fractures to restore elbow hinge movement.",
+            "image": "/doctor/images/specialties/elbow_specialty.png"
+          },
+          {
+            "id": "elbow-dislocation-treatment",
+            "title": "Elbow Dislocation Treatment",
+            "desc": "Joint reduction and surgical or brace-based repair of unstable elbow ligaments.",
+            "image": "/doctor/images/specialties/elbow_specialty.png"
+          },
+          {
+            "id": "cubital-tunnel-syndrome-treatment",
+            "title": "Cubital Tunnel Syndrome Treatment",
+            "desc": "Decompression or transposition of the ulnar nerve at the elbow to relieve finger numbness.",
+            "image": "/doctor/images/specialties/elbow_specialty.png"
+          }
+        ]
       },
       {
-        "id": "wrist-&-hand-treatment",
+        "id": "wrist-and-hand-treatment",
         "title": "Wrist & Hand Treatment",
         "icon": "Activity",
-        "desc": "Carpal Tunnel Release · Trigger Finger Release · De Quervain's Tenosynovitis Treatment · Wrist Fracture Surgery · Hand & Finger Fracture Repair · Ganglion Cyst Removal · Wrist Arthroscopy · Hand/Wrist Tendon Repair, Scaphoid fracture treatment",
-        "heroImage": "/doctor/images/hand-model.png",
+        "desc": "Carpal Tunnel Release · Trigger Finger Release · De Quervain's Tenosynovitis Treatment · Wrist Fracture Surgery · Hand & Finger Fracture Repair · Ganglion Cyst Removal · Wrist Arthroscopy · Hand/Wrist Tendon Repair · Scaphoid fracture treatment",
+        "heroImage": "/doctor/images/specialties/hand_wrist_specialty.png",
         "intro": "Hands are our primary tools for interaction. We address carpal tunnel syndrome, trigger fingers, and complex wrist fractures using microscopic techniques to preserve touch and dexterity.",
         "technology": {
           "title": "Microsurgical Nerve Decompression & Tendon Repair",
           "content": "We perform endoscopic carpal tunnel release for rapid recovery, and use specialized microsurgical sutures to repair delicate hand nerves and tendons.",
-          "image": "/doctor/images/hand-model.png",
+          "image": "/doctor/images/specialties/hand_wrist_specialty.png",
           "imageCaption": "Fine microsurgical instruments used in hand reconstruction"
         },
         "process": [
@@ -225,19 +413,75 @@
             "desc": "Hand therapy to restore fine motor skills."
           }
         ],
-        "doctorExpertise": "Reconstructing the hand is a delicate art. Under high magnification, we repair microscopic nerves and tendons to restore the intricate mechanics and sensation of your fingers."
+        "doctorExpertise": "Reconstructing the hand is a delicate art. Under high magnification, we repair microscopic nerves and tendons to restore the intricate mechanics and sensation of your fingers.",
+        "subTreatments": [
+          {
+            "id": "carpal-tunnel-release",
+            "title": "Carpal Tunnel Release",
+            "desc": "Endoscopic or open decompression of the median nerve to treat numbness and tingling in the hand.",
+            "image": "/doctor/images/specialties/hand_wrist_specialty.png"
+          },
+          {
+            "id": "trigger-finger-release",
+            "title": "Trigger Finger Release",
+            "desc": "Percutaneous or open release of the finger tendon sheath to eliminate locking and catching.",
+            "image": "/doctor/images/specialties/hand_wrist_specialty.png"
+          },
+          {
+            "id": "de-quervain-s-tenosynovitis-treatment",
+            "title": "De Quervain's Tenosynovitis Treatment",
+            "desc": "Therapy, splinting, or surgical release of the thumb tendon compartment to cure wrist pain.",
+            "image": "/doctor/images/specialties/hand_wrist_specialty.png"
+          },
+          {
+            "id": "wrist-fracture-surgery",
+            "title": "Wrist Fracture Surgery",
+            "desc": "Fixation of distal radius or carpal fractures with low-profile plates and screws for rapid recovery.",
+            "image": "/doctor/images/specialties/hand_wrist_specialty.png"
+          },
+          {
+            "id": "hand-finger-fracture-repair",
+            "title": "Hand & Finger Fracture Repair",
+            "desc": "Precise surgical alignment and fixation of metacarpal and phalangeal bone fractures.",
+            "image": "/doctor/images/specialties/hand_wrist_specialty.png"
+          },
+          {
+            "id": "ganglion-cyst-removal",
+            "title": "Ganglion Cyst Removal",
+            "desc": "Surgical excision of painful or restrictive fluid-filled cysts from the wrist or finger joints.",
+            "image": "/doctor/images/specialties/hand_wrist_specialty.png"
+          },
+          {
+            "id": "wrist-arthroscopy",
+            "title": "Wrist Arthroscopy",
+            "desc": "Keyhole evaluation and treatment of ligament tears, cartilage damage, or chronic wrist pain.",
+            "image": "/doctor/images/specialties/hand_wrist_specialty.png"
+          },
+          {
+            "id": "hand-wrist-tendon-repair",
+            "title": "Hand/Wrist Tendon Repair",
+            "desc": "Microsurgical repair of severed or torn flexor and extensor tendons to restore finger movement.",
+            "image": "/doctor/images/specialties/hand_wrist_specialty.png"
+          },
+          {
+            "id": "scaphoid-fracture-treatment",
+            "title": "Scaphoid fracture treatment",
+            "desc": "Specialized fixation of scaphoid fractures to prevent non-union and avascular necrosis.",
+            "image": "/doctor/images/specialties/hand_wrist_specialty.png"
+          }
+        ]
       },
       {
-        "id": "foot-&-ankle-treatment",
+        "id": "foot-and-ankle-treatment",
         "title": "Foot & Ankle Treatment",
         "icon": "Activity",
-        "desc": "Ankle Fracture Surgery · Ankle Ligament Reconstruction · Achilles Tendon Repair · Plantar Fasciitis Treatment · Hallux Valgus (Bunion) Correction · Flat Foot Correction · Foot & Ankle Arthroscopy · Diabetic Foot Care, Ankle Sprain (ATFL Repair), Tendon Repair",
-        "heroImage": "/doctor/images/couple-running.jpg",
+        "desc": "Ankle Fracture Surgery · Ankle Ligament Reconstruction · Achilles Tendon Repair · Plantar Fasciitis Treatment · Hallux Valgus (Bunion) Correction · Flat Foot Correction · Foot & Ankle Arthroscopy · Diabetic Foot Care · Ankle Sprain (ATFL Repair) · Tendon Repair",
+        "heroImage": "/doctor/images/specialties/foot_ankle_specialty.png",
         "intro": "Proper foot and ankle alignment is essential for balance and gait. We treat sports injuries, structural deformities like bunions, and chronic conditions like plantar fasciitis.",
         "technology": {
           "title": "Ankle Arthroscopy & Achilles Reconstruction",
           "content": "Minimally invasive ankle arthroscopy is used to clear bone spurs and repair ligaments. For Achilles ruptures, we perform high-strength repairs allowing early weight-bearing.",
-          "image": "/doctor/images/couple-running.jpg",
+          "image": "/doctor/images/specialties/foot_ankle_specialty.png",
           "imageCaption": "Specialized ankle arthroscopy setup"
         },
         "process": [
@@ -254,19 +498,81 @@
             "desc": "Custom insoles and walking rehabilitation."
           }
         ],
-        "doctorExpertise": "The foot and ankle support your entire body weight. Restoring stability to the ankle joint and repairing tendons with advanced techniques ensures pain-free walking and running."
+        "doctorExpertise": "The foot and ankle support your entire body weight. Restoring stability to the ankle joint and repairing tendons with advanced techniques ensures pain-free walking and running.",
+        "subTreatments": [
+          {
+            "id": "ankle-fracture-surgery",
+            "title": "Ankle Fracture Surgery",
+            "desc": "Anatomical stabilization of lateral, medial, or bimalleolar ankle fractures using implants.",
+            "image": "/doctor/images/specialties/foot_ankle_specialty.png"
+          },
+          {
+            "id": "ankle-ligament-reconstruction",
+            "title": "Ankle Ligament Reconstruction",
+            "desc": "Broström-Gould procedure to reconstruct unstable lateral ankle ligaments after chronic sprains.",
+            "image": "/doctor/images/specialties/foot_ankle_specialty.png"
+          },
+          {
+            "id": "achilles-tendon-repair",
+            "title": "Achilles Tendon Repair",
+            "desc": "Surgical suture or reconstruction of a ruptured Achilles tendon to restore pushing-off strength.",
+            "image": "/doctor/images/specialties/foot_ankle_specialty.png"
+          },
+          {
+            "id": "plantar-fasciitis-treatment",
+            "title": "Plantar Fasciitis Treatment",
+            "desc": "Conservative stretching, night splints, PRP injections, or surgical release of the plantar fascia.",
+            "image": "/doctor/images/specialties/foot_ankle_specialty.png"
+          },
+          {
+            "id": "hallux-valgus-bunion-correction",
+            "title": "Hallux Valgus (Bunion) Correction",
+            "desc": "Surgical realignment of the big toe joint (bunionectomy) to eliminate pain and deformity.",
+            "image": "/doctor/images/specialties/foot_ankle_specialty.png"
+          },
+          {
+            "id": "flat-foot-correction",
+            "title": "Flat Foot Correction",
+            "desc": "Reconstructive procedures like tendon transfers and osteotomies to rebuild the foot arch.",
+            "image": "/doctor/images/specialties/foot_ankle_specialty.png"
+          },
+          {
+            "id": "foot-ankle-arthroscopy",
+            "title": "Foot & Ankle Arthroscopy",
+            "desc": "Minimally invasive clearing of bone spurs, loose fragments, and cartilage lesions in the ankle.",
+            "image": "/doctor/images/specialties/foot_ankle_specialty.png"
+          },
+          {
+            "id": "diabetic-foot-care",
+            "title": "Diabetic Foot Care",
+            "desc": "Advanced wound debridement, offloading, and limb salvage surgeries for complex diabetic ulcers.",
+            "image": "/doctor/images/specialties/foot_ankle_specialty.png"
+          },
+          {
+            "id": "ankle-sprain-atfl-repair",
+            "title": "Ankle Sprain (ATFL Repair)",
+            "desc": "Precise repair of the anterior talofibular ligament (ATFL) for chronic ankle instability.",
+            "image": "/doctor/images/specialties/foot_ankle_specialty.png"
+          },
+          {
+            "id": "tendon-repair",
+            "title": "Tendon Repair",
+            "desc": "Surgical reconstruction of torn peroneal, tibialis posterior, or flexor tendons in the foot.",
+            "image": "/doctor/images/specialties/foot_ankle_specialty.png"
+          }
+        ]
       },
       {
         "id": "spine-treatment",
         "title": "Spine Treatment",
         "icon": "Activity",
-        "desc": "Disc Herniation Treatment · Spinal Fusion Surgery · Sciatica Treatment · Scoliosis Treatment · Spinal Stenosis Treatment · Vertebral Compression Fracture Treatment · Spinal Trauma Management, Epidural block for Disc Herniation, Spinal Fracture, Sciatica, Spondylosis",
-        "heroImage": "/doctor/images/spine-model.jpg",
+        "desc": "Disc Herniation Treatment · Spinal Fusion Surgery · Sciatica Treatment · Scoliosis Treatment · Spinal Stenosis Treatment · Vertebral Compression Fracture Treatment · Spinal Trauma Management · Epidural block for Disc Herniation · Spinal Fracture · Sciatica · Spondylosis",
+        "heroImage": "/doctor/images/specialties/spine_specialty.png",
         "intro": "Chronic back pain and radiating nerve pain can be exhausting. Our treatment protocols prioritize conservative therapy first, followed by microsurgical spinal decompression or fusion if necessary.",
         "technology": {
           "title": "Minimally Invasive Spine Surgery (MISS)",
           "content": "Using specialized tubular retractors and microscopes, we treat disc slips and spinal stenosis through incisions less than an inch long, preserving normal spine structure.",
-          "image": "/doctor/images/spine-model.jpg",
+          "image": "/doctor/images/specialties/spine_specialty.png",
           "imageCaption": "Minimally invasive spine decompression representation"
         },
         "process": [
@@ -283,19 +589,87 @@
             "desc": "Specialized physical therapy to build spine support."
           }
         ],
-        "doctorExpertise": "Spine surgery has evolved dramatically. With microsurgical spinal decompression, we relieve severe sciatica pain immediately through a tiny keyhole incision, ensuring a safe and rapid recovery."
+        "doctorExpertise": "Spine surgery has evolved dramatically. With microsurgical spinal decompression, we relieve severe sciatica pain immediately through a tiny keyhole incision, ensuring a safe and rapid recovery.",
+        "subTreatments": [
+          {
+            "id": "disc-herniation-treatment",
+            "title": "Disc Herniation Treatment",
+            "desc": "Microdiscectomy to remove slipped disc fragments relieving spinal nerve root compression.",
+            "image": "/doctor/images/specialties/spine_specialty.png"
+          },
+          {
+            "id": "spinal-fusion-surgery",
+            "title": "Spinal Fusion Surgery",
+            "desc": "Stabilizing two or more vertebrae using bone grafts, rods, and screws for chronic back instability.",
+            "image": "/doctor/images/specialties/spine_specialty.png"
+          },
+          {
+            "id": "sciatica-treatment",
+            "title": "Sciatica Treatment",
+            "desc": "Therapy, epidural injections, or microsurgical decompression to cure shooting leg nerve pain.",
+            "image": "/doctor/images/specialties/spine_specialty.png"
+          },
+          {
+            "id": "scoliosis-treatment",
+            "title": "Scoliosis Treatment",
+            "desc": "Bracing or surgical correction and stabilization of abnormal lateral curvatures of the spine.",
+            "image": "/doctor/images/specialties/spine_specialty.png"
+          },
+          {
+            "id": "spinal-stenosis-treatment",
+            "title": "Spinal Stenosis Treatment",
+            "desc": "Decompressive laminectomy to widen the spinal canal and relieve pressure on the spinal cord.",
+            "image": "/doctor/images/specialties/spine_specialty.png"
+          },
+          {
+            "id": "vertebral-compression-fracture-treatment",
+            "title": "Vertebral Compression Fracture Treatment",
+            "desc": "Kyphoplasty or vertebroplasty to inject bone cement into fractured vertebrae, relieving pain.",
+            "image": "/doctor/images/specialties/spine_specialty.png"
+          },
+          {
+            "id": "spinal-trauma-management",
+            "title": "Spinal Trauma Management",
+            "desc": "Emergency stabilization and surgical fixation of spinal cord injuries and vertebral fractures.",
+            "image": "/doctor/images/specialties/spine_specialty.png"
+          },
+          {
+            "id": "epidural-block-for-disc-herniation",
+            "title": "Epidural block for Disc Herniation",
+            "desc": "Targeted anti-inflammatory steroid injection into the epidural space for pain relief.",
+            "image": "/doctor/images/specialties/spine_specialty.png"
+          },
+          {
+            "id": "spinal-fracture",
+            "title": "Spinal Fracture",
+            "desc": "Surgical stabilization of spine fractures to protect the spinal cord and restore spine integrity.",
+            "image": "/doctor/images/specialties/spine_specialty.png"
+          },
+          {
+            "id": "sciatica",
+            "title": "Sciatica",
+            "desc": "Specialized treatment and expert medical care for Sciatica.",
+            "image": "/doctor/images/spine-model.jpg"
+          },
+          {
+            "id": "spondylosis",
+            "title": "Spondylosis",
+            "desc": "Therapeutic and minimally invasive management of age-related spine wear and tear.",
+            "image": "/doctor/images/specialties/spine_specialty.png"
+          }
+        ]
       },
       {
         "id": "pediatric-orthopaedics",
         "title": "Pediatric Orthopaedics",
         "icon": "Activity",
         "desc": "Clubfoot Treatment · Developmental Hip Dysplasia · Growth Plate Fracture Care · Pediatric Limb Deformity Correction · Pediatric Sports Injuries",
-        "heroImage": "/doctor/images/recons-2.png",
+        "heroImage": "/doctor/images/specialties/pediatric_specialty.png",
         "intro": "Children's bones are still growing, making orthopedic care highly specialized. We provide gentle, expert treatments for congenital conditions like clubfoot and developmental hip dysplasia.",
         "technology": {
           "title": "Ponseti Method & Growth Modulation",
           "content": "We use non-surgical serial casting (Ponseti method) for clubfoot correction. For limb deformities, we perform minimally invasive growth plate modulation (guided growth) to straighten legs naturally.",
-          "image": "/doctor/images/recons-2.png",
+          "image": "/doctor/images/specialties/pediatric_specialty.png",
           "imageCaption": "Guided growth plating technique for children"
         },
         "process": [
@@ -312,19 +686,51 @@
             "desc": "Scheduled follow-ups to ensure correct alignment as the child grows."
           }
         ],
-        "doctorExpertise": "Children are not miniature adults. Their growing bones require specialized techniques like guided growth to correct deformities without affecting their future development."
+        "doctorExpertise": "Children are not miniature adults. Their growing bones require specialized techniques like guided growth to correct deformities without affecting their future development.",
+        "subTreatments": [
+          {
+            "id": "clubfoot-treatment",
+            "title": "Clubfoot Treatment",
+            "desc": "Non-surgical Ponseti method of serial casting followed by minor Achilles tenotomy.",
+            "image": "/doctor/images/specialties/pediatric_specialty.png"
+          },
+          {
+            "id": "developmental-hip-dysplasia",
+            "title": "Developmental Hip Dysplasia",
+            "desc": "Pavlik harness, closed reduction casting, or pelvic osteotomy to stabilize pediatric hip joints.",
+            "image": "/doctor/images/specialties/pediatric_specialty.png"
+          },
+          {
+            "id": "growth-plate-fracture-care",
+            "title": "Growth Plate Fracture Care",
+            "desc": "Specialized monitoring and precise fixation of growth plate injuries to prevent limb shortening.",
+            "image": "/doctor/images/specialties/pediatric_specialty.png"
+          },
+          {
+            "id": "pediatric-limb-deformity-correction",
+            "title": "Pediatric Limb Deformity Correction",
+            "desc": "Guided growth plate modulation plates or external fixators to straighten pediatric bowlegs or knock-knees.",
+            "image": "/doctor/images/specialties/pediatric_specialty.png"
+          },
+          {
+            "id": "pediatric-sports-injuries",
+            "title": "Pediatric Sports Injuries",
+            "desc": "Gentle repair of ligament, meniscus, or joint injuries in active children, safeguarding growth plates.",
+            "image": "/doctor/images/specialties/pediatric_specialty.png"
+          }
+        ]
       },
       {
         "id": "sports-medicine",
         "title": "Sports Medicine",
         "icon": "Activity",
-        "desc": "Achilles Tendon Rupture Repair · Pectoralis Major Tendon Repair · Triceps Tendon Rupture Surgery · Sports Hernia Treatment · Stress Fracture Management · Return-to-Sport Rehabilitation, Supraspinatus Tendon tear",
-        "heroImage": "/doctor/images/arthroscopy-tower.jpg",
+        "desc": "Achilles Tendon Rupture Repair · Pectoralis Major Tendon Repair · Triceps Tendon Rupture Surgery · Sports Hernia Treatment · Stress Fracture Management · Return-to-Sport Rehabilitation · Supraspinatus Tendon tear",
+        "heroImage": "/doctor/images/specialties/sports_specialty.png",
         "intro": "Sports injuries require a unique recovery path focused on speed, power, and coordination. We offer surgical repair for tendon ruptures (Achilles, triceps, pectoralis) and customized rehabilitation programs.",
         "technology": {
           "title": "High-Strength Tendon Repair & Biologics",
           "content": "We use ultra-strong fiber-wire sutures for tendon repair alongside regenerative therapies (PRP) to speed up cellular healing and restore pre-injury performance.",
-          "image": "/doctor/images/arthroscopy-tower.jpg",
+          "image": "/doctor/images/specialties/sports_specialty.png",
           "imageCaption": "Advanced tendon repair instrumentation"
         },
         "process": [
@@ -341,19 +747,63 @@
             "desc": "Specific athletic training to restore joint load capacity."
           }
         ],
-        "doctorExpertise": "Athletic injuries demand a precise balance of mechanical strength and rapid healing. We combine bio-absorbable anchors with regenerative therapies to help you return to your sport safely."
+        "doctorExpertise": "Athletic injuries demand a precise balance of mechanical strength and rapid healing. We combine bio-absorbable anchors with regenerative therapies to help you return to your sport safely.",
+        "subTreatments": [
+          {
+            "id": "achilles-tendon-rupture-repair",
+            "title": "Achilles Tendon Rupture Repair",
+            "desc": "High-strength surgical suturing of torn Achilles tendons using fiber-wire systems.",
+            "image": "/doctor/images/specialties/sports_specialty.png"
+          },
+          {
+            "id": "pectoralis-major-tendon-repair",
+            "title": "Pectoralis Major Tendon Repair",
+            "desc": "Reattachment of torn pectoralis major tendons to the humerus using cortical buttons or anchors.",
+            "image": "/doctor/images/specialties/sports_specialty.png"
+          },
+          {
+            "id": "triceps-tendon-rupture-surgery",
+            "title": "Triceps Tendon Rupture Surgery",
+            "desc": "Surgical repair of triceps tendon tears off the olecranon to restore elbow extension power.",
+            "image": "/doctor/images/specialties/sports_specialty.png"
+          },
+          {
+            "id": "sports-hernia-treatment",
+            "title": "Sports Hernia Treatment",
+            "desc": "Surgical or conservative repair of torn groin muscles to cure chronic athletic groin pain.",
+            "image": "/doctor/images/specialties/sports_specialty.png"
+          },
+          {
+            "id": "stress-fracture-management",
+            "title": "Stress Fracture Management",
+            "desc": "Physiotherapy, offloading, and alignment management of bone stress fractures in athletes.",
+            "image": "/doctor/images/specialties/sports_specialty.png"
+          },
+          {
+            "id": "return-to-sport-rehabilitation",
+            "title": "Return-to-Sport Rehabilitation",
+            "desc": "Tailored athletic training and biomechanical conditioning to ensure a safe return to competitive play.",
+            "image": "/doctor/images/specialties/sports_specialty.png"
+          },
+          {
+            "id": "supraspinatus-tendon-tear",
+            "title": "Supraspinatus Tendon tear",
+            "desc": "Arthroscopic repair of supraspinatus rotator cuff tears to eliminate shoulder pain and weakness.",
+            "image": "/doctor/images/specialties/sports_specialty.png"
+          }
+        ]
       },
       {
         "id": "joint-replacement-surgeries",
         "title": "Joint Replacement Surgeries",
         "icon": "Activity",
-        "desc": "Total Knee Replacement · Partial/Unicompartmental Knee Replacement(microplasty) · Total Hip Replacement · Shoulder Replacement (Total/Reverse) · Revision Joint Replacement · Robotic-Assisted Joint Replacement, Complex Hip Replacement (Failed Hip Surgeries)",
-        "heroImage": "/doctor/images/cas.jpeg",
+        "desc": "Total Knee Replacement · Partial/Unicompartmental Knee Replacement(microplasty) · Total Hip Replacement · Shoulder Replacement (Total/Reverse) · Revision Joint Replacement · Robotic-Assisted Joint Replacement · Complex Hip Replacement (Failed Hip Surgeries)",
+        "heroImage": "/doctor/images/specialties/joint_replacement_specialty.png",
         "intro": "Joint replacement can restore pain-free life to individuals suffering from severe arthritis. With over 10,000 replacements performed, Dr. Jinsiwale is a pioneer in computer-navigated and robotic-assisted surgeries.",
         "technology": {
           "title": "Robotic Navigation & High-Flex Implants",
           "content": "Infrared computerized navigation builds a 3D model of your joint in real-time, allowing sub-millimeter precision in bone cuts and implant placement, maximizing joint longevity.",
-          "image": "/doctor/images/cas.jpeg",
+          "image": "/doctor/images/specialties/joint_replacement_specialty.png",
           "imageCaption": "Robotic navigation knee replacement screen representation"
         },
         "process": [
@@ -370,19 +820,63 @@
             "desc": "Walking without support in 24-48 hours."
           }
         ],
-        "doctorExpertise": "A joint replacement is a lifetime investment. Using computerized robotic navigation ensures that the mechanical axis is perfectly aligned, resulting in a joint that feels entirely natural."
+        "doctorExpertise": "A joint replacement is a lifetime investment. Using computerized robotic navigation ensures that the mechanical axis is perfectly aligned, resulting in a joint that feels entirely natural.",
+        "subTreatments": [
+          {
+            "id": "total-knee-replacement",
+            "title": "Total Knee Replacement",
+            "desc": "Complete replacement of worn knee joint surfaces with advanced cobalt-chrome and ceramic implants.",
+            "image": "/doctor/images/specialties/joint_replacement_specialty.png"
+          },
+          {
+            "id": "partial-unicompartmental-knee-replacement-microplasty",
+            "title": "Partial/Unicompartmental Knee Replacement(microplasty)",
+            "desc": "Minimally invasive replacement of only the damaged compartment of the knee, preserving normal bone.",
+            "image": "/doctor/images/specialties/joint_replacement_specialty.png"
+          },
+          {
+            "id": "total-hip-replacement",
+            "title": "Total Hip Replacement",
+            "desc": "Replacement of the hip ball and socket with premium ceramic-on-polyethylene joint systems.",
+            "image": "/doctor/images/specialties/joint_replacement_specialty.png"
+          },
+          {
+            "id": "shoulder-replacement-total-reverse",
+            "title": "Shoulder Replacement (Total/Reverse)",
+            "desc": "Anatomical or reverse replacement of the shoulder joint for severe arthritis or complex fractures.",
+            "image": "/doctor/images/specialties/joint_replacement_specialty.png"
+          },
+          {
+            "id": "revision-joint-replacement",
+            "title": "Revision Joint Replacement",
+            "desc": "Complex replacement of failed, loose, or infected hip/knee implants using reconstruction systems.",
+            "image": "/doctor/images/specialties/joint_replacement_specialty.png"
+          },
+          {
+            "id": "robotic-assisted-joint-replacement",
+            "title": "Robotic-Assisted Joint Replacement",
+            "desc": "Sub-millimeter precise joint replacement surgery executed with computer navigation and robotic assistance.",
+            "image": "/doctor/images/specialties/joint_replacement_specialty.png"
+          },
+          {
+            "id": "complex-hip-replacement-failed-hip-surgeries",
+            "title": "Complex Hip Replacement (Failed Hip Surgeries)",
+            "desc": "Reconstruction of severe bone loss and anatomy distortion from previously failed hip procedures.",
+            "image": "/doctor/images/specialties/joint_replacement_specialty.png"
+          }
+        ]
       },
       {
-        "id": "reconstructive-&-regenerative-surgeries",
+        "id": "reconstructive-and-regenerative-surgeries",
         "title": "Reconstructive & Regenerative Surgeries",
         "icon": "Activity",
-        "desc": "Stromal Vascular Fraction (SVF) Therapy · Platelet-Rich Plasma (PRP) Therapy · Stem Cell Therapy ·Intra-articular Sinovium Therapy · Cartilage Regeneration & Restoration · Ligament & Tendon Reconstruction · Bone Grafting & Bone Regeneration · Complex Joint Reconstruction · Limb Reconstruction Surgery · Revision Surgery (Joint/Ligament) · Custom 3D-Printed Implants, Condroplasty and Mosaicplasty, Limb alignment surgery",
-        "heroImage": "/doctor/images/implant-demo.jpg",
+        "desc": "Stromal Vascular Fraction (SVF) Therapy · Platelet-Rich Plasma (PRP) Therapy · Stem Cell Therapy · Intra-articular Sinovium Therapy · Cartilage Regeneration & Restoration · Ligament & Tendon Reconstruction · Bone Grafting & Bone Regeneration · Complex Joint Reconstruction · Limb Reconstruction Surgery · Revision Surgery (Joint/Ligament) · Custom 3D-Printed Implants · Condroplasty and Mosaicplasty · Limb alignment surgery",
+        "heroImage": "/doctor/images/specialties/regenerative_specialty.png",
         "intro": "Regenerative medicine is reshaping orthopedic treatment. We offer cutting-edge biological therapies (SVF, PRP, Stem Cells) to heal damaged cartilage and tendons naturally, avoiding surgery.",
         "technology": {
           "title": "Stromal Vascular Fraction (SVF) & Cartilage Regeneration",
           "content": "SVF therapy uses your body's own adipose cells containing healing factors to treat early joint wear. Combined with cartilage restoration, it promotes natural repair.",
-          "image": "/doctor/images/implant-demo.jpg",
+          "image": "/doctor/images/specialties/regenerative_specialty.png",
           "imageCaption": "Laboratory processing of autologous growth factors"
         },
         "process": [
@@ -399,19 +893,99 @@
             "desc": "Guided placement into the damaged joint or tendon."
           }
         ],
-        "doctorExpertise": "Regenerative therapy represents a huge leap in medicine. By utilizing your body's own healing resources, we can regenerate cartilage and repair ligaments without invasive surgery."
+        "doctorExpertise": "Regenerative therapy represents a huge leap in medicine. By utilizing your body's own healing resources, we can regenerate cartilage and repair ligaments without invasive surgery.",
+        "subTreatments": [
+          {
+            "id": "stromal-vascular-fraction-svf-therapy",
+            "title": "Stromal Vascular Fraction (SVF) Therapy",
+            "desc": "Adipose-derived regenerative cell therapy to repair early knee cartilage damage.",
+            "image": "/doctor/images/specialties/regenerative_specialty.png"
+          },
+          {
+            "id": "platelet-rich-plasma-prp-therapy",
+            "title": "Platelet-Rich Plasma (PRP) Therapy",
+            "desc": "Injections of concentrated blood growth factors to accelerate healing of chronic tendonitis.",
+            "image": "/doctor/images/specialties/regenerative_specialty.png"
+          },
+          {
+            "id": "stem-cell-therapy",
+            "title": "Stem Cell Therapy",
+            "desc": "Biological regeneration treatment using concentrated stem cells to repair joint tissues.",
+            "image": "/doctor/images/specialties/regenerative_specialty.png"
+          },
+          {
+            "id": "intra-articular-sinovium-therapy",
+            "title": "Intra-articular Sinovium Therapy",
+            "desc": "Targeted cell-based therapies injected into the joint synovium to reduce wear and friction.",
+            "image": "/doctor/images/specialties/regenerative_specialty.png"
+          },
+          {
+            "id": "cartilage-regeneration-restoration",
+            "title": "Cartilage Regeneration & Restoration",
+            "desc": "Arthroscopic procedures (ACI/AMIC) to biologically restore articular cartilage defects.",
+            "image": "/doctor/images/specialties/regenerative_specialty.png"
+          },
+          {
+            "id": "ligament-tendon-reconstruction",
+            "title": "Ligament & Tendon Reconstruction",
+            "desc": "Rebuilding chronic tears of major ligaments and tendons using high-strength donor or autografts.",
+            "image": "/doctor/images/specialties/regenerative_specialty.png"
+          },
+          {
+            "id": "bone-grafting-bone-regeneration",
+            "title": "Bone Grafting & Bone Regeneration",
+            "desc": "Use of biological bone grafts and bone morphogenetic proteins to heal non-union fractures.",
+            "image": "/doctor/images/specialties/regenerative_specialty.png"
+          },
+          {
+            "id": "complex-joint-reconstruction",
+            "title": "Complex Joint Reconstruction",
+            "desc": "Surgical reconstruction of highly unstable, deformed, or multi-ligament injured joints.",
+            "image": "/doctor/images/specialties/regenerative_specialty.png"
+          },
+          {
+            "id": "limb-reconstruction-surgery",
+            "title": "Limb Reconstruction Surgery",
+            "desc": "Deformity correction and joint realignments to restore normal limb loading axis.",
+            "image": "/doctor/images/specialties/regenerative_specialty.png"
+          },
+          {
+            "id": "revision-surgery-joint-ligament",
+            "title": "Revision Surgery (Joint/Ligament)",
+            "desc": "Salvage procedures to fix failed prior joint replacements or ligament reconstructions.",
+            "image": "/doctor/images/specialties/regenerative_specialty.png"
+          },
+          {
+            "id": "custom-3d-printed-implants",
+            "title": "Custom 3D-Printed Implants",
+            "desc": "Use of personalized 3D-printed titanium implants for extreme bone loss reconstruction.",
+            "image": "/doctor/images/specialties/regenerative_specialty.png"
+          },
+          {
+            "id": "condroplasty-and-mosaicplasty",
+            "title": "Condroplasty and Mosaicplasty",
+            "desc": "Arthroscopic grafting of healthy osteochondral plugs to restore full-thickness cartilage defects.",
+            "image": "/doctor/images/specialties/regenerative_specialty.png"
+          },
+          {
+            "id": "limb-alignment-surgery",
+            "title": "Limb alignment surgery",
+            "desc": "High tibial osteotomy (HTO) or distal femoral osteotomy to realign weight-bearing knee axis.",
+            "image": "/doctor/images/specialties/regenerative_specialty.png"
+          }
+        ]
       },
       {
         "id": "traumatology",
         "title": "Traumatology",
         "icon": "Activity",
         "desc": "Polytrauma Management · Open (Compound) Fracture Treatment · Pelvic Fracture Surgery · Acetabular Fracture Surgery · Complex Articular/Intra-articular Fracture Surgery · Periprosthetic Fracture Treatment · Non-Union & Mal-Union Fracture Correction · Bone Infection (Osteomyelitis) Management · Limb Lengthening & Deformity Correction (Ilizarov/External Fixation) · Fracture Fixation — Plating, Intramedullary Nailing, External Fixators · Pediatric Trauma Care",
-        "heroImage": "/doctor/images/recons-2.png",
+        "heroImage": "/doctor/images/specialties/trauma_specialty.png",
         "intro": "Traumatology involves the treatment of severe, complex, and multiple skeletal injuries. Dr. Jinsiwale is a pioneer in complex fracture fixations, non-union corrections, and limb lengthening procedures.",
         "technology": {
           "title": "Intramedullary Nailing & Ilizarov Fixation",
           "content": "We use advanced titanium plating and intramedullary locking nails for strong fracture fixation. For non-unions, external Ilizarov fixators stimulate bone growth and correct deformities.",
-          "image": "/doctor/images/recons-2.png",
+          "image": "/doctor/images/specialties/trauma_specialty.png",
           "imageCaption": "Advanced fracture reconstruction and plating visualization"
         },
         "process": [
@@ -428,19 +1002,87 @@
             "desc": "Progressive weight-bearing and physiotherapy."
           }
         ],
-        "doctorExpertise": "A complex or neglected fracture requires careful mechanical planning. Our objective is stable, anatomically precise fixation that allows the patient to stand and move as early as possible."
+        "doctorExpertise": "A complex or neglected fracture requires careful mechanical planning. Our objective is stable, anatomically precise fixation that allows the patient to stand and move as early as possible.",
+        "subTreatments": [
+          {
+            "id": "polytrauma-management",
+            "title": "Polytrauma Management",
+            "desc": "Emergency coordination and life-saving skeletal stabilization for multiple injury trauma victims.",
+            "image": "/doctor/images/specialties/trauma_specialty.png"
+          },
+          {
+            "id": "open-compound-fracture-treatment",
+            "title": "Open (Compound) Fracture Treatment",
+            "desc": "Immediate wound debridement, antibiotic cover, and external or internal stabilization of open bone fractures.",
+            "image": "/doctor/images/specialties/trauma_specialty.png"
+          },
+          {
+            "id": "pelvic-fracture-surgery",
+            "title": "Pelvic Fracture Surgery",
+            "desc": "High-level surgical reconstruction of unstable pelvic ring disruptions using internal plates.",
+            "image": "/doctor/images/specialties/trauma_specialty.png"
+          },
+          {
+            "id": "acetabular-fracture-surgery",
+            "title": "Acetabular Fracture Surgery",
+            "desc": "Surgical reconstruction of the hip socket fractures to prevent early arthritis and hip damage.",
+            "image": "/doctor/images/specialties/trauma_specialty.png"
+          },
+          {
+            "id": "complex-articular-intra-articular-fracture-surgery",
+            "title": "Complex Articular/Intra-articular Fracture Surgery",
+            "desc": "Sub-millimeter anatomic realigning of fracture lines entering joint spaces, preventing stiffness.",
+            "image": "/doctor/images/specialties/trauma_specialty.png"
+          },
+          {
+            "id": "periprosthetic-fracture-treatment",
+            "title": "Periprosthetic Fracture Treatment",
+            "desc": "Fixation of bone fractures occurring around an existing knee or hip artificial implant.",
+            "image": "/doctor/images/specialties/trauma_specialty.png"
+          },
+          {
+            "id": "non-union-mal-union-fracture-correction",
+            "title": "Non-Union & Mal-Union Fracture Correction",
+            "desc": "Treatment of fractures that failed to heal (non-union) or healed crookedly (mal-union) using bone grafts.",
+            "image": "/doctor/images/specialties/trauma_specialty.png"
+          },
+          {
+            "id": "bone-infection-osteomyelitis-management",
+            "title": "Bone Infection (Osteomyelitis) Management",
+            "desc": "Antibiotic cement spacer placement, surgical debridement, and targeted antibiotics for bone infections.",
+            "image": "/doctor/images/specialties/trauma_specialty.png"
+          },
+          {
+            "id": "limb-lengthening-deformity-correction-ilizarov-external-fixation",
+            "title": "Limb Lengthening & Deformity Correction (Ilizarov/External Fixation)",
+            "desc": "Application of ring fixators to stretch bone and correct congenital or trauma limb length differences.",
+            "image": "/doctor/images/specialties/trauma_specialty.png"
+          },
+          {
+            "id": "fracture-fixation-plating-intramedullary-nailing-external-fixators",
+            "title": "Fracture Fixation — Plating, Intramedullary Nailing, External Fixators",
+            "desc": "Standard and advanced surgical fixation methods customized to the location and pattern of fracture.",
+            "image": "/doctor/images/specialties/trauma_specialty.png"
+          },
+          {
+            "id": "pediatric-trauma-care",
+            "title": "Pediatric Trauma Care",
+            "desc": "Specialized, growth-plate preserving stabilization of pediatric fractures.",
+            "image": "/doctor/images/specialties/trauma_specialty.png"
+          }
+        ]
       },
       {
         "id": "rehabilitation-programme",
         "title": "Rehabilitation Programme",
         "icon": "Activity",
         "desc": "Post-Surgical Physiotherapy · Sports Injury Rehabilitation · Pain Management Programs",
-        "heroImage": "/doctor/images/couple-running.jpg",
+        "heroImage": "/doctor/images/specialties/rehab_specialty.png",
         "intro": "Rehabilitation is critical to the success of any orthopedic treatment. Our tailored physiotherapy programs focus on restoring strength, flexibility, balance, and coordination.",
         "technology": {
           "title": "Targeted Rehabilitation & Pain Management",
           "content": "We utilize advanced modalities along with manual therapy and customized exercise prescription to ensure rapid muscle strengthening and safe recovery from joint surgery.",
-          "image": "/doctor/images/couple-running.jpg",
+          "image": "/doctor/images/specialties/rehab_specialty.png",
           "imageCaption": "Professional physical therapy guidance session"
         },
         "process": [
@@ -457,7 +1099,27 @@
             "desc": "Balance and gait training for daily independence."
           }
         ],
-        "doctorExpertise": "Surgery is only half the battle. A dedicated, structured physiotherapy program is essential to rebuild muscle strength and achieve the full range of joint movement."
+        "doctorExpertise": "Surgery is only half the battle. A dedicated, structured physiotherapy program is essential to rebuild muscle strength and achieve the full range of joint movement.",
+        "subTreatments": [
+          {
+            "id": "post-surgical-physiotherapy",
+            "title": "Post-Surgical Physiotherapy",
+            "desc": "Structured exercise and mobilization programs to restore strength and joint ROM after surgery.",
+            "image": "/doctor/images/specialties/rehab_specialty.png"
+          },
+          {
+            "id": "sports-injury-rehabilitation",
+            "title": "Sports Injury Rehabilitation",
+            "desc": "Sport-specific physical therapy programs to recover power, stability, and speed safely.",
+            "image": "/doctor/images/specialties/rehab_specialty.png"
+          },
+          {
+            "id": "pain-management-programs",
+            "title": "Pain Management Programs",
+            "desc": "Multi-disciplinary physical therapies, modalities, and exercises to alleviate chronic pain.",
+            "image": "/doctor/images/specialties/rehab_specialty.png"
+          }
+        ]
       }
     ]
   },
