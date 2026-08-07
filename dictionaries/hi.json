@@ -115,49 +115,55 @@
             "id": "acl-reconstruction-surgery",
             "title": "एसीएल पुनर्निर्माण सर्जरी",
             "desc": "एक ग्राफ्ट का उपयोग करके फटे हुए पूर्वकाल क्रूसिएट लिगामेंट (ACL) के पुनर्निर्माण के लिए न्यूनतम आक्रामक आर्थ्रोस्कोपिक प्रक्रिया।",
-            "image": "/doctor/images/specialties/knee_specialty.png"
+            "image": "/doctor/images/specialties/acl_reconstruction_knee.png"
           },
           {
             "id": "revision-acl-reconstruction",
             "title": "रिवीजन एसीएल पुनर्निर्माण",
             "desc": "जोड़ की स्थिरता और कार्यक्षमता को बहाल करने के लिए पहले से असफल या दोबारा टूटे हुए एसीएल ग्राफ्ट के पुनर्निर्माण की एक जटिल प्रक्रिया।",
-            "image": "/doctor/images/specialties/knee_specialty.png"
+            "image": "/doctor/images/specialties/revision_acl_knee.png"
           },
           {
             "id": "pcl-reconstruction-surgery",
             "title": "पीसीएल पुनर्निर्माण सर्जरी",
             "desc": "घुटने के पीछे के हिस्से में अस्थिरता का इलाज करने के लिए पश्च क्रूसिएट लिगामेंट (PCL) का सर्जिकल पुनर्निर्माण।",
-            "image": "/doctor/images/specialties/knee_specialty.png"
+            "image": "/doctor/images/specialties/pcl_reconstruction_knee.png"
           },
           {
             "id": "cartilage-repair",
             "title": "कार्टिलेज मरम्मत",
             "desc": "जोड़ के घिसे हुए कार्टिलेज की मरम्मत और पुनर्जनन के लिए माइक्रोफ्रैक्चर या ओएटीएस जैसी उन्नत आर्थ्रोस्कोपिक तकनीकें।",
-            "image": "/doctor/images/specialties/knee_specialty.png"
+            "image": "/doctor/images/specialties/knee_cartilage_repair.png"
           },
           {
             "id": "knee-arthritis-treatments",
             "title": "घुटने के गठिया का उपचार",
             "desc": "घुटने के गठिया के लिए व्यापक रूढ़िवादी और सर्जिकल प्रबंधन, जिसमें इंजेक्शन और थेरेपी शामिल हैं।",
-            "image": "/doctor/images/specialties/knee_specialty.png"
+            "image": "/doctor/images/specialties/knee_arthritis_treatment.png"
           },
           {
             "id": "knee-fracture-repair",
             "title": "घुटने के फ्रैक्चर का सुधार",
             "desc": "उन्नत प्लेटिंग सिस्टम का उपयोग करके पटेला, टिबियल पठार, या डिस्टल फीमर फ्रैक्चर का सर्जिकल फिक्सेशन।",
-            "image": "/doctor/images/specialties/knee_specialty.png"
+            "image": "/doctor/images/specialties/knee_fracture_repair.png"
           },
           {
             "id": "ligament-repair-surgery",
             "title": "लिगामेंट मरम्मत सर्जरी",
             "desc": "घुटने के पार्श्व हिस्से की स्थिरता बहाल करने के लिए संपार्श्विक लिगामेंट्स (MCL/LCL) के फटने का सर्जिकल उपचार।",
-            "image": "/doctor/images/specialties/knee_specialty.png"
+            "image": "/doctor/images/specialties/knee_ligament_repair.png"
           },
           {
             "id": "meniscus-tear-surgery",
             "title": "मेनिस्कस टियर सर्जरी",
             "desc": "घुटने के कुशन को बहाल करने और गठिया को रोकने के लिए आर्थ्रोस्कोपिक मेनिस्कस सिलाई या आंशिक मेनिसेक्टॉमी।",
-            "image": "/doctor/images/specialties/knee_specialty.png"
+            "image": "/doctor/images/specialties/meniscus_tear_surgery.png"
+          },
+          {
+            "id": "stem-cell-therapy",
+            "title": "स्टेम सेल थेरेपी",
+            "desc": "शुरुआती अवस्था में घिसे हुए कार्टिलेज के प्राकृतिक पुनर्जनन को बढ़ावा देने के लिए जैविक सेलुलर थेरेपी।",
+            "image": "/doctor/images/specialties/knee_stem_cells.png"
           }
         ]
       },

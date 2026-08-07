@@ -115,55 +115,55 @@
             "id": "acl-reconstruction-surgery",
             "title": "ACL Reconstruction Surgery",
             "desc": "Minimally invasive arthroscopic procedure to reconstruct a torn Anterior Cruciate Ligament using a graft.",
-            "image": "/doctor/images/specialties/knee_specialty.png"
+            "image": "/doctor/images/specialties/acl_reconstruction_knee.png"
           },
           {
             "id": "revision-acl-reconstruction",
             "title": "Revision ACL Reconstruction",
             "desc": "Complex procedure to reconstruct a failed or re-ruptured ACL graft, restoring knee stability and function.",
-            "image": "/doctor/images/specialties/knee_specialty.png"
+            "image": "/doctor/doctor/images/specialties/revision_acl_knee.png"
           },
           {
             "id": "pcl-reconstruction-surgery",
             "title": "PCL Reconstruction Surgery",
             "desc": "Reconstruction of the Posterior Cruciate Ligament to treat instability in the back of the knee.",
-            "image": "/doctor/images/specialties/knee_specialty.png"
+            "image": "/doctor/images/specialties/pcl_reconstruction_knee.png"
           },
           {
             "id": "cartilage-repair",
             "title": "Cartilage Repair",
             "desc": "Advanced arthroscopic techniques like microfracture or OATS to repair and regenerate worn joint cartilage.",
-            "image": "/doctor/images/specialties/knee_specialty.png"
+            "image": "/doctor/images/specialties/knee_cartilage_repair.png"
           },
           {
             "id": "knee-arthritis-treatments",
             "title": "Knee Arthritis Treatments",
             "desc": "Comprehensive conservative and surgical management for knee arthritis, including injections and therapy.",
-            "image": "/doctor/images/specialties/knee_specialty.png"
+            "image": "/doctor/images/specialties/knee_arthritis_treatment.png"
           },
           {
             "id": "knee-fracture-repair",
             "title": "Knee Fracture Repair",
             "desc": "Surgical fixation of patella, tibial plateau, or distal femur fractures using advanced plating systems.",
-            "image": "/doctor/images/specialties/knee_specialty.png"
+            "image": "/doctor/images/specialties/knee_fracture_repair.png"
           },
           {
             "id": "ligament-repair-surgery",
             "title": "Ligament Repair Surgery",
             "desc": "Surgical treatment for tear of collateral ligaments (MCL/LCL) to restore lateral knee stability.",
-            "image": "/doctor/images/specialties/knee_specialty.png"
+            "image": "/doctor/images/specialties/knee_ligament_repair.png"
           },
           {
             "id": "meniscus-tear-surgery",
             "title": "Meniscus Tear Surgery",
             "desc": "Arthroscopic meniscus suturing or partial meniscectomy to restore knee cushioning and prevent arthritis.",
-            "image": "/doctor/images/specialties/knee_specialty.png"
+            "image": "/doctor/images/specialties/meniscus_tear_surgery.png"
           },
           {
             "id": "stem-cell-therapy",
             "title": "Stem Cell therapy",
             "desc": "Biological cellular therapy to promote natural regeneration of early-stage joint cartilage wear.",
-            "image": "/doctor/images/specialties/knee_specialty.png"
+            "image": "/doctor/images/specialties/knee_stem_cells.png"
           }
         ]
       },
