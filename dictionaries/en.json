@@ -115,7 +115,7 @@
             "id": "acl-reconstruction-surgery",
             "title": "ACL Reconstruction Surgery",
             "desc": "Minimally invasive arthroscopic procedure to reconstruct a torn Anterior Cruciate Ligament using a graft.",
-            "image": "/doctor/images/specialties/acl_reconstruction_knee.png"
+            "image": "/doctor/doctor/images/specialties/acl_reconstruction_knee.png"
           },
           {
             "id": "revision-acl-reconstruction",
