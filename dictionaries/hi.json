@@ -200,43 +200,43 @@
             "id": "ac-joint-repair",
             "title": "एसी जॉइंट रिपेयर",
             "desc": "कंधे के विस्थापन या आघात के बाद एक्रोमियोक्लेविकुलर जोड़ का स्थिरीकरण और मरम्मत।",
-            "image": "/doctor/images/specialties/shoulder_specialty.png"
+            "image": "/doctor/images/specialties/shoulder/shoulder_ac_joint.png"
           },
           {
             "id": "biceps-tendon-treatment",
             "title": "बाइसेप्स टेंडन उपचार",
             "desc": "कंधे के दर्द से राहत के लिए बाइसेप्स टेंडन के लंबे सिरे की मरम्मत या स्थानांतरण (टिनोडेसिस)।",
-            "image": "/doctor/images/specialties/shoulder_specialty.png"
+            "image": "/doctor/images/specialties/shoulder/shoulder_rotator_cuff.png"
           },
           {
             "id": "collarbone-fracture-treatment",
             "title": "हंसली (कॉलरबोन) फ्रैक्चर उपचार",
             "desc": "कंधे के सही कार्य और ठीक होने को सुनिश्चित करने के लिए हंसली (कॉलरबोन) के फ्रैक्चर की सर्जिकल प्लेटिंग या संरेखण।",
-            "image": "/doctor/images/specialties/shoulder_specialty.png"
+            "image": "/doctor/images/specialties/shoulder/shoulder_clavicle_fracture.png"
           },
           {
             "id": "slap-tear-treatment",
             "title": "स्लैप (SLAP) टियर उपचार",
             "desc": "कंधे के जोड़ में सुपीरियर लेब्रल टियर (आगे से पीछे) की आर्थ्रोस्कोपिक मरम्मत।",
-            "image": "/doctor/images/specialties/shoulder_specialty.png"
+            "image": "/doctor/images/specialties/shoulder/shoulder_slap_tear.png"
           },
           {
             "id": "rotator-cuff-repair",
             "title": "रोटेटर कफ मरम्मत",
             "desc": "कंधे की ताकत और गतिशीलता को बहाल करने के लिए रोटेटर कफ टेंडन टियर की आर्थ्रोस्कोपिक सिलाई।",
-            "image": "/doctor/images/specialties/shoulder_specialty.png"
+            "image": "/doctor/images/specialties/shoulder/shoulder_rotator_cuff.png"
           },
           {
             "id": "shoulder-instability-dislocation-treatment",
             "title": "कंधे की अस्थिरता/विस्थापन उपचार",
             "desc": "बार-बार कंधे खिसकने की समस्या को ठीक करने के लिए आर्थ्रोस्कोपिक बैंकर्ट रिपेयर या ओपन लाटारजेट प्रक्रिया।",
-            "image": "/doctor/images/specialties/shoulder_specialty.png"
+            "image": "/doctor/images/specialties/shoulder/shoulder_bankart_repair.png"
           },
           {
             "id": "frozen-shoulder-treatment",
             "title": "फ्रोजन शोल्डर उपचार",
             "desc": "कंधे की गति की सीमा को बहाल करने के लिए फिजियोथेरेपी, जॉइंट डिस्टेंशन या आर्थ्रोस्कोपिक कैप्सुलर रिलीज।",
-            "image": "/doctor/images/specialties/shoulder_specialty.png"
+            "image": "/doctor/images/specialties/shoulder/shoulder_frozen_release.png"
           }
         ]
       },
@@ -273,37 +273,37 @@
             "id": "hip-arthroscopy",
             "title": "हिप आर्थ्रोस्कोपी",
             "desc": "कूल्हे के जोड़ के संरचनात्मक विकारों का निरीक्षण, निदान और उपचार करने के लिए न्यूनतम आक्रामक कीहोल सर्जरी।",
-            "image": "/doctor/images/specialties/hip_specialty.png"
+            "image": "/doctor/images/specialties/hip/hip_arthroscopy.png"
           },
           {
             "id": "labral-tear-repair",
             "title": "लेब्रल टियर रिपेयर",
             "desc": "कूल्हे के गहरे दर्द से राहत के लिए एसिटाबुलर लेब्रम की आर्थ्रोस्कोपिक मरम्मत या डिब्राइडमेंट।",
-            "image": "/doctor/images/specialties/hip_specialty.png"
+            "image": "/doctor/images/specialties/hip/hip_arthroscopy.png"
           },
           {
             "id": "femoroacetabular-impingement-fai-treatment",
             "title": "फेमोरोएसिटाबुलर इम्पिंजमेंट (FAI) उपचार",
             "desc": "हड्डी के घर्षण को रोकने और कार्टिलेज की रक्षा के लिए कूल्हे की बॉल या सॉकेट का सर्जिकल रीशेपिंग।",
-            "image": "/doctor/images/specialties/hip_specialty.png"
+            "image": "/doctor/images/specialties/hip/hip_arthroscopy.png"
           },
           {
             "id": "hip-fracture-repair",
             "title": "हिप फ्रैक्चर मरम्मत",
             "desc": "नेल्स, स्क्रू या प्लेट्स का उपयोग करके फीमर के नेक या इंटरट्रोकेन्टेरिक फ्रैक्चर का सर्जिकल फिक्सेशन।",
-            "image": "/doctor/images/specialties/hip_specialty.png"
+            "image": "/doctor/images/specialties/hip/hip_fracture_surgery.png"
           },
           {
             "id": "avascular-necrosis-treatment",
             "title": "एवास्कुलर नेक्रोसिस उपचार",
             "desc": "फीमर की नष्ट हो रही हड्डी (बॉल) में रक्त के प्रवाह को बहाल करने के लिए कोर डिकंप्रेशन या बोन ग्राफ्टिंग।",
-            "image": "/doctor/images/specialties/hip_specialty.png"
+            "image": "/doctor/images/specialties/hip/hip_core_decompression.png"
           },
           {
             "id": "hip-dysplasia-treatment",
             "title": "हिप डिस्प्लेजिया उपचार",
             "desc": "कूल्हे के उथले सॉकेट को ठीक करने और स्थिरता में सुधार के लिए सर्जिकल या रूढ़िवादी सुधार।",
-            "image": "/doctor/images/specialties/hip_specialty.png"
+            "image": "/doctor/images/specialties/hip/hip_resurfacing.png"
           },
           {
             "id": "hip-bursitis-treatment",

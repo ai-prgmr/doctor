@@ -200,43 +200,43 @@
             "id": "ac-joint-repair",
             "title": "AC Joint Repair",
             "desc": "Stabilization of the acromioclavicular joint after shoulder separation or trauma.",
-            "image": "/doctor/images/specialties/shoulder_specialty.png"
+            "image": "/doctor/doctor/images/specialties/shoulder/shoulder_ac_joint.png"
           },
           {
             "id": "biceps-tendon-treatment",
             "title": "Biceps Tendon Treatment",
             "desc": "Repair or relocation (tenodesis) of the long head of the biceps tendon for shoulder pain relief.",
-            "image": "/doctor/images/specialties/shoulder_specialty.png"
+            "image": "/doctor/doctor/images/specialties/shoulder/shoulder_rotator_cuff.png"
           },
           {
             "id": "collarbone-fracture-treatment",
             "title": "Collarbone Fracture Treatment",
             "desc": "Surgical plating or alignment of clavicle fractures to ensure correct healing and shoulder function.",
-            "image": "/doctor/images/specialties/shoulder_specialty.png"
+            "image": "/doctor/doctor/images/specialties/shoulder/shoulder_clavicle_fracture.png"
           },
           {
             "id": "slap-tear-treatment",
             "title": "SLAP Tear Treatment",
             "desc": "Arthroscopic repair of superior labral tears from anterior to posterior in the shoulder joint.",
-            "image": "/doctor/images/specialties/shoulder_specialty.png"
+            "image": "/doctor/doctor/images/specialties/shoulder/shoulder_slap_tear.png"
           },
           {
             "id": "rotator-cuff-repair",
             "title": "Rotator Cuff Repair",
             "desc": "Arthroscopic suturing of rotator cuff tendon tears to restore shoulder strength and mobility.",
-            "image": "/doctor/images/specialties/shoulder_specialty.png"
+            "image": "/doctor/doctor/images/specialties/shoulder/shoulder_rotator_cuff.png"
           },
           {
             "id": "shoulder-instability-dislocation-treatment",
             "title": "Shoulder Instability/Dislocation Treatment",
             "desc": "Arthroscopic Bankart repair or open Latarjet procedure to stabilize recurrent shoulder dislocations.",
-            "image": "/doctor/images/specialties/shoulder_specialty.png"
+            "image": "/doctor/doctor/images/specialties/shoulder/shoulder_bankart_repair.png"
           },
           {
             "id": "frozen-shoulder-treatment",
             "title": "Frozen Shoulder Treatment",
             "desc": "Physiotherapy, joint distension, or arthroscopic capsular release to restore shoulder range of motion.",
-            "image": "/doctor/images/specialties/shoulder_specialty.png"
+            "image": "/doctor/doctor/images/specialties/shoulder/shoulder_frozen_release.png"
           }
         ]
       },
@@ -273,43 +273,43 @@
             "id": "hip-arthroscopy",
             "title": "Hip Arthroscopy",
             "desc": "Minimally invasive keyhole surgery to inspect, diagnose, and treat structural hip joint disorders.",
-            "image": "/doctor/images/specialties/hip_specialty.png"
+            "image": "/doctor/doctor/images/specialties/hip/hip_arthroscopy.png"
           },
           {
             "id": "labral-tear-repair",
             "title": "Labral Tear Repair",
             "desc": "Arthroscopic repair or debridement of the acetabular labrum to relieve deep hip pain.",
-            "image": "/doctor/images/specialties/hip_specialty.png"
+            "image": "/doctor/doctor/images/specialties/hip/hip_arthroscopy.png"
           },
           {
             "id": "femoroacetabular-impingement-fai-treatment",
             "title": "Femoroacetabular Impingement (FAI) Treatment",
             "desc": "Surgical reshaping of the hip ball or socket to prevent bone friction and protect cartilage.",
-            "image": "/doctor/images/specialties/hip_specialty.png"
+            "image": "/doctor/doctor/images/specialties/hip/hip_arthroscopy.png"
           },
           {
             "id": "hip-fracture-repair",
             "title": "Hip Fracture Repair",
             "desc": "Surgical fixation of femoral neck or intertrochanteric fractures using nails, screws, or plates.",
-            "image": "/doctor/images/specialties/hip_specialty.png"
+            "image": "/doctor/doctor/images/specialties/hip/hip_fracture_surgery.png"
           },
           {
             "id": "avascular-necrosis-treatment",
             "title": "Avascular Necrosis Treatment",
             "desc": "Core decompression or bone grafting to restore blood flow to the dying femoral head bone.",
-            "image": "/doctor/images/specialties/hip_specialty.png"
+            "image": "/doctor/doctor/images/specialties/hip/hip_core_decompression.png"
           },
           {
             "id": "hip-dysplasia-treatment",
             "title": "Hip Dysplasia Treatment",
             "desc": "Surgical or conservative correction of shallow hip sockets to improve stability and alignment.",
-            "image": "/doctor/images/specialties/hip_specialty.png"
+            "image": "/doctor/doctor/images/specialties/hip/hip_resurfacing.png"
           },
           {
             "id": "hip-bursitis-treatment",
             "title": "Hip Bursitis Treatment",
             "desc": "Treatment of inflamed hip bursae using physiotherapy, injections, or minimally invasive removal.",
-            "image": "/doctor/images/specialties/hip_specialty.png"
+            "image": "/doctor/doctor/images/specialties/hip_specialty.png"
           }
         ]
       },
