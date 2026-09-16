@@ -74,6 +74,11 @@ export function Header({ lang, dictionary }: HeaderProps) {
                                         {item.name}
                                     </Link>
                                 ))}
+                                <Button asChild className="bg-teal-600 hover:bg-teal-700 text-white font-bold rounded-full px-6 shadow-md hover:shadow-lg transition-all">
+                                    <Link href={`/${lang}/appointment`}>
+                                        {dictionary.cta?.callBtn || (lang === 'en' ? 'Book an appointment' : 'अपॉइंटमेंट बुक करें')}
+                                    </Link>
+                                </Button>
                             </div>
 
                             {/* Lang Switcher & Mobile Menu */}

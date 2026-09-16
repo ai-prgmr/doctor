@@ -92,7 +92,7 @@ export default async function ServicePage({
                         </div>
                         <div className="relative group">
                             <div className="absolute inset-0 bg-teal-600 translate-x-4 translate-y-4 rounded-3xl -z-10 opacity-10 group-hover:translate-x-2 group-hover:translate-y-2 transition-transform duration-500" />
-                            <div className="relative h-[400px] rounded-3xl overflow-hidden shadow-2xl border border-slate-200">
+                            <div className="relative h-100 rounded-3xl overflow-hidden shadow-2xl border border-slate-200">
                                 <Image
                                     src={service.technology.image}
                                     alt={service.technology.title}
@@ -125,34 +125,54 @@ export default async function ServicePage({
                             </p>
                         </div>
 
-                        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                            {service.subTreatments.map((sub: any, idx: number) => (
-                                <div
-                                    key={sub.id || idx}
-                                    className="bg-slate-50 border border-slate-100/80 rounded-3xl overflow-hidden shadow-sm hover:shadow-xl hover:-translate-y-1.5 transition-all duration-300 flex flex-col group"
-                                >
-                                    <div className="relative h-48 w-full overflow-hidden bg-slate-200">
-                                        <Image
-                                            src={sub.image}
-                                            alt={sub.title}
-                                            fill
-                                            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                                            className="object-cover group-hover:scale-105 transition-transform duration-500"
-                                        />
-                                        <div className="absolute inset-0 bg-teal-900/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-                                    </div>
-                                    <div className="p-6 flex flex-col grow justify-between">
-                                        <div>
-                                            <h3 className="font-outfit text-xl font-bold text-slate-900 mb-3 group-hover:text-teal-700 transition-colors">
-                                                {sub.title}
-                                            </h3>
-                                            <p className="text-slate-600 text-sm leading-relaxed">
-                                                {sub.desc}
-                                            </p>
+                        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 auto-rows-[240px] md:auto-rows-[200px] lg:auto-rows-[240px] grid-flow-row-dense">
+                            {(service.subTreatments || []).map((sub: any, idx: number) => {
+                                const isLarge = idx % 5 === 0;
+                                const blockIndex = Math.floor(idx / 5);
+                                const isReversedBlock = blockIndex % 2 === 1;
+                                const smallIndex = idx % 5; // 1, 2, 3, 4
+
+                                let spanClasses = 'col-span-1 row-span-1';
+                                if (isLarge) {
+                                    spanClasses = isReversedBlock
+                                        ? 'md:col-span-2 md:row-span-2 lg:col-start-3'
+                                        : 'md:col-span-2 md:row-span-2';
+                                } else {
+                                    // Assign specific columns so items cling to the Large card and fill top-to-bottom
+                                    if (smallIndex === 1 || smallIndex === 2) {
+                                        spanClasses += isReversedBlock ? ' lg:col-start-2 md:col-start-2' : ' lg:col-start-4 md:col-start-2';
+                                    } else if (smallIndex === 3 || smallIndex === 4) {
+                                        spanClasses += isReversedBlock ? ' lg:col-start-1 md:col-start-1' : ' lg:col-start-3 md:col-start-1';
+                                    }
+                                }
+
+                                    return (
+                                        <div
+                                            key={sub.id || idx}
+                                            className={`group relative overflow-hidden rounded-3xl bg-slate-900 shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col ${spanClasses}`}
+                                        >
+                                            <Image
+                                                src={sub.image}
+                                                alt={sub.title}
+                                                fill
+                                                sizes={isLarge ? "(max-width: 768px) 100vw, 50vw" : "(max-width: 768px) 100vw, 25vw"}
+                                                className="object-cover group-hover:scale-105 transition-transform duration-700 opacity-90 group-hover:opacity-100"
+                                            />
+                                            <div className="absolute inset-0 bg-linear-to-t from-slate-900/90 via-slate-900/20 to-transparent opacity-80 group-hover:opacity-100 transition-opacity duration-300" />
+
+                                            <div className="absolute inset-0 p-6 flex flex-col justify-end z-10">
+                                                <h3 className={`font-outfit font-bold text-white mb-2 group-hover:text-teal-300 transition-colors drop-shadow-md ${isLarge ? 'text-2xl md:text-3xl' : 'text-lg md:text-xl'
+                                                    }`}>
+                                                    {sub.title}
+                                                </h3>
+                                                <p className={`text-slate-200 leading-relaxed drop-shadow-sm ${isLarge ? 'text-base md:text-lg line-clamp-3' : 'text-sm line-clamp-2'
+                                                    }`}>
+                                                    {sub.desc}
+                                                </p>
+                                            </div>
                                         </div>
-                                    </div>
-                                </div>
-                            ))}
+                                    );
+                                })}
                         </div>
                     </div>
                 </section>
@@ -228,31 +248,6 @@ export default async function ServicePage({
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-            </section>
-
-            {/* Final CTA */}
-            <section className="py-24 px-4">
-                <div className="container mx-auto max-w-4xl text-center">
-                    <h2 className="font-outfit text-3xl md:text-5xl font-extrabold text-slate-900 mb-8">
-                        Ready to discuss your surgery?
-                    </h2>
-                    <p className="text-xl text-slate-600 mb-12 max-w-2xl mx-auto">
-                        Speak directly with our clinical coordinators to understand your treatment plan and expected recovery timeline.
-                    </p>
-                    <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
-                        <Button asChild size="lg" className="bg-teal-600 hover:bg-teal-700 text-white font-bold h-16 px-10 rounded-2xl text-xl w-full sm:w-auto shadow-xl shadow-teal-600/20">
-                            <a href={`tel:${dictionary.contact.phone[0].replace(/\s/g, '')}`}>
-                                <Phone className="mr-3 h-6 w-6" />
-                                Call for Appointment
-                            </a>
-                        </Button>
-                        <Button asChild size="lg" variant="outline" className="h-16 px-10 rounded-2xl text-xl w-full sm:sm:w-auto font-bold border-slate-200">
-                            <Link href={`/${lang}/contact`}>
-                                Visit our Clinic
-                            </Link>
-                        </Button>
                     </div>
                 </div>
             </section>

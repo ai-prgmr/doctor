@@ -4,6 +4,8 @@ import "../globals.css";
 import { getDictionary } from "@/lib/get-dictionary";
 import { Header } from "@/components/layout/header";
 import { Footer } from "@/components/layout/footer";
+import { FloatingButtons } from "@/components/layout/floating-buttons";
+import { CtaSection } from "@/components/layout/cta-section";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -47,12 +49,12 @@ export default async function LocaleLayout({
     <html lang={lang} className="scroll-smooth">
       <body className={`${inter.variable} ${outfit.variable} font-sans antialiased text-slate-900 bg-white`}>
         <Header lang={lang} dictionary={dictionary} />
-
-        <main className="pb-20 md:pb-0">
+        <main className="pb-20 md:pb-0 min-h-screen">
           {children}
         </main>
-
+        <CtaSection dictionary={dictionary} lang={lang} />
         <Footer lang={lang} dictionary={dictionary} />
+        <FloatingButtons lang={lang} dictionary={dictionary} />
       </body>
     </html>
   );

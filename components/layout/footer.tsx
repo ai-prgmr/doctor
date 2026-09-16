@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Phone, MapPin } from "lucide-react";
+import { Phone, MapPin, Calendar } from "lucide-react";
 
 interface FooterProps {
     lang: string;
@@ -125,15 +125,13 @@ export function Footer({ lang, dictionary }: FooterProps) {
                     <Phone className="h-5 w-5" />
                     {dictionary.hero.ctaCall}
                 </a>
-                <a
-                    href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(dictionary.contact.mapQuery)}`}
-                    target="_blank"
-                    rel="noopener noreferrer"
+                <Link
+                    href={`/${lang}/appointment`}
                     className="flex-1 bg-white text-teal-700 flex items-center justify-center font-bold text-sm gap-2 border-l border-slate-100"
                 >
-                    <MapPin className="h-5 w-5" />
-                    {dictionary.hero.ctaDirections}
-                </a>
+                    <Calendar className="h-5 w-5" />
+                    {dictionary.cta?.callBtn || (lang === 'en' ? 'Book an appointment' : 'अपॉइंटमेंट बुक करें')}
+                </Link>
             </div>
         </>
     );

@@ -40,53 +40,49 @@ export default async function ServicesPage({
             {/* Services Grid */}
             <section className="py-24 bg-slate-50 grow">
                 <div className="container mx-auto max-w-7xl px-4 md:px-8">
-                    <div className="flex flex-col gap-8">
+                    <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 md:gap-8">
                         {dictionary.services.items.map((service: any) => (
-                            <Link href={`/${lang}/services/${service.id}`} key={service.id} className="group">
-                                <Card className="border-none shadow-sm hover:shadow-xl p-0 transition-all duration-300 overflow-hidden flex flex-col md:flex-row h-full md:min-h-[280px]">
-                                    {/* Left Column: 3D Illustration on Dark Gradient */}
-                                    <div className="relative w-full md:w-80 h-64 md:h-auto bg-gradient-to-br from-slate-900 to-slate-950 flex-shrink-0 flex items-center justify-center p-6">
-                                        <div className="relative w-full h-full min-h-[200px]">
+                            <Link href={`/${lang}/services/${service.id}`} key={service.id} className="group h-full max-w-lg  w-full">
+                                <Card className="border-none shadow-sm hover:shadow-xl p-0 transition-all duration-500 overflow-hidden flex flex-col h-full bg-white group-hover:-translate-y-1">
+                                    {/* Top Area: 3D Illustration on Dark Gradient */}
+                                    <div className="relative w-full h-56 md:h-64 bg-linear-to-br from-slate-900 to-slate-950 shrink-0 flex items-center justify-center p-6">
+                                        <div className="relative w-full h-full">
                                             <Image
                                                 src={service.technology.image}
                                                 alt={service.title}
                                                 fill
-                                                className="object-contain transform group-hover:scale-105 transition-transform duration-500"
+                                                className="object-cover transform group-hover:scale-110 transition-transform duration-700"
                                                 priority
                                             />
                                         </div>
                                     </div>
-                                    
-                                    {/* Right Column: Title, Description, Tags, Action */}
-                                    <div className="p-8 flex flex-col justify-between grow bg-white">
+
+                                    {/* Bottom Area: Title, Description, Tags, Action */}
+                                    <div className="p-6 md:p-8 flex flex-col justify-between grow">
                                         <div>
-                                            <h3 className="font-outfit text-2xl md:text-3xl font-extrabold text-slate-900 group-hover:text-teal-700 transition-colors mb-3">
+                                            <h3 className="font-outfit text-2xl font-extrabold text-slate-900 group-hover:text-teal-700 transition-colors mb-3">
                                                 {service.title}
                                             </h3>
-                                            <p className="text-slate-600 text-base leading-relaxed mb-6">
+                                            {/* <p className="text-slate-600 text-lg leading-relaxed mb-8 line-clamp-3">
                                                 {service.desc}
-                                            </p>
-                                            
+                                            </p> */}
+
                                             {/* Sub-Treatments Tags */}
                                             {service.subTreatments && service.subTreatments.length > 0 && (
                                                 <div className="flex flex-wrap gap-2 mb-6">
-                                                    {service.subTreatments.slice(0, 5).map((sub: any) => (
+                                                    {service.subTreatments.map((sub: any, index: number) => (
                                                         <span
-                                                            key={sub.id}
-                                                            className="text-xs font-semibold bg-slate-100 text-slate-600 px-3 py-1 rounded-full border border-slate-200/60"
+                                                            key={`${sub.id}-${index}`}
+                                                            className="text-xs font-semibold bg-slate-100 text-slate-700 px-3 py-1 rounded-full border border-slate-200/60"
                                                         >
                                                             {sub.title}
                                                         </span>
                                                     ))}
-                                                    {service.subTreatments.length > 5 && (
-                                                        <span className="text-xs font-bold bg-teal-50 text-teal-700 px-3 py-1 rounded-full border border-teal-100/50">
-                                                            +{service.subTreatments.length - 5} {lang === 'en' ? 'more' : 'और'}
-                                                        </span>
-                                                    )}
+
                                                 </div>
                                             )}
                                         </div>
-                                        
+
                                         <div className="flex items-center text-teal-600 font-bold text-base mt-auto">
                                             {lang === 'en' ? 'Explore Treatment' : 'उपचार देखें'}
                                             <ArrowRight className="ml-2 h-5 w-5 transform group-hover:translate-x-2 transition-transform" />

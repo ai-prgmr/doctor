@@ -115,55 +115,55 @@
             "id": "acl-reconstruction-surgery",
             "title": "एसीएल पुनर्निर्माण सर्जरी",
             "desc": "एक ग्राफ्ट का उपयोग करके फटे हुए पूर्वकाल क्रूसिएट लिगामेंट (ACL) के पुनर्निर्माण के लिए न्यूनतम आक्रामक आर्थ्रोस्कोपिक प्रक्रिया।",
-            "image": "/doctor/images/specialties/acl_reconstruction_knee.png"
+            "image": "/doctor/images/specialties/knee/acl_reconstruction_knee.png"
           },
           {
             "id": "revision-acl-reconstruction",
             "title": "रिवीजन एसीएल पुनर्निर्माण",
             "desc": "जोड़ की स्थिरता और कार्यक्षमता को बहाल करने के लिए पहले से असफल या दोबारा टूटे हुए एसीएल ग्राफ्ट के पुनर्निर्माण की एक जटिल प्रक्रिया।",
-            "image": "/doctor/images/specialties/revision_acl_knee.png"
+            "image": "/doctor/images/specialties/knee/revision_acl_knee.png"
           },
           {
             "id": "pcl-reconstruction-surgery",
             "title": "पीसीएल पुनर्निर्माण सर्जरी",
             "desc": "घुटने के पीछे के हिस्से में अस्थिरता का इलाज करने के लिए पश्च क्रूसिएट लिगामेंट (PCL) का सर्जिकल पुनर्निर्माण।",
-            "image": "/doctor/images/specialties/pcl_reconstruction_knee.png"
+            "image": "/doctor/images/specialties/knee/pcl_reconstruction_knee.png"
           },
           {
             "id": "cartilage-repair",
             "title": "कार्टिलेज मरम्मत",
             "desc": "जोड़ के घिसे हुए कार्टिलेज की मरम्मत और पुनर्जनन के लिए माइक्रोफ्रैक्चर या ओएटीएस जैसी उन्नत आर्थ्रोस्कोपिक तकनीकें।",
-            "image": "/doctor/images/specialties/knee_cartilage_repair.png"
+            "image": "/doctor/images/specialties/knee/knee_cartilage_repair.png"
           },
           {
             "id": "knee-arthritis-treatments",
             "title": "घुटने के गठिया का उपचार",
             "desc": "घुटने के गठिया के लिए व्यापक रूढ़िवादी और सर्जिकल प्रबंधन, जिसमें इंजेक्शन और थेरेपी शामिल हैं।",
-            "image": "/doctor/images/specialties/knee_arthritis_treatment.png"
+            "image": "/doctor/images/specialties/knee/knee_arthritis_treatment.png"
           },
           {
             "id": "knee-fracture-repair",
             "title": "घुटने के फ्रैक्चर का सुधार",
             "desc": "उन्नत प्लेटिंग सिस्टम का उपयोग करके पटेला, टिबियल पठार, या डिस्टल फीमर फ्रैक्चर का सर्जिकल फिक्सेशन।",
-            "image": "/doctor/images/specialties/knee_fracture_repair.png"
+            "image": "/doctor/images/specialties/knee/knee_fracture_repair.png"
           },
           {
             "id": "ligament-repair-surgery",
             "title": "लिगामेंट मरम्मत सर्जरी",
             "desc": "घुटने के पार्श्व हिस्से की स्थिरता बहाल करने के लिए संपार्श्विक लिगामेंट्स (MCL/LCL) के फटने का सर्जिकल उपचार।",
-            "image": "/doctor/images/specialties/knee_ligament_repair.png"
+            "image": "/doctor/images/specialties/knee/knee_ligament_repair.png"
           },
           {
             "id": "meniscus-tear-surgery",
             "title": "मेनिस्कस टियर सर्जरी",
             "desc": "घुटने के कुशन को बहाल करने और गठिया को रोकने के लिए आर्थ्रोस्कोपिक मेनिस्कस सिलाई या आंशिक मेनिसेक्टॉमी।",
-            "image": "/doctor/images/specialties/meniscus_tear_surgery.png"
+            "image": "/doctor/images/specialties/knee/meniscus_tear_surgery.png"
           },
           {
             "id": "stem-cell-therapy",
             "title": "स्टेम सेल थेरेपी",
             "desc": "शुरुआती अवस्था में घिसे हुए कार्टिलेज के प्राकृतिक पुनर्जनन को बढ़ावा देने के लिए जैविक सेलुलर थेरेपी।",
-            "image": "/doctor/images/specialties/knee_stem_cells.png"
+            "image": "/doctor/images/specialties/knee/knee_stem_cells.png"
           }
         ]
       },
@@ -309,7 +309,7 @@
             "id": "hip-bursitis-treatment",
             "title": "हिप बर्सिटिस उपचार",
             "desc": "फिजियोथेरेपी, इंजेक्शन या न्यूनतम आक्रामक निष्कासन का उपयोग करके कूल्हे की सूजन वाले बर्सा का उपचार।",
-            "image": "/doctor/images/specialties/hip_specialty.png"
+            "image": "/doctor/images/specialties/hip/hip_bursitis_treatment.png"
           }
         ]
       },
@@ -346,43 +346,43 @@
             "id": "tennis-elbow-treatment",
             "title": "टेनिस एल्बो उपचार",
             "desc": "कोहनी के बाहरी हिस्से के टेंडन की सूजन के लिए रूढ़िवादी चिकित्सा, पीआरपी इंजेक्शन या टेंडन रिलीज सर्जरी।",
-            "image": "/doctor/images/specialties/elbow_specialty.png"
+            "image": "/doctor/images/specialties/elbow/elbow_tennis_elbow.png"
           },
           {
             "id": "golfer-s-elbow-treatment",
             "title": "गोल्फर्स एल्बो उपचार",
             "desc": "कोहनी के आंतरिक हिस्से के क्षतिग्रस्त टेंडन के लिए लक्षित थेरेपी, इंजेक्शन या सर्जिकल डिब्राइडमेंट।",
-            "image": "/doctor/images/specialties/elbow_specialty.png"
+            "image": "/doctor/images/specialties/elbow/elbow_golfers_elbow.png"
           },
           {
             "id": "elbow-arthroscopy",
             "title": "कोहनी की आर्थ्रोस्कोपी",
             "desc": "जोड़ की अकड़न का इलाज करने और हड्डी/कार्टिलेज के ढीले कणों को हटाने के लिए कीहोल सर्जरी।",
-            "image": "/doctor/images/specialties/elbow_specialty.png"
+            "image": "/doctor/images/specialties/elbow/elbow_arthroscopy.png"
           },
           {
             "id": "elbow-ligament-ucl-reconstruction",
             "title": "कोहनी के लिगामेंट (UCL) का पुनर्निर्माण",
             "desc": "अल्नर कोलेटरल लिगामेंट (UCL) के पुनर्निर्माण के लिए टॉमी जॉन सर्जरी, जो आमतौर पर एथलीटों के लिए की जाती है।",
-            "image": "/doctor/images/specialties/elbow_specialty.png"
+            "image": "/doctor/images/specialties/elbow/elbow_ucl_reconstruction.png"
           },
           {
             "id": "elbow-fracture-repair",
             "title": "कोहनी के फ्रैक्चर की मरम्मत",
             "desc": "कोहनी के हिंज मूवमेंट को बहाल करने के लिए ओलेक्रॉनन या रेडियल हेड फ्रैक्चर का सर्जिकल फिक्सेशन।",
-            "image": "/doctor/images/specialties/elbow_specialty.png"
+            "image": "/doctor/images/specialties/elbow/elbow_fracture_repair.png"
           },
           {
             "id": "elbow-dislocation-treatment",
             "title": "कोहनी के विस्थापन का उपचार",
             "desc": "अस्थिर कोहनी के लिगामेंट्स की जोड़ रिडक्शन और सर्जिकल या ब्रेस-आधारित मरम्मत।",
-            "image": "/doctor/images/specialties/elbow_specialty.png"
+            "image": "/doctor/images/specialties/elbow/elbow_dislocation_treatment.png"
           },
           {
             "id": "cubital-tunnel-syndrome-treatment",
             "title": "क्यूबिटल टनल सिंड्रोम उपचार",
             "desc": "उंगलियों के सुन्नपन से राहत पाने के लिए कोहनी के पास अल्नर नर्व का डिकंप्रेशन या ट्रांसपोजिशन।",
-            "image": "/doctor/images/specialties/elbow_specialty.png"
+            "image": "/doctor/images/specialties/elbow/elbow_cubital_tunnel.png"
           }
         ]
       },
@@ -419,25 +419,25 @@
             "id": "carpal-tunnel-release",
             "title": "कार्पल टनल रिलीज",
             "desc": "हाथ में सुन्नपन और झुनझुनी के इलाज के लिए मेडियन नर्व का एंडोस्कोपिक या ओपन डिकंप्रेशन।",
-            "image": "/doctor/images/specialties/hand_wrist_specialty.png"
+            "image": "/doctor/images/specialties/wrist/wrist_carpal_tunnel.png"
           },
           {
             "id": "trigger-finger-release",
             "title": "ट्रिगर फिंगर रिलीज",
             "desc": "उंगली के लॉक होने या अटकने की समस्या को दूर करने के लिए टेंडन शीथ का परक्यूटेनियस या ओपन रिलीज।",
-            "image": "/doctor/images/specialties/hand_wrist_specialty.png"
+            "image": "/doctor/images/specialties/wrist/wrist_trigger_finger.png"
           },
           {
             "id": "de-quervain-s-tenosynovitis-treatment",
             "title": "डी क्वेर्विन टेनोसिनोवाइटिस उपचार",
             "desc": "कलाई के दर्द को ठीक करने के लिए अंगूठे के टेंडन कम्पार्टमेंट की थेरेपी, स्प्लिंटिंग या सर्जिकल रिलीज।",
-            "image": "/doctor/images/specialties/hand_wrist_specialty.png"
+            "image": "/doctor/images/specialties/wrist/wrist_de_quervain.png"
           },
           {
             "id": "wrist-fracture-surgery",
             "title": "कलाई के फ्रैक्चर की सर्जरी",
             "desc": "तेजी से ठीक होने के लिए लो-प्रोफाइल प्लेट्स और स्क्रू के साथ डिस्टल रेडियस या कार्पल फ्रैक्चर का फिक्सेशन।",
-            "image": "/doctor/images/specialties/hand_wrist_specialty.png"
+            "image": "/doctor/images/specialties/wrist/wrist_fracture_surgery.png"
           },
           {
             "id": "hand-finger-fracture-repair",
@@ -449,19 +449,19 @@
             "id": "ganglion-cyst-removal",
             "title": "गैंग्लियान सिस्ट हटाना",
             "desc": "कलाई या उंगलियों के जोड़ों से दर्दनाक या बाधक फ्लूइड से भरे सिस्ट (गैंग्लियन) का सर्जिकल निष्कासन।",
-            "image": "/doctor/images/specialties/hand_wrist_specialty.png"
+            "image": "/doctor/images/specialties/wrist/wrist_ganglion_cyst.jpg"
           },
           {
             "id": "wrist-arthroscopy",
             "title": "कलाई की आर्थ्रोस्कोपी",
             "desc": "लिगामेंट फटने, कार्टिलेज के नुकसान, या कलाई के पुराने दर्द का कीहोल मूल्यांकन और उपचार।",
-            "image": "/doctor/images/specialties/hand_wrist_specialty.png"
+            "image": "/doctor/images/specialties/wrist/wrist_arthroscopy.jpg"
           },
           {
             "id": "hand-wrist-tendon-repair",
             "title": "हाथ/कलाई के टेंडन की मरम्मत",
             "desc": "उंगलियों की गति को बहाल करने के लिए कटे या फटे हुए फ्लेक्सर और एक्सटेंसर टेंडन की माइक्रोसर्जिकल मरम्मत।",
-            "image": "/doctor/images/specialties/hand_wrist_specialty.png"
+            "image": "/doctor/images/specialties/wrist/hand_wrist_tendon_repair.jpg"
           }
         ]
       },
@@ -498,49 +498,49 @@
             "id": "ankle-fracture-surgery",
             "title": "टखने के फ्रैक्चर की सर्जरी",
             "desc": "इम्प्लांट्स का उपयोग करके पार्श्व, औसत दर्जे के या द्विपक्षीय टखने के फ्रैक्चर का शारीरिक स्थिरीकरण।",
-            "image": "/doctor/images/specialties/foot_ankle_specialty.png"
+            "image": "/doctor/images/specialties/foot/ankle_fracture_surgery.jpg"
           },
           {
             "id": "ankle-ligament-reconstruction",
             "title": "टखने के लिगामेंट का पुनर्निर्माण",
             "desc": "क्रोनिक मोच के बाद अस्थिर बाहरी टखने के लिगामेंट्स के पुनर्निर्माण के लिए ब्रोस्ट्रॉम-गोल्ड प्रक्रिया।",
-            "image": "/doctor/images/specialties/foot_ankle_specialty.png"
+            "image": "/doctor/images/specialties/foot/ankle_ligament_reconstruction.jpg"
           },
           {
             "id": "achilles-tendon-repair",
             "title": "अकिलीज़ टेंडन की मरम्मत",
             "desc": "दौड़ने-कूदने की ताकत को बहाल करने के लिए फटे हुए अकिलीज़ टेंडन की सर्जिकल सिलाई या पुनर्निर्माण।",
-            "image": "/doctor/images/specialties/foot_ankle_specialty.png"
+            "image": "/doctor/images/specialties/foot/achilles_tendon_repair.jpg"
           },
           {
             "id": "plantar-fasciitis-treatment",
             "title": "प्लांटर फैसीआइटिस उपचार",
             "desc": "प्लांटर फेशिया की रूढ़िवादी स्ट्रेचिंग, नाइट स्प्लिंट्स, पीआरपी इंजेक्शन या सर्जिकल रिलीज।",
-            "image": "/doctor/images/specialties/foot_ankle_specialty.png"
+            "image": "/doctor/images/specialties/foot/plantar_fasciitis_treatment.jpg"
           },
           {
             "id": "hallux-valgus-bunion-correction",
             "title": "बनियन (हड्डी बढ़ना) सुधार",
             "desc": "दर्द और विकृति को खत्म करने के लिए पैर के अंगूठे के जोड़ का सर्जिकल संरेखण (बनियनक्टॉमी)।",
-            "image": "/doctor/images/specialties/foot_ankle_specialty.png"
+            "image": "/doctor/images/specialties/foot/hallux_valgus_bunion_correction.jpg"
           },
           {
             "id": "flat-foot-correction",
             "title": "फ्लैट फुट सुधार",
             "desc": "पैर के आर्च (चाप) के पुनर्निर्माण के लिए टेंडन ट्रांसफर और ऑस्टियोटॉमी जैसी पुनर्निर्माण प्रक्रियाएं।",
-            "image": "/doctor/images/specialties/foot_ankle_specialty.png"
+            "image": "/doctor/images/specialties/foot/flat_foot_correction.jpg"
           },
           {
             "id": "foot-ankle-arthroscopy",
             "title": "पैर और टखने की आर्थ्रोस्कोपी",
             "desc": "टखने में हड्डी के उभार (बोनी स्पर्स), ढीले कणों और कार्टिलेज के नुकसान की न्यूनतम आक्रामक सफाई।",
-            "image": "/doctor/images/specialties/foot_ankle_specialty.png"
+            "image": "/doctor/images/specialties/foot/foot_ankle_arthroscopy.jpg"
           },
           {
             "id": "diabetic-foot-care",
             "title": "डायबिटिक फुट केयर",
             "desc": "जटिल मधुमेह अल्सर के लिए उन्नत घाव की सफाई (डिब्राइडमेंट) और लिम्ब साल्वेज सर्जरी।",
-            "image": "/doctor/images/specialties/foot_ankle_specialty.png"
+            "image": "/doctor/images/specialties/foot/diabetic_foot_care.jpg"
           }
         ]
       },
@@ -577,43 +577,43 @@
             "id": "disc-herniation-treatment",
             "title": "डिस्क हर्नियेशन उपचार",
             "desc": "स्पाइनल नर्व रूट के दबाव से राहत के लिए खिसके हुए डिस्क के टुकड़ों को हटाने के लिए माइक्रोडिस्केक्टॉमी।",
-            "image": "/doctor/images/specialties/spine_specialty.png"
+            "image": "/doctor/images/specialties/spine/disc_herniation_treatment.jpg"
           },
           {
             "id": "spinal-fusion-surgery",
             "title": "स्पाइनल फ्यूजन सर्जरी",
             "desc": "रीढ़ की पुरानी अस्थिरता के लिए बोन ग्राफ्ट, रॉड्स और स्क्रू का उपयोग करके दो या अधिक कशेरुकाओं को स्थिर करना।",
-            "image": "/doctor/images/specialties/spine_specialty.png"
+            "image": "/doctor/images/specialties/spine/spinal_fusion_surgery.jpg"
           },
           {
             "id": "sciatica-treatment",
             "title": "साइटिका उपचार",
             "desc": "पैरों में जाने वाले तेज दर्द को ठीक करने के लिए थेरेपी, एपिड्यूरल इंजेक्शन या माइक्रोसर्जिकल डिकंप्रेशन।",
-            "image": "/doctor/images/specialties/spine_specialty.png"
+            "image": "/doctor/images/specialties/spine/sciatica_treatment.jpg"
           },
           {
             "id": "scoliosis-treatment",
             "title": "स्कोलियोसिस उपचार",
             "desc": "रीढ़ की असामान्य तिरछी वक्रता (टेढ़ेपन) को ठीक करने और स्थिर करने के लिए ब्रेसिंग या सर्जिकल सुधार।",
-            "image": "/doctor/images/specialties/spine_specialty.png"
+            "image": "/doctor/images/specialties/spine/scoliosis_treatment.jpg"
           },
           {
             "id": "spinal-stenosis-treatment",
             "title": "स्पाइनल स्टेनोसिस उपचार",
             "desc": "स्पाइनल कैनाल को चौड़ा करने और स्पाइनल कॉर्ड पर से दबाव को दूर करने के लिए डिकंप्रेसिव लैमिनेक्टॉमी।",
-            "image": "/doctor/images/specialties/spine_specialty.png"
+            "image": "/doctor/images/specialties/spine/spinal_stenosis_treatment.jpg"
           },
           {
             "id": "vertebral-compression-fracture-treatment",
             "title": "कशेरुका संपीड़न फ्रैक्चर उपचार",
             "desc": "टूटी हुई कशेरुकाओं में बोन सीमेंट भरकर दर्द से राहत देने के लिए काइफोप्लास्टी या वर्टीब्रोप्लास्टी।",
-            "image": "/doctor/images/specialties/spine_specialty.png"
+            "image": "/doctor/images/specialties/spine/vertebral_compression_fracture.jpg"
           },
           {
             "id": "spinal-trauma-management",
             "title": "रीढ़ की हड्डी के आघात का प्रबंधन",
             "desc": "रीढ़ की हड्डी की चोटों और कशेरुका फ्रैक्चर का आपातकालीन स्थिरीकरण और सर्जिकल फिक्सेशन।",
-            "image": "/doctor/images/specialties/spine_specialty.png"
+            "image": "/doctor/images/specialties/spine/spinal_trauma_management.jpg"
           }
         ]
       },
@@ -650,31 +650,31 @@
             "id": "clubfoot-treatment",
             "title": "क्लबफुट (टेढ़े पैर) का उपचार",
             "desc": "टेढ़े पैर (क्लबफुट) के सुधार के लिए क्रमिक कांसटी विधि और एक छोटा ऑपरेशन।",
-            "image": "/doctor/images/specialties/pediatric_specialty.png"
+            "image": "/doctor/images/specialties/pediatric/clubfoot_treatment.jpg"
           },
           {
             "id": "developmental-hip-dysplasia",
             "title": "विकासात्मक हिप डिस्प्लेजिया",
             "desc": "बच्चों के कूल्हे के जोड़ों को स्थिर करने के लिए पावलिक हार्नेस, क्लोज्ड रिडक्शन कास्टिंग या पेल्विक ऑस्टियोटॉमी।",
-            "image": "/doctor/images/specialties/pediatric_specialty.png"
+            "image": "/doctor/images/specialties/pediatric/hip_dysplasia.jpg"
           },
           {
             "id": "growth-plate-fracture-care",
             "title": "ग्रोथ प्लेट फ्रैक्चर की देखभाल",
             "desc": "अंगों की लंबाई कम होने या विकृति को रोकने के लिए ग्रोथ प्लेट की चोटों की विशेष निगरानी और सटीक फिक्सेशन।",
-            "image": "/doctor/images/specialties/pediatric_specialty.png"
+            "image": "/doctor/images/specialties/pediatric/Growth-plate.jpeg"
           },
           {
             "id": "pediatric-limb-deformity-correction",
             "title": "बाल चिकित्सा अंग विकृति सुधार",
             "desc": "बच्चों के टेढ़े पैरों (धनुषाकार पैर या आपस में टकराने वाले घुटने) को सीधा करने के लिए गाइडेड ग्रोथ प्लेट्स।",
-            "image": "/doctor/images/specialties/pediatric_specialty.png"
+            "image": "/doctor/images/specialties/pediatric/limb-deformity.jpeg"
           },
           {
             "id": "pediatric-sports-injuries",
             "title": "बाल चिकित्सा स्कोलियोसिस",
             "desc": "सक्रिय बच्चों में ग्रोथ प्लेट्स को सुरक्षित रखते हुए लिगामेंट, मेनिस्कस या जोड़ों की चोटों की कोमल मरम्मत।",
-            "image": "/doctor/images/specialties/pediatric_specialty.png"
+            "image": "/doctor/images/specialties/pediatric/sports-injury.jpeg"
           },
           {
             "id": "",
@@ -717,37 +717,37 @@
             "id": "achilles-tendon-rupture-repair",
             "title": "अकिलीज़ टेंडन टूटने की मरम्मत",
             "desc": "अत्यधिक मजबूत फाइबर-वायर सिस्टम का उपयोग करके फटे हुए अकिलीज़ टेंडन की सर्जिकल सिलाई।",
-            "image": "/doctor/images/specialties/sports_specialty.png"
+            "image": "/doctor/images/specialties/sports-injury/Achilles_tendon.jpeg"
           },
           {
             "id": "pectoralis-major-tendon-repair",
             "title": "पेक्टोरलिस मेजर टेंडन मरम्मत",
             "desc": "कॉर्टिकल बटन्स या एंकरों का उपयोग करके बांह की हड्डी में फटे पेक्टोरलिस मेजर टेंडन का पुनः जुड़ाव।",
-            "image": "/doctor/images/specialties/sports_specialty.png"
+            "image": "/doctor/images/specialties/sports-injury/Pectoralis_major.jpeg"
           },
           {
             "id": "triceps-tendon-rupture-surgery",
             "title": "ट्राइसेप्स टेंडन टूटने की सर्जरी",
             "desc": "कोहनी के विस्तार (सीधा करने) की ताकत बहाल करने के लिए फटे हुए ट्राइसेप्स टेंडन की सर्जिकल मरम्मत।",
-            "image": "/doctor/images/specialties/sports_specialty.png"
+            "image": "/doctor/images/specialties/sports-injury/Triceps_tendon.jpeg"
           },
           {
             "id": "sports-hernia-treatment",
             "title": "स्पोर्ट्स हर्निया का उपचार",
             "desc": "एथलीटों के कमर के पुराने दर्द को ठीक करने के लिए फटी हुई ग्रोइन मांसपेशियों की सर्जिकल या रूढ़िवादी मरम्मत।",
-            "image": "/doctor/images/specialties/sports_specialty.png"
+            "image": "/doctor/images/specialties/sports-injury/Sports_hernia.jpeg"
           },
           {
             "id": "stress-fracture-management",
             "title": "स्ट्रेस फ्रैक्चर प्रबंधन",
             "desc": "एथलीटों में हड्डियों के स्ट्रेस फ्रैक्चर के लिए फिजियोथेरेपी, ऑफलोडिंग (वजन न देना) और संरेखण प्रबंधन।",
-            "image": "/doctor/images/specialties/sports_specialty.png"
+            "image": "/doctor/images/specialties/sports-injury/stress-fracture-mgmt.jpeg"
           },
           {
             "id": "return-to-sport-rehabilitation",
             "title": "खेल में वापसी का पुनर्वास",
             "desc": "सुरक्षित रूप से प्रतिस्पर्धी खेल में लौटने के लिए अनुकूलित एथलेटिक प्रशिक्षण और बायोमेकेनिकल कंडीशनिंग।",
-            "image": "/doctor/images/specialties/sports_specialty.png"
+            "image": "/doctor/images/specialties/sports-injury/return-to-sport.jpeg"
           }
         ]
       },
@@ -784,37 +784,37 @@
             "id": "total-knee-replacement",
             "title": "टोटल नी रिप्लेसमेंट",
             "desc": "उन्नत कोबाल्ट-क्रोम और सिरेमिक इम्प्लांट्स के साथ घुटने के जोड़ की घिसी हुई सतहों का पूर्ण प्रतिस्थापन।",
-            "image": "/doctor/images/specialties/joint_replacement_specialty.png"
+            "image": "/doctor/images/specialties/joint-replacement/Total_knee_replacement.jpeg"
           },
           {
             "id": "partial-unicompartmental-knee-replacement-microplasty",
             "title": "आंशिक/यूनिकॉम्पार्टमेंटल नी रिप्लेसमेंट",
             "desc": "घुटने के केवल क्षतिग्रस्त हिस्से का न्यूनतम आक्रामक प्रतिस्थापन, जिससे स्वस्थ हड्डी सुरक्षित रहती है।",
-            "image": "/doctor/images/specialties/joint_replacement_specialty.png"
+            "image": "/doctor/images/specialties/joint-replacement/Minimally_invasive.jpeg"
           },
           {
             "id": "total-hip-replacement",
             "title": "टोटल हिप रिप्लेसमेंट",
             "desc": "कूल्हे की बॉल और सॉकेट को प्रीमियम सिरेमिक-ऑन-पॉलीथीन जोड़ प्रणालियों के साथ बदलना।",
-            "image": "/doctor/images/specialties/joint_replacement_specialty.png"
+            "image": "/doctor/images/specialties/joint-replacement/Total_hip.jpeg"
           },
           {
             "id": "shoulder-replacement-total-reverse",
             "title": "शोल्डर रिप्लेसमेंट (टोटल/रिवर्स)",
             "desc": "गंभीर गठिया या जटिल फ्रैक्चर के लिए कंधे के जोड़ का शारीरिक या रिवर्स प्रतिस्थापन।",
-            "image": "/doctor/images/specialties/joint_replacement_specialty.png"
+            "image": "/doctor/images/specialties/joint-replacement/Shoulder_replacement.jpeg"
           },
           {
             "id": "revision-joint-replacement",
             "title": "रिवीजन ज्वाइंट रिप्लेसमेंट",
             "desc": "पुनर्निर्माण प्रणालियों का उपयोग करके असफल, ढीले, या संक्रमित हिप/नी इम्प्लांट्स का जटिल प्रतिस्थापन।",
-            "image": "/doctor/images/specialties/joint_replacement_specialty.png"
+            "image": "/doctor/images/specialties/joint-replacement/revision_joint.jpeg"
           },
           {
             "id": "robotic-assisted-joint-replacement",
             "title": "रोबोटिक-असिस्टेड ज्वाइंट रिप्लेसमेंट",
             "desc": "कंप्यूटर नेविगेशन और रोबोटिक सहायता से की जाने वाली सब-मिलीमीटर सटीक ज्वाइंट रिप्लेसमेंट सर्जरी।",
-            "image": "/doctor/images/specialties/joint_replacement_specialty.png"
+            "image": "/doctor/images/specialties/joint-replacement/Robotic_joint.jpeg"
           }
         ]
       },
@@ -851,61 +851,61 @@
             "id": "stromal-vascular-fraction-svf-therapy",
             "title": "स्ट्रोमल वैस्कुलर फ्रैक्शन (SVF) थेरेपी",
             "desc": "घुटने के कार्टिलेज के शुरुआती नुकसान को ठीक करने के लिए एडिपोज़-व्युत्पन्न पुनर्योजी सेल थेरेपी।",
-            "image": "/doctor/images/specialties/regenerative_specialty.png"
+            "image": "/doctor/images/specialties/reconstruction/Stromal_vascular.jpeg"
           },
           {
             "id": "platelet-rich-plasma-prp-therapy",
             "title": "प्लेटलेट-रिच प्लाज्मा (PRP) थेरेपी",
             "desc": "पुराने टेंडन के दर्द को ठीक करने के लिए रक्त के केंद्रित हीलिंग फैक्टर्स (PRP) के इंजेक्शन।",
-            "image": "/doctor/images/specialties/regenerative_specialty.png"
+            "image": "/doctor/images/specialties/reconstruction/Platelet_rich_plasma.jpeg"
           },
           {
             "id": "stem-cell-therapy",
             "title": "स्टेम सेल थेरेपी",
             "desc": "जोड़ों के ऊतकों की मरम्मत के लिए केंद्रित स्टेम कोशिकाओं का उपयोग करके जैविक पुनर्जनन उपचार।",
-            "image": "/doctor/images/specialties/regenerative_specialty.png"
+            "image": "/doctor/images/specialties/reconstruction/Stem_cell.jpeg"
           },
           {
             "id": "intra-articular-sinovium-therapy",
             "title": "कार्टिलेज पुनर्जनन और बहाली",
             "desc": "घिसाव और घर्षण को कम करने के लिए जोड़ के सिनोवियम में लक्षित cell-आधारित थेरेपी के इंजेक्शन।",
-            "image": "/doctor/images/specialties/regenerative_specialty.png"
+            "image": "/doctor/images/specialties/reconstruction/Intra-articular.jpeg"
           },
           {
             "id": "cartilage-regeneration-restoration",
             "title": "लिगामेंट और टेंडन पुनर्निर्माण",
             "desc": "आर्टिकुलर कार्टिलेज के नुकसान को जैविक रूप से बहाल करने के लिए आर्थ्रोस्कोपिक प्रक्रियाएं।",
-            "image": "/doctor/images/specialties/regenerative_specialty.png"
+            "image": "/doctor/images/specialties/reconstruction/Cartilage_regeneration.jpeg"
           },
           {
             "id": "ligament-tendon-reconstruction",
             "title": "बोन ग्राफ्टिंग और हड्डी पुनर्जनन",
             "desc": "हाई-स्ट्रेंथ दाता या स्व-ग्राफ्ट का उपयोग करके प्रमुख लिगामेंट्स और टेंडन के पुराने फटने का पुनर्निर्माण।",
-            "image": "/doctor/images/specialties/regenerative_specialty.png"
+            "image": "/doctor/images/specialties/reconstruction/Ligament_and_tendon.jpeg"
           },
           {
             "id": "bone-grafting-bone-regeneration",
             "title": "जटिल जोड़ पुनर्निर्माण",
             "desc": "नॉन-यूनियन फ्रैक्चर को ठीक करने के लिए जैविक बोन ग्राफ्ट और बोन मॉर्फोजेनेटिक प्रोटीन का उपयोग।",
-            "image": "/doctor/images/specialties/regenerative_specialty.png"
+            "image": "/doctor/images/specialties/reconstruction/Bone_grafting.jpeg"
           },
           {
             "id": "complex-joint-reconstruction",
             "title": "अंग पुनर्निर्माण सर्जरी",
             "desc": "अत्यधिक अस्थिर, विकृत या बहु-लिगामेंट चोट वाले जोड़ों का जटिल सर्जिकल पुनर्निर्माण।",
-            "image": "/doctor/images/specialties/regenerative_specialty.png"
+            "image": "/doctor/images/specialties/reconstruction/Surgical_joint.jpeg"
           },
           {
             "id": "limb-reconstruction-surgery",
             "title": "रिवीजन सर्जरी (जोड़/लिगामेंट)",
             "desc": "सामान्य अंग लोडिंग अक्ष (भार वहन अक्ष) को बहाल करने के लिए विकृति सुधार और जोड़ों का संरेखण।",
-            "image": "/doctor/images/specialties/regenerative_specialty.png"
+            "image": "/doctor/images/specialties/reconstruction/Limb_reconstruction.jpeg"
           },
           {
             "id": "revision-surgery-joint-ligament",
             "title": "कस्टम 3D-प्रिंटेड इम्प्लांट्स",
             "desc": "पहले की असफल ज्वाइंट रिप्लेसमेंट या लिगामेंट पुनर्निर्माण को ठीक करने के लिए साल्वेज प्रक्रियाएं।",
-            "image": "/doctor/images/specialties/regenerative_specialty.png"
+            "image": "/doctor/images/specialties/reconstruction/joint_revision.jpeg"
           }
         ]
       },
@@ -942,67 +942,67 @@
             "id": "polytrauma-management",
             "title": "पॉलिट्रॉमा प्रबंधन",
             "desc": "एकाधिक गंभीर चोटों (पॉलिट्रॉमा) से पीड़ित मरीजों के लिए आपातकालीन समन्वय और अस्थि स्थिरीकरण।",
-            "image": "/doctor/images/specialties/trauma_specialty.png"
+            "image": "/doctor/images/specialties/traumatology/Polytrauma_management.jpeg"
           },
           {
             "id": "open-compound-fracture-treatment",
             "title": "ओपन (कंपाउंड) फ्रैक्चर उपचार",
             "desc": "त्वरित घाव की सफाई और खुली हड्डियों के फ्रैक्चर का बाहरी या आंतरिक स्थिरीकरण।",
-            "image": "/doctor/images/specialties/trauma_specialty.png"
+            "image": "/doctor/images/specialties/traumatology/open_compound_fracture.jpeg"
           },
           {
             "id": "pelvic-fracture-surgery",
             "title": "पेल्विक फ्रैक्चर सर्जरी",
             "desc": "आंतरिक प्लेटों का उपयोग करके अस्थिर पेल्विक रिंग व्यवधानों का उच्च-स्तरीय सर्जिकल पुनर्निर्माण।",
-            "image": "/doctor/images/specialties/trauma_specialty.png"
+            "image": "/doctor/images/specialties/traumatology/pelvic_fracture.jpeg"
           },
           {
             "id": "acetabular-fracture-surgery",
             "title": "एसिटाबुलर फ्रैक्चर सर्जरी",
             "desc": "गठिया और कूल्हे के नुकसान को रोकने के लिए कूल्हे के सॉकेट (एसिटाबुलम) के फ्रैक्चर का सर्जिकल पुनर्निर्माण।",
-            "image": "/doctor/images/specialties/trauma_specialty.png"
+            "image": "/doctor/images/specialties/traumatology/Acetabular_fracture.jpeg"
           },
           {
             "id": "complex-articular-intra-articular-fracture-surgery",
             "title": "जटिल आर्टिकुलर/इंट्रा-आर्टिकुलर फ्रैक्चर सर्जरी",
             "desc": "जोड़ों की अकड़न को रोकने के लिए, जोड़ की सतह में जाने वाली फ्रैक्चर लाइनों का सटीक संरेखण।",
-            "image": "/doctor/images/specialties/trauma_specialty.png"
+            "image": "/doctor/images/specialties/traumatology/articular_fracture.jpeg"
           },
           {
             "id": "periprosthetic-fracture-treatment",
             "title": "पेरिप्रोस्थेटिक फ्रैक्चर उपचार",
             "desc": "मौजूदा घुटने या कूल्हे के कृत्रिम इम्प्लांट के आसपास होने वाले हड्डियों के फ्रैक्चर का फिक्सेशन।",
-            "image": "/doctor/images/specialties/trauma_specialty.png"
+            "image": "/doctor/images/specialties/traumatology/Periprosthetic_fracture.jpeg"
           },
           {
             "id": "non-union-mal-union-fracture-correction",
             "title": "नॉन-यूनियन और मॉल-यूनियन फ्रैक्चर सुधार",
             "desc": "उन फ्रैक्चरों का सुधार जो ठीक नहीं हुए (नॉन-यूनियन) या टेढ़े जुड़ गए (मॉल-यूनियन)।",
-            "image": "/doctor/images/specialties/trauma_specialty.png"
+            "image": "/doctor/images/specialties/traumatology/Non-union.jpeg"
           },
           {
             "id": "bone-infection-osteomyelitis-management",
             "title": "हड्डी का संक्रमण (ऑस्टियोमाइलाइटिस) प्रबंधन",
             "desc": "हड्डी के संक्रमण (ऑस्टियोमाइलाइटिस) के लिए एंटीबायोटिक सीमेंट स्पेसर और लक्षित एंटीबायोटिक उपचार।",
-            "image": "/doctor/images/specialties/trauma_specialty.png"
+            "image": "/doctor/images/specialties/traumatology/Osteomyelitis_surgical.jpeg"
           },
           {
             "id": "limb-lengthening-deformity-correction-ilizarov-external-fixation",
             "title": "अंग लंबा करना और विकृति सुधार (इलिजारोव/बाहरी फिक्सेशन)",
             "desc": "हड्डी को लंबा करने और अंग की लंबाई के अंतर को ठीक करने के लिए रिंग फिक्सटर्स (इलिजारोव) का उपयोग।",
-            "image": "/doctor/images/specialties/trauma_specialty.png"
+            "image": "/doctor/images/specialties/traumatology/Ilizarov_fixator_limb.jpeg"
           },
           {
             "id": "fracture-fixation-plating-intramedullary-nailing-external-fixators",
             "title": "फ्रैक्चर फिक्सेशन — प्लेटिंग",
             "desc": "फ्रैक्चर के स्थान और पैटर्न के अनुसार अनुकूलित मानक और उन्नत सर्जिकल फिक्सेशन विधियां।",
-            "image": "/doctor/images/specialties/trauma_specialty.png"
+            "image": "/doctor/images/specialties/traumatology/Surgical_fracture_fixation.jpeg"
           },
           {
             "id": "pediatric-trauma-care",
             "title": "इंट्रामेडुलरी नेलिंग",
             "desc": "बच्चों के फ्रैक्चर के लिए उनकी ग्रोथ प्लेट्स को सुरक्षित रखने वाली विशेष ऑर्थोपेडिक देखभाल।",
-            "image": "/doctor/images/specialties/trauma_specialty.png"
+            "image": "/doctor/images/specialties/traumatology/Pediatric_trauma.jpeg"
           },
           {
             "id": "",
@@ -1051,19 +1051,19 @@
             "id": "post-surgical-physiotherapy",
             "title": "सर्जरी के बाद फिजियोथेरेपी",
             "desc": "सर्जरी के बाद ताकत और जोड़ की गति को बहाल करने के लिए संरचित व्यायाम और फिजियोथेरेपी।",
-            "image": "/doctor/images/specialties/rehab_specialty.png"
+            "image": "/doctor/images/specialties/physiotherapy/Post-surgical_physiotherapy.jpeg"
           },
           {
             "id": "sports-injury-rehabilitation",
             "title": "खेल चोट पुनर्वास",
             "desc": "ताकत, स्थिरता और गति को सुरक्षित रूप से वापस पाने के लिए खेल-विशिष्ट भौतिक चिकित्सा कार्यक्रम।",
-            "image": "/doctor/images/specialties/rehab_specialty.png"
+            "image": "/doctor/images/specialties/physiotherapy/Sports_injury_rehabilitation.jpeg"
           },
           {
             "id": "pain-management-programs",
             "title": "दर्द प्रबंधन कार्यक्रम",
             "desc": "पुराने दर्द से राहत के लिए बहु-विषयक भौतिक उपचार, पद्धतियां और लक्षित व्यायाम।",
-            "image": "/doctor/images/specialties/rehab_specialty.png"
+            "image": "/doctor/images/specialties/physiotherapy/pain_management.jpeg"
           }
         ]
       }
@@ -1100,6 +1100,12 @@
     ],
     "whatsapp": "+91 98270 36973",
     "mapQuery": "Dr. Jinsiwale Joint Clinic Indore"
+  },
+  "cta": {
+    "title": "क्या आप अपनी सर्जरी पर चर्चा करने के लिए तैयार हैं?",
+    "subtitle": "अपनी उपचार योजना और रिकवरी के समय को समझने के लिए सीधे हमारे क्लिनिकल समन्वयकों से बात करें।",
+    "callBtn": "अपॉइंटमेंट के लिए कॉल करें",
+    "visitBtn": "हमारे क्लिनिक आएं"
   },
   "testimonials": {
     "sectionTitle": "मरीजों की सफलता की कहानियाँ",

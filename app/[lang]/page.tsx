@@ -29,7 +29,7 @@ export default async function HomePage({
             className="object-cover opacity-100"
             priority
           />
-          <div className="absolute inset-0 bg-gradient-to-r from-white via-white/80 to-transparent" />
+          <div className="absolute inset-0 bg-linear-to-r from-white via-white/80 to-transparent" />
         </div>
 
         <div className="container mx-auto max-w-7xl px-4 md:px-8 relative z-10 py-20 lg:py-32">
@@ -81,7 +81,7 @@ export default async function HomePage({
                     {stat.value}
                   </span>
                   <div className="h-1 w-12 bg-teal-500/20 rounded-full mb-4 group-hover:w-20 group-hover:bg-teal-500/50 transition-all duration-500" />
-                  <span className="text-slate-400 text-sm md:text-lg font-bold uppercase tracking-widest leading-relaxed max-w-[200px]">
+                  <span className="text-slate-400 text-sm md:text-lg font-bold uppercase tracking-widest leading-relaxed max-w-50">
                     {stat.label}
                   </span>
                 </div>
@@ -95,7 +95,7 @@ export default async function HomePage({
       <section id="about" className="py-24 px-4 bg-slate-50">
         <div className="container mx-auto max-w-7xl">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-            <div className="lg:order-1 relative h-[500px] rounded-3xl overflow-hidden shadow-xl border-4 border-white">
+            <div className="lg:order-1 relative h-125 rounded-3xl overflow-hidden shadow-xl border-4 border-white">
               <Image
                 src="/doctor/images/doctor_profile.png"
                 alt="Doctor at Work"
@@ -144,46 +144,41 @@ export default async function HomePage({
             </p>
           </div>
 
-          <div className="flex flex-col gap-8">
-            {dictionary.services.items.slice(0, 3).map((service: any) => (
-              <Link href={`/${lang}/services/${service.id}`} key={service.id}>
-                <Card className="border-none shadow-sm hover:shadow-xl p-0 transition-all duration-300 overflow-hidden flex flex-col md:flex-row h-full md:min-h-[280px]">
-                  {/* Left Column: 3D Illustration on Dark Gradient */}
-                  <div className="relative w-full md:w-80 h-64 md:h-auto bg-linear-to-br from-slate-900 to-slate-950 flex-shrink-0 flex items-center justify-center p-6">
-                    <div className="relative w-full h-full min-h-[200px]">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 md:gap-8">
+            {dictionary.services.items.slice(0, 4).map((service: any) => (
+              <Link href={`/${lang}/services/${service.id}`} key={service.id} className="group h-full max-w-lg mx-auto w-full">
+                <Card className="border-none shadow-sm hover:shadow-xl p-0 transition-all duration-500 overflow-hidden flex flex-col h-full bg-white group-hover:-translate-y-1">
+                  {/* Top Area: 3D Illustration on Dark Gradient */}
+                  <div className="relative w-full h-56 md:h-64 bg-linear-to-br from-slate-900 to-slate-950 shrink-0 flex items-center justify-center p-6">
+                    <div className="relative w-full h-full">
                       <Image
                         src={service.technology.image}
                         alt={service.title}
                         fill
-                        className="object-contain transform group-hover:scale-105 transition-transform duration-500"
+                        className="object-contain transform group-hover:scale-110 transition-transform duration-700"
                         priority
                       />
                     </div>
                   </div>
 
-                  {/* Right Column: Title, Description, Tags, Action */}
-                  <div className="p-8 flex flex-col justify-between grow bg-white">
+                  {/* Bottom Area: Title, Description, Tags, Action */}
+                  <div className="p-6 md:p-8 flex flex-col justify-between grow">
                     <div>
-                      <h3 className="font-outfit text-2xl md:text-3xl font-extrabold text-slate-900 group-hover:text-teal-700 transition-colors mb-3">
+                      <h3 className="font-outfit text-2xl font-extrabold text-slate-900 group-hover:text-teal-700 transition-colors mb-3">
                         {service.title}
                       </h3>
 
                       {/* Sub-Treatments Tags */}
                       {service.subTreatments && service.subTreatments.length > 0 && (
                         <div className="flex flex-wrap gap-2 mb-6">
-                          {service.subTreatments.slice(0, 5).map((sub: any) => (
+                          {service.subTreatments.map((sub: any) => (
                             <span
                               key={sub.id}
-                              className="text-xs font-semibold bg-slate-100 text-slate-600 px-3 py-1 rounded-full border border-slate-200/60"
+                              className="text-xs font-semibold bg-slate-100 text-slate-700 px-3 py-1 rounded-full border border-slate-200/60"
                             >
                               {sub.title}
                             </span>
                           ))}
-                          {service.subTreatments.length > 5 && (
-                            <span className="text-xs font-bold bg-teal-50 text-teal-700 px-3 py-1 rounded-full border border-teal-100/50">
-                              +{service.subTreatments.length - 5} {lang === 'en' ? 'more' : 'और'}
-                            </span>
-                          )}
                         </div>
                       )}
                     </div>
@@ -275,32 +270,6 @@ export default async function HomePage({
               );
             })}
           </div>
-        </div>
-      </section>
-
-      {/* CTA Section */}
-      <section className="py-24 px-4 bg-teal-600">
-        <div className="container mx-auto max-w-5xl text-center">
-          <h2 className="font-outfit text-3xl md:text-5xl font-extrabold text-white mb-8">
-            {dictionary.contact.title}
-          </h2>
-          <div className="flex flex-col md:flex-row items-center justify-center gap-6">
-            <Button asChild size="lg" className="bg-white text-teal-700 hover:bg-slate-50 font-bold h-16 px-10 rounded-2xl text-xl w-full md:w-auto shadow-xl">
-              <a href={`tel:${dictionary.contact.phone[0].replace(/\s/g, '')}`}>
-                <Phone className="mr-3 h-6 w-6" />
-                {dictionary.contact.phone[0]}
-              </a>
-            </Button>
-            <Button asChild size="lg" variant="outline" className="bg-white text-teal-700 hover:bg-slate-50 font-bold h-16 px-10 rounded-2xl text-xl w-full md:w-auto shadow-xl">
-              <a href={`https://wa.me/${dictionary.contact.whatsapp.replace(/\D/g, '')}`} target="_blank" rel="noopener noreferrer">
-                <MessageCircle className="mr-3 h-6 w-6" />
-                WhatsApp
-              </a>
-            </Button>
-          </div>
-          <p className="mt-8 text-teal-100 font-medium">
-            Appointments are mandatory. Please call before visiting.
-          </p>
         </div>
       </section>
     </div >
