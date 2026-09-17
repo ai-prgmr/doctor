@@ -146,33 +146,33 @@ export default async function ServicePage({
                                     }
                                 }
 
-                                    return (
-                                        <div
-                                            key={sub.id || idx}
-                                            className={`group relative overflow-hidden rounded-3xl bg-slate-900 shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col ${spanClasses}`}
-                                        >
-                                            <Image
-                                                src={sub.image}
-                                                alt={sub.title}
-                                                fill
-                                                sizes={isLarge ? "(max-width: 768px) 100vw, 50vw" : "(max-width: 768px) 100vw, 25vw"}
-                                                className="object-cover group-hover:scale-105 transition-transform duration-700 opacity-90 group-hover:opacity-100"
-                                            />
-                                            <div className="absolute inset-0 bg-linear-to-t from-slate-900/90 via-slate-900/20 to-transparent opacity-80 group-hover:opacity-100 transition-opacity duration-300" />
+                                return (
+                                    <div
+                                        key={sub.id || idx}
+                                        className={`group relative overflow-hidden rounded-3xl bg-slate-900 shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col ${spanClasses}`}
+                                    >
+                                        <Image
+                                            src={sub.image}
+                                            alt={sub.title}
+                                            fill
+                                            sizes={isLarge ? "(max-width: 768px) 100vw, 50vw" : "(max-width: 768px) 100vw, 25vw"}
+                                            className="object-cover group-hover:scale-105 transition-transform duration-700 opacity-90 group-hover:opacity-100"
+                                        />
+                                        <div className="absolute inset-0 bg-linear-to-t from-slate-900/90 via-slate-900/20 to-transparent opacity-80 group-hover:opacity-100 transition-opacity duration-300" />
 
-                                            <div className="absolute inset-0 p-6 flex flex-col justify-end z-10">
-                                                <h3 className={`font-outfit font-bold text-white mb-2 group-hover:text-teal-300 transition-colors drop-shadow-md ${isLarge ? 'text-2xl md:text-3xl' : 'text-lg md:text-xl'
-                                                    }`}>
-                                                    {sub.title}
-                                                </h3>
-                                                <p className={`text-slate-200 leading-relaxed drop-shadow-sm ${isLarge ? 'text-base md:text-lg line-clamp-3' : 'text-sm line-clamp-2'
-                                                    }`}>
-                                                    {sub.desc}
-                                                </p>
-                                            </div>
+                                        <div className="absolute inset-0 p-6 flex flex-col justify-end z-10">
+                                            <h3 className={`font-outfit font-bold text-white mb-2 group-hover:text-teal-300 transition-colors drop-shadow-md ${isLarge ? 'text-2xl md:text-3xl' : 'text-lg md:text-xl'
+                                                }`}>
+                                                {sub.title}
+                                            </h3>
+                                            <p className={`text-slate-200 leading-relaxed drop-shadow-sm ${isLarge ? 'text-base md:text-lg line-clamp-3' : 'text-sm line-clamp-2'
+                                                }`}>
+                                                {sub.desc}
+                                            </p>
                                         </div>
-                                    );
-                                })}
+                                    </div>
+                                );
+                            })}
                         </div>
                     </div>
                 </section>
@@ -233,7 +233,7 @@ export default async function ServicePage({
                                     <div className="mt-8 flex items-center gap-4">
                                         <div className="h-12 w-12 rounded-full overflow-hidden border-2 border-teal-500/50">
                                             <Image
-                                                src="/doctor/images/doctor_profile.png"
+                                                src="/images/doctor_profile.png"
                                                 alt="Dr. Jinsiwale"
                                                 width={48}
                                                 height={48}

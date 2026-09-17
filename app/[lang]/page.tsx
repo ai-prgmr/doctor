@@ -22,7 +22,7 @@ export default async function HomePage({
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <Image
-            src="/doctor/images/recons_hero.png"
+            src="/images/recons_hero.png"
             alt="Clinic Background"
             fill
             sizes="100vw"
@@ -97,7 +97,7 @@ export default async function HomePage({
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div className="lg:order-1 relative h-125 rounded-3xl overflow-hidden shadow-xl border-4 border-white">
               <Image
-                src="/doctor/images/doctor_profile.png"
+                src="/images/doctor_profile.png"
                 alt="Doctor at Work"
                 fill
                 className="object-cover"

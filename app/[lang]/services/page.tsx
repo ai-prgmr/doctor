@@ -19,7 +19,7 @@ export default async function ServicesPage({
             <section className="relative py-40 bg-slate-900 text-white overflow-hidden">
                 <div className="absolute inset-0 opacity-80">
                     <Image
-                        src="/doctor/images/services_banner.png"
+                        src="/images/services_banner.png"
                         alt="services banner"
                         fill
                         className="object-cover"

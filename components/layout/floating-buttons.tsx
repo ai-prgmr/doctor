@@ -18,7 +18,7 @@ export function FloatingButtons({ dictionary, lang }: { dictionary: any, lang: s
 
             {/* Book Appointment Button */}
             {/* <a
-                href={`/doctor/${lang}/appointment`}
+                href={`/${lang}/appointment`}
                 className="group flex flex-col items-center justify-center transition-all duration-300 hover:-translate-y-1"
             >
                 <div className="relative flex items-center justify-center bg-teal-600 group-hover:bg-teal-700 text-white rounded-full w-14 h-14 md:w-16 md:h-16 shadow-[0_8px_30px_rgb(0,0,0,0.12)] group-hover:shadow-[0_8px_30px_rgba(13,148,136,0.3)] transition-all duration-300">
