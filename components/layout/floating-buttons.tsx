@@ -17,12 +17,11 @@ export function FloatingButtons({ dictionary, lang }: { dictionary: any, lang: s
             </a> */}
 
             {/* Book Appointment Button */}
-            <a
+            {/* <a
                 href={`/doctor/${lang}/appointment`}
                 className="group flex flex-col items-center justify-center transition-all duration-300 hover:-translate-y-1"
             >
                 <div className="relative flex items-center justify-center bg-teal-600 group-hover:bg-teal-700 text-white rounded-full w-14 h-14 md:w-16 md:h-16 shadow-[0_8px_30px_rgb(0,0,0,0.12)] group-hover:shadow-[0_8px_30px_rgba(13,148,136,0.3)] transition-all duration-300">
-                    {/* Subtle pulsing ring effect */}
                     <div className="absolute inset-0 bg-teal-600 rounded-full opacity-20 animate-ping -z-10" style={{ animationDuration: '3s' }}></div>
                     <Calendar className="w-6 h-6 md:w-7 md:h-7" />
                 </div>
@@ -30,7 +29,7 @@ export function FloatingButtons({ dictionary, lang }: { dictionary: any, lang: s
                 <span className="font-outfit font-bold text-teal-800 text-[11px] md:text-xs mt-2 bg-white/90 backdrop-blur-sm px-3 py-1 rounded-full shadow-sm border border-teal-100/50">
                     {lang === 'en' ? 'Appointment' : 'अपॉइंटमेंट'}
                 </span>
-            </a>
+            </a> */}
         </div>
     );
 }

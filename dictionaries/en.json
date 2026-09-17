@@ -7,7 +7,7 @@
   },
   "hero": {
     "headline": "Central India's Pioneer in Joint Replacement",
-    "subhead": "60,000+ Surgeries Performed | 35+ Years Experience",
+    "subhead": "95,000+ Surgeries Performed | 35+ Years Experience",
     "tagline": "Excellence achieved through trust and dedication",
     "ctaCall": "Call Clinic",
     "ctaDirections": "Get Directions"
@@ -55,27 +55,27 @@
   "stats": [
     {
       "label": "Total Surgeries",
-      "value": "60,000+"
+      "value": "95,000+"
     },
     {
       "label": "Joint Replacements",
-      "value": "10,000+"
+      "value": "45,000+"
     },
     {
       "label": "Arthroscopy & Ligament",
-      "value": "12,000+"
+      "value": "15,000+"
     },
     {
       "label": "Spine Surgeries",
-      "value": "10,000+"
+      "value": "15,000+"
     },
     {
       "label": "Hip Replacements",
-      "value": "6,000+"
+      "value": "9,000+"
     },
     {
       "label": "Knee Replacements",
-      "value": "4,000+"
+      "value": "20,000+"
     }
   ],
   "services": {
@@ -1143,9 +1143,7 @@
     "title": "Book Your Consultation",
     "address": "A-8 MIG Colony, Near Sanjivani Nursing Home, Behind Axis Bank, A.B. Road, Indore (M.P.)",
     "phone": [
-      "+91 91650 07134",
-      "+91 97537 61221",
-      "+91 98260 87141"
+      "+91 96919 31592"
     ],
     "landmarks": [
       "Near Sanjivani Nursing Home",

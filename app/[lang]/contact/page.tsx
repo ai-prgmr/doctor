@@ -57,22 +57,19 @@ export default async function ContactPage({
                                 <CardHeader className="bg-slate-800 text-white p-3">
                                     <CardTitle className="flex items-center gap-2">
                                         <MessageCircle className="h-5 w-5" />
-                                        WhatsApp
+                                        Emergency only
                                     </CardTitle>
                                 </CardHeader>
                                 <CardContent className="p-6">
-                                    <a
-                                        href={`https://wa.me/${dictionary.contact.whatsapp.replace(/\D/g, '')}`}
-                                        target="_blank"
-                                        rel="noopener noreferrer"
+                                    <div
                                         className="flex flex-col items-center justify-center p-8 bg-green-50 rounded-3xl border border-green-100 hover:bg-green-100 transition-all text-center"
                                     >
                                         <div className="h-16 w-16 rounded-2xl bg-green-500 flex items-center justify-center text-white mb-4 shadow-lg shadow-green-200">
                                             <MessageCircle className="h-8 w-8" />
                                         </div>
                                         <span className="font-black text-2xl text-green-700">{dictionary.contact.whatsapp}</span>
-                                        <span className="text-sm font-bold text-green-600 uppercase tracking-widest mt-2">Highly Recommended</span>
-                                    </a>
+                                        <span className="text-sm font-bold text-green-600 uppercase tracking-widest mt-2">Emergency Call only</span>
+                                    </div>
                                 </CardContent>
                             </Card>
                         </div>
@@ -132,7 +129,7 @@ export default async function ContactPage({
 
                                         <Button asChild size="lg" className="mt-10 h-16 w-full rounded-2xl bg-teal-600 hover:bg-teal-700 text-white font-bold text-lg shadow-xl shadow-teal-600/20">
                                             <a
-                                                href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(dictionary.contact.mapQuery)}`}
+                                                href={'https://maps.app.goo.gl/GHgmdV5BJ6Zg6Vu99'}
                                                 target="_blank"
                                                 rel="noopener noreferrer"
                                             >
@@ -141,9 +138,9 @@ export default async function ContactPage({
                                             </a>
                                         </Button>
                                     </div>
-                                    <div className="relative min-h-[400px] bg-slate-100 grayscale hover:grayscale-0 transition-all duration-700">
+                                    <div className="relative min-h-100 bg-slate-100 grayscale hover:grayscale-0 transition-all duration-700">
                                         <iframe
-                                            src={`https://maps.google.com/maps?q=${encodeURIComponent(dictionary.contact.mapQuery)}&t=&z=17&ie=UTF8&iwloc=&output=embed`}
+                                            src={`https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d471.97018583993395!2d75.8883055!3d22.7308439!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjLCsDQzJzUxLjMiTiA3NcKwNTMnMTguMCJF!5e1!3m2!1sen!2sin!4v1789635053238!5m2!1sen!2sin`}
                                             width="100%"
                                             height="100%"
                                             style={{ border: 0 }}
