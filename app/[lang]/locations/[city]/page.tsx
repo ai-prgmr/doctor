@@ -8,11 +8,16 @@ import { Badge } from "@/components/ui/badge";
 import { Card } from "@/components/ui/card";
 
 export async function generateStaticParams() {
-    return [
-        { city: "ujjain" },
-        { city: "dewas" },
-        { city: "ratlam" },
-    ];
+    const locales = ["en", "hi"];
+    const cities = ["ujjain", "dewas", "ratlam"];
+
+    const params = [];
+    for (const lang of locales) {
+        for (const city of cities) {
+            params.push({ lang, city });
+        }
+    }
+    return params;
 }
 
 export async function generateMetadata({ params }: LocationPageProps) {

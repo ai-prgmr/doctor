@@ -17,6 +17,8 @@ const outfit = Outfit({
   subsets: ["latin"],
 });
 
+export const dynamicParams = false;
+
 export async function generateStaticParams() {
   return [{ lang: "en" }, { lang: "hi" }];
 }

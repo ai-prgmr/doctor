@@ -5,4 +5,7 @@ const dictionaries = {
   hi: () => import('@/dictionaries/hi.json').then((module) => module.default),
 }
 
-export const getDictionary = async (locale: 'en' | 'hi') => dictionaries[locale]()
+export const getDictionary = async (locale: 'en' | 'hi') => {
+  const getDict = dictionaries[locale] || dictionaries['en']
+  return getDict()
+}

@@ -7,6 +7,10 @@ import Link from "next/link";
 
 import TestimonialsSection from "@/components/home/testimonials-section";
 
+export async function generateStaticParams() {
+  return [{ lang: "en" }, { lang: "hi" }];
+}
+
 export default async function HomePage({
   params,
 }: {
