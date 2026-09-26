@@ -125,7 +125,7 @@ export default async function LocationPage({ params }: LocationPageProps) {
                                 fill
                                 className="object-cover"
                             />
-                            <div className="absolute inset-0 bg-gradient-to-t from-slate-900/80 to-transparent flex items-end p-8 md:p-12">
+                            <div className="absolute inset-0 bg-linear-to-t from-slate-900/80 to-transparent flex items-end p-8 md:p-12">
                                 <p className="text-white text-xl md:text-2xl font-medium italic">
                                     "{lang === 'en' ? 'Don\'t compromise on quality for distance. Your joints deserve world-class tech.' : 'दूरी के लिए गुणवत्ता से समझौता न करें। आपके जोड़े विश्व स्तरीय तकनीक के पात्र हैं।'}"
                                 </p>
