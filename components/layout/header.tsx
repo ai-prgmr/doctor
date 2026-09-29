@@ -74,11 +74,11 @@ export function Header({ lang, dictionary }: HeaderProps) {
                                         {item.name}
                                     </Link>
                                 ))}
-                                {/* <Button asChild className="bg-teal-600 hover:bg-teal-700 text-white font-bold rounded-full px-6 shadow-md hover:shadow-lg transition-all">
+                                <Button asChild className="bg-teal-600 hover:bg-teal-700 text-white font-bold rounded-full px-6 shadow-md hover:shadow-lg transition-all">
                                     <Link href={`/${lang}/appointment`}>
                                         {dictionary.cta?.callBtn || (lang === 'en' ? 'Book an appointment' : 'अपॉइंटमेंट बुक करें')}
                                     </Link>
-                                </Button> */}
+                                </Button>
                             </div>
 
                             {/* Lang Switcher & Mobile Menu */}
@@ -131,6 +131,13 @@ export function Header({ lang, dictionary }: HeaderProps) {
                                                         {item.name}
                                                     </Link>
                                                 ))}
+                                                <Link
+                                                    href={`/${lang}/appointment`}
+                                                    onClick={() => setIsOpen(false)}
+                                                    className="text-lg font-bold text-teal-700 hover:text-teal-800 transition-colors py-2 border-b border-slate-100"
+                                                >
+                                                    {dictionary.cta?.callBtn || (lang === 'en' ? 'Book an appointment' : 'अपॉइंटमेंट बुक करें')}
+                                                </Link>
                                             </div>
                                         </SheetContent>
                                     </Sheet>

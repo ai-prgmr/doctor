@@ -17,7 +17,7 @@ export function FloatingButtons({ dictionary, lang }: { dictionary: any, lang: s
             </a> */}
 
             {/* Book Appointment Button */}
-            {/* <a
+            <a
                 href={`/${lang}/appointment`}
                 className="group flex flex-col items-center justify-center transition-all duration-300 hover:-translate-y-1"
             >
@@ -29,7 +29,7 @@ export function FloatingButtons({ dictionary, lang }: { dictionary: any, lang: s
                 <span className="font-outfit font-bold text-teal-800 text-[11px] md:text-xs mt-2 bg-white/90 backdrop-blur-sm px-3 py-1 rounded-full shadow-sm border border-teal-100/50">
                     {lang === 'en' ? 'Appointment' : 'अपॉइंटमेंट'}
                 </span>
-            </a> */}
+            </a>
         </div>
     );
 }

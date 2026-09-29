@@ -15,8 +15,15 @@ const VideoCard: React.FC<VideoCardProps> = ({
 }) => {
     return (
         <div className="bg-white rounded-xl shadow-lg overflow-hidden h-full flex flex-col hover:shadow-xl transition-shadow duration-300">
-            <div className="relative aspect-video bg-gray-100">
-                <iframe width="560" height="315" src={videoSrc} title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+            <div className="relative aspect-video bg-slate-100 w-full overflow-hidden">
+                <iframe 
+                    className="absolute top-0 left-0 w-full h-full"
+                    src={videoSrc} 
+                    title="YouTube video player" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    referrerPolicy="strict-origin-when-cross-origin" 
+                    allowFullScreen>
+                </iframe>
             </div>
             <div className="p-6 flex-1 flex flex-col">
                 <blockquote className="text-gray-600 italic mb-4 flex-grow">"{quote}"</blockquote>

@@ -18,18 +18,34 @@ export default async function AppointmentPage({
                     {dictionary.cta?.subtitle || (lang === 'en' ? 'Choose a suitable time for your consultation below.' : 'नीचे अपने परामर्श के लिए एक उपयुक्त समय चुनें।')}
                 </p>
             </div>
-            
-            <div className="bg-white rounded-3xl shadow-xl shadow-slate-200/50 border border-slate-100 overflow-hidden min-h-[600px]">
+
+            {/* Desktop View */}
+            <div className="hidden md:block bg-white rounded-3xl shadow-xl shadow-slate-200/50 border border-slate-100 overflow-hidden min-h-[600px]">
                 {/* Google Calendar Appointment Scheduling begin */}
-                <iframe 
-                    src="https://calendar.google.com/calendar/appointments/schedules/AcZssZ0QYFuNOnZ1NjQEiW_AxfhKfIChPYswkkcsE1GEYgfIYmF6ipB0vVUrWvuHTQkb9At0yUIIDpqH?gv=true" 
-                    style={{ border: 0 }} 
-                    width="100%" 
-                    height="600" 
-                    frameBorder="0"
+                <iframe src="https://calendar.google.com/calendar/appointments/schedules/AcZssZ2jrkxsNFvbj9GXSVSbx0JoVX_cBj9IjWNQJ3AkuKWJOXynyEmnMqdydtcp8B5aGoAKtsrSwfK3?gv=true"
+                    style={{ border: 0 }}
+                    width="100%"
+                    height="600"
                     title={lang === 'en' ? 'Book Appointment' : 'अपॉइंटमेंट बुक करें'}
                 ></iframe>
                 {/* end Google Calendar Appointment Scheduling */}
+            </div>
+
+            {/* Mobile View */}
+            <div className="md:hidden flex flex-col items-center justify-center p-8 bg-white rounded-3xl shadow-xl shadow-slate-200/50 border border-slate-100 text-center">
+                <p className="text-lg text-slate-600 mb-8 font-medium leading-relaxed">
+                    {lang === 'en'
+                        ? 'For the best booking experience on mobile devices, please open the calendar in a new window.'
+                        : 'मोबाइल उपकरणों पर सर्वश्रेष्ठ बुकिंग अनुभव के लिए, कृपया कैलेंडर को एक नई विंडो में खोलें।'}
+                </p>
+                <a
+                    href="https://calendar.google.com/calendar/appointments/schedules/AcZssZ0QYFuNOnZ1NjQEiW_AxfhKfIChPYswkkcsE1GEYgfIYmF6ipB0vVUrWvuHTQkb9At0yUIIDpqH?gv=true"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="bg-teal-600 hover:bg-teal-700 text-white font-bold text-lg py-4 px-8 rounded-2xl w-full shadow-lg shadow-teal-600/20 transition-all active:scale-95"
+                >
+                    {lang === 'en' ? 'Open Booking Calendar' : 'बुकिंग कैलेंडर खोलें'}
+                </a>
             </div>
         </div>
     );
