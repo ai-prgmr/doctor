@@ -38,8 +38,8 @@ export default async function AppointmentPage({
                         ? 'For the best booking experience on mobile devices, please open the calendar in a new window.'
                         : 'मोबाइल उपकरणों पर सर्वश्रेष्ठ बुकिंग अनुभव के लिए, कृपया कैलेंडर को एक नई विंडो में खोलें।'}
                 </p>
-                <a
-                    href="https://calendar.google.com/calendar/appointments/schedules/AcZssZ0QYFuNOnZ1NjQEiW_AxfhKfIChPYswkkcsE1GEYgfIYmF6ipB0vVUrWvuHTQkb9At0yUIIDpqH?gv=true"
+                <a 
+                    href="https://calendar.google.com/calendar/appointments/schedules/AcZssZ2jrkxsNFvbj9GXSVSbx0JoVX_cBj9IjWNQJ3AkuKWJOXynyEmnMqdydtcp8B5aGoAKtsrSwfK3?gv=true"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="bg-teal-600 hover:bg-teal-700 text-white font-bold text-lg py-4 px-8 rounded-2xl w-full shadow-lg shadow-teal-600/20 transition-all active:scale-95"
