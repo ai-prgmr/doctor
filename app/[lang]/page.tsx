@@ -252,7 +252,7 @@ export default async function HomePage({
             </h2>
           </div>
 
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+          <div className="grid grid-cols-2 md:grid-cols-3 gap-8">
             {dictionary.locations.localConvenience.items.map((item: any, idx: number) => {
               const iconsMap = {
                 MapPin,
