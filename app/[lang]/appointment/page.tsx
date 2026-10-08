@@ -20,9 +20,9 @@ export default async function AppointmentPage({
             </div>
 
             {/* Desktop View */}
-            <div className="hidden md:block bg-white rounded-3xl shadow-xl shadow-slate-200/50 border border-slate-100 overflow-hidden min-h-[600px]">
+            <div className="hidden md:block bg-white rounded-3xl shadow-xl shadow-slate-200/50 border border-slate-100 overflow-hidden min-h-150">
                 {/* Google Calendar Appointment Scheduling begin */}
-                <iframe src="https://calendar.google.com/calendar/appointments/schedules/AcZssZ2jrkxsNFvbj9GXSVSbx0JoVX_cBj9IjWNQJ3AkuKWJOXynyEmnMqdydtcp8B5aGoAKtsrSwfK3?gv=true"
+                <iframe src="https://calendar.google.com/calendar/appointments/schedules/AcZssZ2jrkxsNFvbj9GXSVSbx0JoVX_cBj9IjWNQJ3AkuKWJOXynyEmnMqdydtcp8B5aGoAKtsrSwfK3?gv=true&ctz=Asia/Kolkata"
                     style={{ border: 0 }}
                     width="100%"
                     height="600"
@@ -38,8 +38,8 @@ export default async function AppointmentPage({
                         ? 'For the best booking experience on mobile devices, please open the calendar in a new window.'
                         : 'मोबाइल उपकरणों पर सर्वश्रेष्ठ बुकिंग अनुभव के लिए, कृपया कैलेंडर को एक नई विंडो में खोलें।'}
                 </p>
-                <a 
-                    href="https://calendar.google.com/calendar/appointments/schedules/AcZssZ2jrkxsNFvbj9GXSVSbx0JoVX_cBj9IjWNQJ3AkuKWJOXynyEmnMqdydtcp8B5aGoAKtsrSwfK3?gv=true"
+                <a
+                    href="https://calendar.google.com/calendar/appointments/schedules/AcZssZ2jrkxsNFvbj9GXSVSbx0JoVX_cBj9IjWNQJ3AkuKWJOXynyEmnMqdydtcp8B5aGoAKtsrSwfK3?gv=true&ctz=Asia/Kolkata"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="bg-teal-600 hover:bg-teal-700 text-white font-bold text-lg py-4 px-8 rounded-2xl w-full shadow-lg shadow-teal-600/20 transition-all active:scale-95"
